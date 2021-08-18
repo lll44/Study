@@ -209,6 +209,8 @@ Add new pages and templates.
 
 
 ### Organizational
+#### Rollover Daily Todo's 
+Pushes any unchecked todo's from previous day into today's note. 
 
 #### Incremental Writing
 
