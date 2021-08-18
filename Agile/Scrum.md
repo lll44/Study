@@ -1,209 +1,359 @@
+# DistributedScrum 
+Distributed scrum team 
+: a scrum team that is either fully or partially remote.
 
+Constraints on ad hoc collaboration and informal communication, remote teams need to be more disciplined about their scrum rituals and create new opportunities for bonding and collaboration.
 
-## Sprints
+Normally 2 pizza rule for teams in person (7-10 people/ team), but (5-6) for a distributed 
 
-![[scrum_process_atlassian.svg]]
+## Benefits
+- Wider pool of available talent that can increase skill sets of teams
+- Teams across geographies that allows for 24-hour workday
 
- Sprint planning is a collaborative event where the team answers two basic questions: What work can get done in this sprint and how will the chosen work get done?
+> “Remote teams that closely follow recommended agile technical practices could easily outperform a colocated team that does not”, according to Gartner
 
- The product owner discusses the objective that the sprint should achieve and the product backlog items that, upon completion, would achieve the sprint goal.
- 
- Making a plan to build backlog and subtasks to get them done. During the sprint these items go from "in-progress" to "done".
- 
- The team implements a daily standup to check progression, blockages, and challenges. Afterwards is a sprint review to showcase with stakeholders. Then a restrospective to identify areas of improvement.
- 
- Do;
- - Make sure the team sets and understands the sprint goal and how success will be measured.
- - Do ensure you have a well-groomed backlog with your priorities and dependencies in order.
- -   Ensure you have a good understanding of velocity, and that it reflects things like leave and team meetings.
- -   Leave out work where you won’t be able to get the dependencies done, like work from another team, designs, and legal sign-off.
- 
- 
- 
- 
+## Challenges
+Communication: 
+- Without informal hallway chats and impromptu in-person meetings, remote teams need to communicate more and, at times, over communicate. 
+- Communicating time should be based in one time zone.
+- Remote workers may have feelings of isolation, less team unity, and miss social interaction with work colleagues, less comraderie.
+- Project knowledge can be scattered since it’s more challenging for remote teams to share information.
 
-### Sprint Planning
- **The What** –  The product owner describes the objective(or goal) of the sprint and what backlog items contribute to that goal.
- 
-**The How** – The development team plans the work necessary to deliver the sprint goal. A negotiation between the development team and product owner based on value and effort.
+## Building a successful Remote Team
+A remote scrum team needs clear communication, transparency, mutual trust, collaboration, and a dedication for continuous improvement. 
 
-**The Who** – The product owner defines the goal based on the value that they seek. The development team needs to understand how they can or cannot deliver that goal
+A Distrubuted Scrum Team Communication Plan
+- Remote work agreements
+-   A way to contact other team members for informal questions  
+-   Establish agreements for how meetings should be structured
+-   How team members communicate their availability
+-   What collaboration tools should be used
 
-**The Inputs** – A great starting point for the sprint plan is the product backlog as it provides a list of ‘stuff’ that could potentially be part of the current sprint. 
+### Collaboration Tools
+Agile teams use agile planning tools for collect stories/requirements, report and manage issues, and to track progress and quality.
 
-**The Outputs** – The most important outcome for the sprint planning meeting is that the team can describe the goal of the sprint and how they will start working toward that goal. This is made visible in the sprint backlog.
+-   Be accessible to all team members
+-   Enable collaboration, sharing, and notifications to team members 
+-   A collection of relevant, engaging information
 
-Set a time limit for sprint planning, ideally no more than two hours. 
+### Impromptu chats
+quick water cooler chats disappear with remote work, it’s important to allow for these informal communication channels to exist. 
+If you use Slack, you can create specific channels with different intents. 
+The scrum master should keep open communication channels to each part of the scrum team, as well as facilitate communication with the team as a whole.
 
-Use User stories to define clear outcomes; 
-As a \<type of user>, I want \<a goal> so that \<a reason>
+build a united development culture by:
+-   Over-communicating decisions across all geographies
+-   Minimizing the friction in setting up the development environment
+-   Clearly defining the definition of done
+-   Creating guidelines for filing effective bug reports
 
-Do planning poker to make estimation of different user stories and time limits
+### Daily scrum meetings
+These short, daily team meetings provide a quick forum for a distributed team that helps with focus, collaboration, communication, and problem-solving.
+-Schedule regular video conferencing.
+-Hold asynchronous stand-ups where team members use Slack to check-in or comment on their work board to share updates.
 
- Focus the first part of sprint planning on the objective of the sprint rather than the details of the backlog. By focusing on the goal rather than the work it is possible to find smart alternatives for how that goal is achieved.
-
-### Ceremonies
-Use the sprint planning meeting to flesh out intimate details of the work that needs to get done. Encourage team members to sketch out tasks for all stories, bugs, and tasks that come into the sprint. Foster discussions and gather consensus on the plan of action. Effective planning significantly increases the team's chances of success meeting the commitments of the sprint.
-
-**Daily Standup**, once per day no more than 15m and answer;
--   What did I complete yesterday?
--   What will I work on today?
--   Am I blocked by anything?
-
-#TODO: Make sprint question sheet
-
-#NOTES:
-
-There's an implicit accountability in reporting what work you completed yesterday in front of your peers.
-
-Pro TIp:
-Some teams use timers to keep everyone on track. Others toss a ball across the team to make sure everyone's paying attention. Many distributed teams use videoconferencing or group chat to close the distance gap. Your team is unique. Your stand up should be, too!
-
-**Iteration Review** At the end of a sprint or milestone for 30-60m to showcase the work of a team ("demo fridays"). Celebrate accomplishments and get immediate feedback from stakeholders.
-
-**Retrospective** for 60m where you *use retrospectives to* find out what's working so the team can continue to focus on those areas. Also, find out what's not working and use the time to find creative solutions and develop an action plan. Continuous improvement is what sustains and drives development within an agile team,
-
-### Backlogs
-
-A product backlog is a prioritized list of work for the development team that is derived from the roadmap and its requirements. The most important items are shown at the top of the product backlog so the team knows what to deliver first. The development team doesn't work through the backlog at the [product owner's](https://www.atlassian.com/agile/product-management) pace and the product owner isn't pushing work to the development team. Instead, the development team pulls work from the product backlog as there is capacity for it, either continually ([kanban](https://www.atlassian.com/agile/kanban)) or by iteration ([scrum](https://www.atlassian.com/agile/scrum)).
-
-
-Pro Tip:
-Keep everything in one issue tracker–don’t use multiple systems to track bugs, requirements, and engineering work items. If it's work for the development team, keep it in a single backlog.
-
-#TODO: Integrate Jira, Slack & Git
-
-#### Roadmaps & Requirements
-
-An example for a space travel company. 
-
-![[Pasted image 20210719130944.png]]
-
-After planning a timeline, you want to break down your product into epics. The product owner with feedback then organizes each user story into a single list for the development team. 
-
-What may influence a product owner's prioritization?
-
--   Customer priority
--   Urgency of getting feedback
--   Relative implementation difficulty
--   Symbiotic relationships between work items (e.g. B is easier if we do A first)
-
-![[Pasted image 20210719130952.png]]
-
-Also multi epics exist where you may use it to test integration for example booking a discounted flight. 
-
-![[Pasted image 20210719131222.png]]
-
-Product owners should review the backlog before each iteration planning meeting to ensure prioritization is correct and feedback from the last iteration has been incorporated. Regular review of the backlog is often called "backlog grooming" in agile circles.
-
-Once the backlog gets larger, product owners need to group the backlog into near-term and long-term items. Near-term items need to be fully fleshed out before they are labeled as such. This means complete user stories have been drawn up, collaboration with design and development has been sorted out, and estimates from development have been made. Longer term items can remain a bit vague, though it's a good idea to get a rough estimate from the development team to help prioritize them.
-
-Once work is in progress, though, keep changes to a minimum as they disrupt the development team and affect focus, flow, and morale. Once the backlog grows beyond the team's long term capacity, it's okay to close issues the team will never get to. Flag those issues with a specific resolution like “out of scope” in the team's issue tracker to use for research later.
-
-**Anti-patterns to watch for**
--   The product owner prioritizes the backlog at the start of the project, but doesn't adjust it as feedback rolls in from developers and stakeholders.
--   The team limits items on the backlog to those that are customer-facing.
--   The backlog is kept as a document stored locally and shared infrequently, preventing interested parties from getting updates.
-
-All work items should be included in the backlog: user stories, bugs, design changes, technical debt, customer requests, action items from the retrospective, etc. This ensures everyone's work items are included in the overall discussion for each iteration. Team members can then make trade-offs with the product owner before starting an iteration with complete knowledge of everything that needs to be done.
-
-Product owners dictate the priority of work items in the backlog, while the development team dictates the velocity through the backlog. This needs to be balanced. 
-
-### Reviews
-
-Sprint reviews are not retrospectives. A sprint review is about demonstrating the hard work of the entire team: designers, developers, and the product owner.
-
-#### **Step 1: define ‘done’**
-
-Crossing the finish line and completing work requires good planning, a clear definition of ‘done,’ and focused execution. A culture of delivery.
-
--   Are stories well-defined by the product owner, designer, and the engineering team before implementation?
--   Does everyone understand and live the team’s engineering values and culture?
--   Are there clear definitions and requirements around [code review](https://www.atlassian.com/agile/software-development/code-reviews), automated testing, and [continuous integration](https://www.atlassian.com/agile/software-development/continuous-integration) to encourage sustainable, [agile development](https://www.atlassian.com/agile/software-development/developer)?
--   After the team completes a story, are there many bugs that surface? In other words, does ‘done’ really mean ‘done?’
-
-
-To define something as done you must have;
--   **Acceptance criteria**: metrics the product owner uses to confirm the story has been implemented to his or her satisfaction.
--   **Testing notes**: short, focused guidance from the quality assistance team that enables the development engineer to write better feature code and automated tests.
-
-#### Step 2: Celebrate the team
-We love sprint reviews because they protect the health and morale of the team. Sprint reviews are all about team building. The review isn’t adversarial, it’s not an exam—it’s a collaborative event across the team in which people demo their work, field questions, and get feedback.
-
-If a sprint review doesn’t become a positive activity across the team, it may be indicative of:
-
--   The team taking on too much work and not completing it during an iteration
--   The team struggling with existing technical debt
--   Features not being developed sustainably to ensure new bugs are not introduced into the codebase
--   The team’s development practices aren’t as tuned as they could be
--   The product owner is changing priorities within an iteration, and the development team is sidelined by scope creep
-
-
-#TODO: Random; make scripts for easier copying and pasting to obsidian. One window to another. 
-
-#### Step 3: reach across geographies
-If working on a remote team it is good for Team members create informal videos and share them on a [Confluence](https://www.atlassian.com/software/confluence) page for the entire team to see.
-
-This helps by;
--   **Product Understanding**: the entire team gets to hear the intention, rationale, and implementation of the feature. It broadens everyone’s understanding of the entire product.
--   **Team Building**: videos create more personal connections across the team. Each of us gets to see who’s behind every aspect of a product. The bridges created by this practice makes us a tighter, more cohesive group despite geographies.
-
-
-For teams that are new to sprint reviews, there’s a strong temptation to bleed sprint review into the retrospective. A sprint review is an independent ceremony from a sprint retrospective.
-
-### Standups
-> Stand-ups are one of the fundamental parts of agile development, and it’s often the most misunderstood. Let’s be real: stand-ups by themselves don’t make your team agile. They aren’t about inflating egos or justifying job descriptions. They aren’t a time to plan; Sprint planning is for planning. They also aren’t the only time to mention blockers. If you’re stuck, ask for help!
-
-
-To start;
+structure for our stand-ups:
 -   What did I work on yesterday?
 -   What am I working on today?
 -   What issues are blocking me?
 
+### Product backlog
 
-At Atlassian, individuals use [Jira](https://www.atlassian.com/software/jira) boards to keep on top of their projects with quick filters. Two great filters that can be used together to help prepare for stand-up are “only my issues” and “recently updated.” When these two filters are used together, they show the issues assigned to you and that have been updated in the last day.
+It’s important that the features of the sprint backlog are clearly documented and “definition of ready” agreed upon.
+If product backlog items are ambiguous, the team may lose momentum and the time to resolution can be delayed.
 
-One popular customization of the Only My Issues filter is to add the participants field from the [Jira Toolkit Add-on](https://marketplace.atlassian.com/search?query=jira%20toolkit). This adds any issues you’ve touched rather than just issues assigned to you. The JQL for that filter would be:
+### Self organization
 
-`assignee = currentuser() or participants in (currentuser())`
+Team members can **take responsibility** for achieving business goals and how they are contributing to it. 
+**Provide visibility** by documenting expectations on a Confluence page and agree how to hold each member accountable.
 
+# Roles
+## What are the three scrum roles?
 
-#### Standups
-1. Choose a time that works for everyone. 
-2. Keep it effecient. Rotate who keeps time to make sure everyone is accountable and invested. Limit the duration of stand-ups to 15 mins–max.
-3. Play catch to keep people focused.
-4. **Make the stand-up a part of the team’s retrospective** – Stand-ups are part of many agile cultures, but it doesn’t mean that the team can’t discuss the effectiveness of stand-ups in retrospectives
+Scrum has three roles: 
+- product owner 
+- scrum master 
+- development team members.
 
+## Scrum roles vs job titles
+- They aren’t job titles.
+- The three roles give a minimum definition of responsibilities and accountability to allow teams to effectively deliver work.
+- Allows teams to take responsibility for how they organize and to keep improving themselves.
 
-If your team is remote make members visible, reference your scrum board, and be open to asynchrynous standups through slack.
+## Building a scrum team
+Scrum Framework provides the basic structure for regular meetings, artifacts, and who does what.
+Its not a one size fits all solution, the problems are different, the team structures and skills needed are also different.
 
-### Scrum Master
+## The development team: Redefining “developer”
+- The development team can be comprised of all kinds of people including designers, writers, programmers, etc. 
+- A team member who has the right skills, as part of the team to do the work.
+- should be able to self-organize so they can make decisions to get work done.
+- empowering the people closest to the work to do what’s needed to solve the problem.
+![A diagram showing the development team's responsibilities: Self organization, design, development, UX, testing, deployment.](https://wac-cdn.atlassian.com/dam/jcr:f085fea0-5149-4b9a-9fe1-7e9fd32dc0da/Scrum-Development%20team-revised.png?cdnVersion=1717)
 
-As facilitators, scrum masters act as coaches to the rest of the team. “Servant leaders” as the Scrum Guide puts it. 
+The development team’s responsibilities include:
+-   Delivering the work through the sprint.
+-   Ensuring Transparency at daily scrum.
 
-Responsibilities include; 
+**Daily Scrum**
+: provides transparency to the work and provides a dedicated place for team members to seek help, talk about success and highlight issues and blockers, to inspect and adapt the work they are doing and work in a more effective way.
 
-1.  **Standups** - Facilitate daily standups ......(or the daily scrum) as needed.
-2.  **Iteration/sprint planning meetings** – Protect the team from over-committing and scope creep. Aid in estimation and sub task creation.
-3.  **Sprint reviews** – Participate (in the meeting) and capture feedback.
-4.  **Retrospectives** – Note areas for improvement and action items for future sprints.
-5.  **Board administration** – Work as the administrator of the scrum board. Ensure that cards are up to date.
-6.  **1 on 1s** – Meet individually with team members and stakeholders as needed. Iron out team disagreements about process and work styles. Invidual interactions are crucial for team development and getting to know one another.
-7.  **Internal Consulting** – Scrum masters should be prepared to consult with team members and internal stakeholders on how best to work with the scrum team.
-8.  **Reporting** – Regular analysis of [burndown charts](https://www.atlassian.com/agile/tutorials/burndown-charts) and other portfolio planning tools to understand what gets built and at what cadence.
-9.  **Blockers** – The scrum master aids the team by eliminating external blockers and managing internal roadblocks through process or workflow improvements.
-10.  **Busy work** – If the scrum team isn’t humming, that’s the scrum master’s problem. Maybe that means fixing broken computers, moving desks around, or even adjusting the thermostat. Scrum masters should be comfortable doing just about anything to help their team and should be not slink away from grabbing coffees or some snacks if that’s what the team really needs.
+## The product owner: Setting clear direction
+Product owners:
+-ensure that they are delivering the most value
+-represents the business
+-tells development what is important to deliver
+- trust is needed between these 2 roles.
+- understand the customer
+- have a vision for the value the scrum team is delivering to the customer.
+- balances the needs of other stakeholders in the organization.
+- must take all these inputs and **prioritize the work**.
 
+Agile teams are designed to inspect and adapt, that means a change in priority may lead to a massive change to the team structure, work products, as well as the end result.
 
-#### Scrum Master vs Product Manager
-That involvement should be along the lines of a product owner who champions customer needs, the "why" of the product. When the involvement blurs into tasking, the "how" for a team, then there is a problem. 
+product owners responsibilities as:
 
-Even with the best of intentions, this kind of utilization mindset tends to hide problems: defects, hand-offs, and unknowns. Interleaving scope and process tends toward locking scope, schedule, and quality. That's a recipe for failure. That's why the scrum master and product owner fill two different needs on a scrum team.
+**Managing the scrum backlog** 
+- does not mean that they are the only one putting in new product backlog Items into the backlog. 
+- responsible for the backlog that the development team pulls to deliver from. 
+- They should know about everything that is in the backlog. 
+- other people that add items to the product backlog should ensure that they communicate with the product owner.
 
-Having a scrum master in place helps balance the cost of changing course with the benefits of efficiency. A good scrum master does this by empowering the team to decide how to best accomplish goals through self-organization
+**Release management** 
+- The sprint is a planning cycle. 
+- Scrum teams can deliver at any time. Ideally, they would deliver frequently throughout the sprint allowing the sprint review to review real customer usage and feedback. 
+- Continuous delivery is not always possible, and other release models are required.
+- Product owner must know when things can and should be released.
 
-The project manager sets and tracks timeframes and milestones, reports on progress, and coordinates team communication. However, they do so from a place of control, in a more traditional management role.
+**Stakeholder management** 
+- Any product will have many stakeholders from users, customers, governance and organizational leadership. 
+- The product owner will work with all these people to effectively ensure that the development team is delivering value. 
+- A large amount of stakeholder management and communication is required.
 
-The scrum master helps the team enhance and streamline the processes by which they achieve their goals. They do so as a team member, or collaborator, ideally not as someone in control. The best scrum teams are self-organizing, and therefore don’t react well to top-down management.
+# Agile Scrum Artifacts
+**Agile scrum artifacts** 
+: information that a scrum team and stakeholders use to detail the product being developed, actions to produce it, and the actions performed during the project. 
 
+The main agile scrum artifacts are 
+-product backlog, sprint backlog, and increments.
 
+## Why Agile scrum artifacts
+These artifacts provide metadata points that give insight into the performance of a sprint. 
+They are essential tools for every scrum team since they enable core scrum attributes of transparency, inspection, and adaption.
+
+Artifacts are created during the main activities of a scrum [sprint](https://www.atlassian.com/agile/scrum/sprints): 
+
+-   Plan work and future goals
+-   Create tasks to achieve these goals
+-   Organize tasks into sprints based on dependency and priority
+-   Execute the tasks
+-   Review and analyze results in order to compare to the goals
+-   Repeat these steps
+
+## The main artifacts of agile scrum
+
+![Scrum artifacts](https://wac-cdn.atlassian.com/dam/jcr:05c5e42e-3df4-4168-8fe3-ac1656ca76ed/scrum-artifacts.png?cdnVersion=1717)
+
+The main agile scrum artifacts are product backlog, sprint backlog, and increments.
+
+### Product backlog
+
+The [product backlog](https://www.atlassian.com/agile/scrum/backlogs) is: 
+- a list of new features, enhancements, bug fixes, tasks, or work requirements needed to build a product. 
+- Compiled from input sources like customer support, competitor analysis, market demands, and general business analysis.
+- a “live” artifact in that it is updated on-demand as new information is available. 
+- a cross-team backlog that is maintained and curated by the product owner between sprint cycles and as any new ideas arise. 
+- Contains tasks that were once in an active sprint but deprioritized and moved to the backlog.
+
+### Sprint backlog
+
+**Sprint backlog** : a set of product backlog tasks that have been promoted to be developed during the next product increment. 
+- Created by the development teams to plan deliverables for future increments and detail the work required to create the increment.  
+- Created by selecting a task from the product backlog and breaking that task into smaller, actionable sprint items. 
+- The product backlog is home to the primary task while the supporting tasks are housed in the sprint backlog.
+
+-The sprint backlog is updated during the [sprint planning](https://www.atlassian.com/agile/scrum/sprint-planning) phase of scrum. 
+-The smaller sprint tasks are assigned to the relevant teams like design and development. 
+-If a team does not have the capacity to deliver all the sprint tasks, the remaining sprint tasks will standby in the sprint backlog for a future sprint.
+
+### Product increment
+
+**Product Increment** 
+:the customer deliverables that were produced by completing product backlog tasks during a sprint, including the increments of all previous sprints. 
+
+-There is always one increment for each sprint and an increment is decided during the scrum planning phase. 
+-An increment happens whether the team decides to release to the customer. 
+-Product increments are incredibly useful and complementary to CI/CD in version tracking and, if needed, version rollback.
+
+### Extended artifacts
+
+In addition to the previously discussed official scrum artifacts, there exist some extended or meta artifacts. While not official per official scrum guidelines these extended artifacts add additional value and insight to a scrum cycle.
+
+#### Burndown chart
+
+**Sprint Burndown (or burnup) chart** 
+- not an official scrum artifact but used to communicate and track progress toward the sprint goal during the sprint. 
+- They are graphs that display tasks completed over the duration of a sprint. 
+- useful in helping to gauge the active execution velocity of a team so they can reprioritize if the trajectory is off.
+- During sprint planning, teams shouyld look at previous burns. 
+- Over time burndown charts help teams better refine their estimates during the planning stages of scrum.
+
+#### The definition of “done”
+
+- It’s important that teams have a clear definition of **“done”**.
+- This definition can be another type of artifact, which should be documented and shared. 
+- An example definition of done for a development team is when code is covered with automated tests that match a specification and is deployed to a production environment. 
+- A team without a clear definition of done will find themselves often in sprint review asking “is this done?” when reviewing open scrum tasks.
+- The definition of done helps define the boundaries of an **increment**. 
+- **Increments** should be delivered in complete usable packages that are additive to increments that came before. 
+- **Done** also defines when tasks are complete and can be closed out for burndown tracking.
+
+## Artifact transparency
+
+**Scrum artifacts** are powerful aids that help teams operate more efficiently. 
+- All teams should have access and visibility into the artifacts.
+-  Product owners and scrum masters need to make it a regular practice to review and discuss artifacts with development teams. 
+-  This helps teams stay aware of operational inefficiencies and produce creative ways to improve velocity.
+# Scrum metrics
+**Scrum metrics** are specific data points that scrum teams track and use to improve efficiency and effectiveness. Scrum teams use metrics to inform decision-making and become more efficient in planning and execution, as well as set target goals and improvement plans.
+
+## What is scrum?
+
+**Scrum** is an agile framework and way of working that helps teams address complex problems, while iteratively developing solutions around a goal. 
+
+-The scrum way of working is characterized by the [sprint](https://www.atlassian.com/agile/scrum/sprints), which is a measured amount of time a scrum team works to complete a set amount of work. 
+- scrum metrics are increasingly important to measure team performance and effectiveness.
+
+## What are scrum metrics?
+
+**Scrum metrics** are specific data points that scrum teams track and use to improve efficiency and effectiveness. They can become insights that help guide and improve a team’s agile journey.
+
+Scrum teams use metrics to inform decision-making and become more efficient in planning, execution, establishing a baseline on the status quo, and set target goals and improvement plans.
+- Every team is unique: they can be different in size, technologies used, type of work they do, etc.
+- It’s up to each team to agree on a set of metrics to track and define how to use them. 
+- This is not an individual effort and not something the leadership or management can define and enforce on behalf of the teams.
+
+## Why do you need scrum metrics?
+
+- help teams establish benchmarks and guide the direction of the work.
+- helps bring visibility to various dimensions of a team’s effectiveness, whether it’s a team’s velocity, capacity, predictability in delivery, or quality of the product. 
+- Key metrics can cultivate awareness in the team’s performance and instigates action to change and improve.
+
+## Can scrum metrics be used as KPIs?
+
+-Scrum metrics can be used to set up key performance indicators (KPIs), but it depends on the type and scope of the work. 
+
+-Scrum metrics alone cannot measure customer value or show if the team even delivered the right thing. 
+-For an agile team, KPIs should ultimately show how well the team supports company priorities. 
+
+When measuring a scrum team’s performance, other metrics outside those of the scrum should be considered, including: 
+
+-   **Return on investment (ROI) to a business** — Companies measure this in numerous ways depending on the objectives, including growth in revenue, monthly active revenue (MAU), and more.
+-   **Customer satisfaction** — Survey metrics like the Net Promoter Score (NPS) and customer satisfaction score (CSAT) can help track the success of a project. Consistent customer satisfaction metrics for every release are important to showing a scrum team’s value to customers.
+-   **Team satisfaction** — Just by asking your team about their level of motivation with the project and engagement with the team, you can catch problems like turnover, attrition, and dissatisfied developers.
+
+## Key scrum events and what metrics to review
+
+While agile scrum defines several recurring events — sprint, sprint planning, daily scrum, sprint review, sprint retrospective — these don’t provide any guarantees of progress or success. However, each one allows team members to inspect and adapt how they work.
+
+![Sprint cycle infographic](https://wac-cdn.atlassian.com/dam/jcr:ae9f40d1-19d8-42e4-8511-751708bb89d5/sprint-cycle.png?cdnVersion=1717)
+
+### Sprint planning
+
+**sprint planning** meeting is held at the beginning of a sprint where a team breaks down story descriptions into detailed tasks. 
+- provides an estimate of work to be produced during a sprint. 
+- There are a handful of data points that can make your team’s sprint planning more efficient, including sprint goals, current team velocity, team capacity, and type of work. 
+- We use a [sprint planning meeting template](https://www.atlassian.com/software/confluence/templates/sprint-planning-meeting) to help guide our sprint planning.
+
+#### Sprint goals
+
+**Sprint goals** help teams decide what to accomplish in a sprint, bring cohesion to the items, and set priorities. 
+- often contribute to a bigger outcome than can be achieved through multiple sprints.
+-  priority should be based on their impact to this outcome. 
+-  review goals and priorities regularly to strategize how to sequence and split engineering efforts.
+
+#### Team velocity
+
+**velocity**: how much work it can accomplish during a given time, as well as capacity, or how much availability it has. A velocity chart, [like](https://support.atlassian.com/jira-software-cloud/docs/view-and-understand-the-velocity-chart/), reveals the amount of value delivered during a sprint.
+- helps us predict the volume of work a team can perform for future sprints. 
+- A team’s velocity can only be understood after running a few sprints together as a team. 
+
+ Over time velocity will stabilize as a result of a team working together due to:
+- ramping up on technologies used 
+- understanding each other’s expertise
+- learning how to work as a team.
+
+The following is an [example of a velocity chart](https://support.atlassian.com/jira-software-cloud/docs/view-and-understand-the-velocity-chart/) with (1) estimation statistic based on story points, (2) commitment, which is an estimate of all issues in the sprint, (3) completed estimates, and (4) sprints completed.
+
+![Velocity chart infographic](https://wac-cdn.atlassian.com/dam/jcr:742a35f3-070f-42d1-bdc4-abe381dcaf33/chart-1.png?cdnVersion=1717)
+
+#### Team capacity
+
+**Team Capacity**: the amount of work a team can complete in a sprint is based on its capacity and availability. 
+- Stable velocity won’t mean anything if half of your team is off on a vacation.
+- gather each team member’s availability a few sprints out and add the sum to get a percentage of total capacity. 
+- Since last-minute changes or emergencies can happen to anyone, it’s also a good idea to leave a 10 percent buffer in your sprint commitment to avoid overcommitting and under-delivering.
+
+#### Type of work
+
+- Be intentional about what work your team is taking on by reviewing the split of different types of work during sprint planning. 
+- In this case, even if you find a lot of tech debt and quality work in the backlog, you can solve it strategically by scheduling a tech debt sprint or raising the bar on QA.
+
+### Stand-ups (a.k.a daily scrum)
+
+**[Stand-ups](https://www.atlassian.com/agile/scrum/standups), or Daily Scrum**, are short meetings held each day where team members check in about their work.
+- Should go beyond updates about an individual’s updates on their to-do list. 
+- An opportunity to review a team’s sprint progress and realign priorities for making small to big daily decisions that can have a significant impact on a sprint’s outcome.
+
+In doing so, the following data and metrics can come in handy:
+
+#### Progress towards sprint goals
+
+- a chance to discuss if the team is still on track. If not, why and what can be done about it?
+- If it’s something that can’t be resolved, it’s important to communicate this to key stakeholders, so everyone is on the same page.
+
+#### Sprint burndown
+
+[sprint burndown chart](https://www.atlassian.com/agile/tutorials/burndown-charts). A 
+
+**Sprint Burndown Chart** 
+- Tracks the completion of work throughout a sprint.
+- Compares the time and amount of work to complete, measured in story points or hours. 
+- Helps predict a team’s ability to complete work in a designated time 
+- helps track scope creep. 
+
+If a burndown chart has a sharp drop, it could be related to an inaccurate estimate of work. 
+
+![Sprint burndown chart infographic](https://wac-cdn.atlassian.com/dam/jcr:e8f08ad0-a316-4781-a59c-cee0e49ff6a7/sprint-burndown-chart.png?cdnVersion=1717)
+
+#### Workload distribution
+
+- don’t turn it into a weapon.
+-  If you use this to measure an individual’s productivity, you can end up discouraging your team. 
+-  create a safe environment for everyone to openly talk about how much they’re taking on, and where they need help.
+
+### Sprint retrospective
+
+**[Sprint Retrospectives]**(https://www.atlassian.com/team-playbook/plays/retrospective) 
+- you and your team review what happened in the sprint by celebrating what went well, what needs improvement, and why. 
+- the perfect time and place for you to review key sprint metrics, including sprint goal completion and sprint satisfaction.
+
+The following is an example of my team’s retrospective outlined on a Confluence page:
+
+![Sprint retrospective screenshot](https://wac-cdn.atlassian.com/dam/jcr:48bc5981-3e7a-4812-8991-2f18aa0220f6/retrospective-meeting.jpeg?cdnVersion=1717)
+
+### Sprint goal completion
+
+ In evaluating your team’s success, scrum metrics we’ve already discussed can come in handy.
+ 
+ Doing so will help your team address the issue and come up with a clearer action plan.
+
+### Sprint satisfaction
+
+- This is simply asking your team about their satisfaction with the sprint.
+- Some teams use a number scale for this, anecdotal feedback, or even emojis/gifs.
+-  Your team can reflect on team goals and if the type of work was in alignment with team goals. 
+
+- encourage team members to speak up and call on them if needed.
+- The best retrospectives have multiple perspectives and a variety of opinions. 
+- By the end of the meeting, the team largely agrees on the top problems, owners, and a plan to follow up on key issues.
