@@ -1,0 +1,122 @@
+{
+  "main": {
+    "id": "6dfc0a2d9aafc1ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c71aa963e6a2705",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Python/Automate The Boring Stuff/Python-ATBS-Ch11-Debugging.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a19c3c50b5c74b94",
+    "type": "split",
+    "children": [
+      {
+        "id": "e526ab9ed6348c18",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6be61fd56b50a6b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e296da58cec23a41",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db5ee5e83d954988",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e269da03f0468a66",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd9251cfe5cc4606",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6a8e1186ebda32f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Python/Automate The Boring Stuff/Python-ATBS-Ch11-Debugging.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "842c3618878ff32d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Python/Automate The Boring Stuff/Python-ATBS-Ch11-Debugging.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8c71aa963e6a2705",
+  "lastOpenFiles": [
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch11-.md",
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch10-.md",
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch9-.md",
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch8-.md",
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch7-.md",
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch3-Functions.md",
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch4-Lists.md",
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch5-Dictionaries-Data-Type.md",
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch6-.md",
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch11.md"
+  ]
+}

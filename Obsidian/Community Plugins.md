@@ -1,4 +1,4 @@
-# Obsidian
+ # Obsidian
 
 
 
@@ -7,18 +7,14 @@
 - Use a decimal system to organize notes https://forum.obsidian.md/t/cataloging-classification-information-science-pkms-and-you/10071
 
   00 - Meta
-
   01 - Computer Science
-
   ​	11 - Data Structures
-
   ​	12 - React
-
   02 - Music
 
 **Zettelkasten Exploration Analogy**
 
-​    218 - Zettelkasten as a Knowledge Explorer  One way to better understand and think about the purpose of a [zettelkasten](https://forum.obsidian.md/t/obsidian-zettelkasten/1999/2) is to compare it to an explorer. The index is your original port  city, the biggest hub where information is located and a place to branch off from. You aren’t just any explorer though, you also happen to be a cartographer.  Setting up outposts for further exploration. Output is a byproduct of the interaction between what he put in the  zettelkasten, his default brain, and how the two communicated with each  other.
+​    218 - Zettelkasten as a Knowledge Explorer  One way to better understand and think about the purpose is to compare it to an explorer. The index is your original port  city, the biggest hub where information is located and a place to branch off from. You aren’t just any explorer though, you also happen to be a cartographer.  Setting up outposts for further exploration. Output is a byproduct of the interaction between what he put in the  zettelkasten, his default brain, and how the two communicated with each  other.
 
 
 
@@ -84,39 +80,30 @@ It creates a natural separation between curated and uncurated  knowledge and ide
 #### Better Word Count
 
 #### Contextual Typography
-
 Reduces spaces between headers in preview mode, for more readable typography. (JS API )
 
 #### Collapse All
-
 Button to collapse all expanded folders.
 
 #### Daily Stats
-
 Shows word count in bottom right of screen, and contains a histogram of word count contributions. 
 
 #### Editor Syntax Highlight
-
 Show code syntax highlighting
 
 #### Typewriter Scroll
-
 Keeps current line centered in the editor.
 
 #### Reading Time
-
 Show's approximate reading time
 
 #### Remember Cursor Position
-
 Saves cursor position for note where it was last worked on. 
 
 #### System Dark Mode
-
 Automatically switches settings via OS settings. 
 
 #### Zoom
-
 Zoom into headings and lists via folding and top level heading navigation. 
 
 | Command                      | Default hotkey (Windows/Linux) | Default hotkey (MacOS) |

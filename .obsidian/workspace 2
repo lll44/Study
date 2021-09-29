@@ -1,0 +1,78 @@
+{
+  "main": {
+    "id": "a425ae5a9cae9e56",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bcdc27543852361",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Note Style Guidelines.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "46a992ded891f41d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d1e0dce166a4837f",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "8c102878780fd84d",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "54e2a6da7ff762ad",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "70ad01ff066f8513",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Note Style Guidelines.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "2bcdc27543852361",
+  "lastOpenFiles": [
+    "Note Style Guidelines.md"
+  ]
+}

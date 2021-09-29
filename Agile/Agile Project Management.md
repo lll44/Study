@@ -75,11 +75,8 @@ When implementing a workflow for the team, always start simple. Overly complex w
 For software teams, we recommend these basic workflow states:
 
 - **To Do** Work that has not been started
-
 - **In Progress** Work that is actively being looked at by the team
-
 - **Code Review** Work that is completed and awaiting review
-
 - **Done** Work that is completely finished and meets the team's definition of done
 
 In an issue tracker, these statuses flow from one to the next using transitions that structure the workflow. 
@@ -108,7 +105,6 @@ Create statuses for each type of work in a team's process.
 Ideation, design, development, code review, and test are functionally different and can be individual statuses. Aim for a lean set of statuses that clearly communicate what phase a piece of work is in.
 
 A well designed workflow answers the following questions:
-
 -   What work has the team completed?
 -   Is the backlog of work increasing or keeping pace with the team?
 -   How many items are in each status?
@@ -221,11 +217,8 @@ Story: Promote Saturn Summer Sale on confirm page for First Class bookings.
 Concurrently, the propulsion teams might contribute to the same epic with these stories:
 
 Epic: March 2050 Launch
-
 Story: Keep fuel tanks PSI > 250 PPM on launch
-
 Story: Reduce overall fuel consumption by 1%.
-
 Story: Hire new propulsion engineer to replace Gary.
 
 ## Understanding epics within a complete agile program
@@ -306,11 +299,8 @@ User stories are also the building blocks of larger agile frameworks like epics 
 User stories serve a number of key benefits:
 
 -   **Stories keep the focus on the user.** keeps the team focused on tasks that need checked off, the collection of them keeps the team focused on solving problems for real users.  
-     
 -   **Stories enable collaboration.** With the end goal defined, the team can work together to decide how best to serve the user and meet that goal.  
-     
 -   **Stories drive creative solutions.** Stories encourage the team to think critically and creatively about how to best solve for an end goal.  
-     
 -   **Stories create momentum.** With each passing story the development team enjoys a small challenges and a small win, driving momentum.  
 
 ## Working with user stories
@@ -566,8 +556,8 @@ Normally 2 pizza rule for teams in person (7-10 people/ team), but (5-6) for a d
 
 ## Benefits
 
--   Wider pool of available talent that can increase skill sets of teams
--   Teams across geographies that allows for 24-hour workday
+- Wider pool of available talent that can increase skill sets of teams
+- Teams across geographies that allows for 24-hour workday
 
 > “Remote teams that closely follow recommended agile technical practices could easily outperform a colocated team that does not”, according to Gartner
 
@@ -575,10 +565,10 @@ Normally 2 pizza rule for teams in person (7-10 people/ team), but (5-6) for a d
 
 Communication:
 
--   Without informal hallway chats and impromptu in-person meetings, remote teams need to communicate more and, at times, over communicate.
--   Communicating time should be based in one time zone.
--   Remote workers may have feelings of isolation, less team unity, and miss social interaction with work colleagues, less comraderie.
--   Project knowledge can be scattered since it’s more challenging for remote teams to share information.
+- Without informal hallway chats and impromptu in-person meetings, remote teams need to communicate more and, at times, over communicate.
+- Communicating time should be based in one time zone.
+- Remote workers may have feelings of isolation, less team unity, and miss social interaction with work colleagues, less comraderie.
+- Project knowledge can be scattered since it’s more challenging for remote teams to share information.
 
 ## Building a successful Remote Team
 
@@ -675,9 +665,9 @@ The development team’s responsibilities include:
 ## The product owner: Setting clear direction
 
 Product owners:  
--ensure that they are delivering the most value  
--represents the business  
--tells development what is important to deliver
+- ensure that they are delivering the most value  
+- represents the business  
+- tells development what is important to deliver
 
 -   trust is needed between these 2 roles.
 -   understand the customer
@@ -715,7 +705,7 @@ product owners responsibilities as:
 : information that a scrum team and stakeholders use to detail the product being developed, actions to produce it, and the actions performed during the project.
 
 The main agile scrum artifacts are  
--product backlog, sprint backlog, and increments.
+- product backlog, sprint backlog, and increments.
 
 ## Why Agile scrum artifacts
 
