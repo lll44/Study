@@ -1,19 +1,18 @@
 # Note Criteria            
 
 ## Workflow
-
-1. Discover High Quality Tutorial/Book/Lecture 
-
-When reading a chapter you should automate as much of it as possible.
-1. Skim and contemplate headers, images, lists, definitions, diagrams, and equations. 
-2. Create Markdown structure of important material that needs to be understood. 
-3. Read and highlight information in chapter. (Read first in cases of better explanations of topics later on).
+[[How To Read Anything]]
+1. Discover High Quality Tutorial/Book/Lecture
+	- Reddit, Goodreads, Universities, Youtube, etc...
+2. Skim and contemplate headers, images, lists, definitions, diagrams, and equations. 
+4. Read and highlight information in chapter. Downloading a webpage to a pdf. 
+	- This allows you to soak in information then later
 	> Read whole chapter first, often better explanations can be found later on. 
-4. Export highlights into notes and add more context in your own words. Link any topics with obsidian tagging. The topics should be understood and any gaps of knowledge should be noted.
-5. Understand gaps with outside resources (stack overflow, google, reddit). 
-6. Condense notes and reformat them. (Remove filler words like very, .)
-7. Review notes with another person and have them mark them up. 
-8. Format notes and import into anki. 
+5. Export highlights into notes and add more context in your own words. Link any topics with obsidian tagging. The topics should be understood and any gaps of knowledge should be noted.
+6. Understand gaps with outside resources (stack overflow, google, reddit). 
+7. Condense notes and reformat them. (Remove filler words like very, .)
+8. Review notes with another person and have them mark them up. 
+9. Format notes and import into anki. 
 
 
 

@@ -12,15 +12,15 @@ There is an underlying assumption that you will proceed with learning using spac
 
 ### The 20 rules of formulating knowledge in learning
 
-1.  #### Do not learn if you do not understand
+1.  Do not learn if you do not understand
     
     Trying to learn things you do not understand may seem like an utmost waste of time. Still, an amazing proportion of students commit the offence of learning without comprehension. Very often they have no other choice! The quality of many textbooks or lecture scripts is deplorable while examination deadlines are unmovable.
     
-    If you are not a speaker of German, it is still possible to learn a history textbook in German. The book can be crammed word for word. However, the time needed for such "blind learning" is astronomical. Even more important: The value of such knowledge is negligible. If you cram a German book on history, you will still know nothing of history.
+    Blind learning
     
     The German history book example is an extreme. However, the materials you learn may often seem well structured and you may tend to blame yourself for lack of comprehension. Soon you may pollute your learning process with a great deal of useless material that treacherously makes you believe "it will be useful some day".
     
-2.  #### Learn before you memorize
+2.  Learn before you memorize
     
     Before you proceed with memorizing individual facts and rules, you need to **build an overall picture of the learned knowledge**. Only when individual pieces fit to build a single coherent structure will you be able to dramatically reduce the learning time. This is closely related to the problem of comprehension mentioned in [Rule 1: Do not learn if you do not understand](https://super-memory.com/articles/20rules.htm#Do not learn if you do not understand). A single separated piece of your big picture is like a single German word in the textbook of history.
     
@@ -38,7 +38,7 @@ There is an underlying assumption that you will proceed with learning using spac
     
     -   **Simple is easy**
         
-        By definition, simple material is easy to remember. This comes from the fact that its simplicity makes is easy for the brain to process in always it the same way. Imagine a labyrinth. When making a repetition of a piece of material, your brain is running through a labyrinth (you can view a neural network as a tangle of paths). While running through the labyrinth, the brain leaves a track on the walls. If it can run in only one unique way, the path is continuous and easy to follow. If there are many combinations, each run may leave a different trace that will interfere with other traces making it difficult to find the exit. The same happens on the cellular level with different synaptic connections being activated at each repetition of complex material.
+    Simplicity is easy for the brain to process in always it the same way. Imagine a labyrinth. When making a repetition of a piece of material, your brain is running through a labyrinth (you can view a neural network as a tangle of paths). While running through the labyrinth, the brain leaves a track on the walls. If it can run in only one unique way, the path is continuous and easy to follow. If there are many combinations, each run may leave a different trace that will interfere with other traces making it difficult to find the exit. The same happens on the cellular level with different synaptic connections being activated at each repetition of complex material.
         
     -   **Repetitions of simple items are easier to schedule**
         

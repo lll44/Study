@@ -45,7 +45,6 @@ Let’s start this section with an example far removed from the official school 
   
 
 1.  to show your interest to that person
-    
 2.  to hide your interest in that person
     
 

@@ -4,29 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "8c71aa963e6a2705",
+        "id": "c66f140473371d4f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Python/Automate The Boring Stuff/Python-ATBS-Ch11-Debugging.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a19c3c50b5c74b94",
+    "id": "6fe98a3cbf4d4c05",
     "type": "split",
     "children": [
       {
-        "id": "e526ab9ed6348c18",
+        "id": "3fd830c350626f17",
         "type": "tabs",
         "children": [
           {
-            "id": "a6be61fd56b50a6b",
+            "id": "510caaa916fbbe18",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,7 +31,7 @@
             }
           },
           {
-            "id": "e296da58cec23a41",
+            "id": "ea237f6622ed9818",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -49,7 +46,7 @@
             }
           },
           {
-            "id": "db5ee5e83d954988",
+            "id": "0c01461c524abd3b",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -63,20 +60,35 @@
     "width": 300
   },
   "right": {
-    "id": "e269da03f0468a66",
+    "id": "f0d2c0347a61dba5",
     "type": "split",
     "children": [
       {
-        "id": "cd9251cfe5cc4606",
+        "id": "42a0203ed12df354",
         "type": "tabs",
         "children": [
           {
-            "id": "b6a8e1186ebda32f",
+            "id": "77974813257fe85f",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "79c53be7cf8f640c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "61719fc7f5943642",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Automate The Boring Stuff/Python-ATBS-Ch11-Debugging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,12 +100,11 @@
             }
           },
           {
-            "id": "842c3618878ff32d",
+            "id": "2fa0e40348e318c9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Automate The Boring Stuff/Python-ATBS-Ch11-Debugging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,17 +117,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8c71aa963e6a2705",
+  "active": "c66f140473371d4f",
   "lastOpenFiles": [
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch11-.md",
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch10-.md",
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch9-.md",
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch8-.md",
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch7-.md",
+    "Python/Automate The Boring Stuff/Automate the Boring Stuff with Python.pdf",
+    "Python/Automate The Boring Stuff/Automate the Boring Stuff with Python 1.pdf",
     "Python/Automate The Boring Stuff/Python-ATBS-Ch3-Functions.md",
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch4-Lists.md",
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch5-Dictionaries-Data-Type.md",
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch6-.md",
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch11.md"
+    "Note Style Guidelines.md",
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch2-Flow Control.md",
+    "Python/Python-Crash-Course.md",
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch8-Input-Validation.md",
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch9-Read-Writing-Files.md",
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch10-Organizing-Files.md",
+    "Python/Automate The Boring Stuff/Python-ATBS-Ch4-Lists.md"
   ]
 }

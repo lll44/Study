@@ -25,5 +25,8 @@
     "editor:swap-line-up",
     "editor:swap-line-down"
   ],
-  "promptDelete": false
+  "promptDelete": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "attachmentFolderPath": "./"
 }

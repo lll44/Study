@@ -1,3 +1,24 @@
+# Programmer Compentancy Matrix
+
+- Computer Science 
+	- Data Structures 
+		- 0 Doesn’t know the difference between Array and LinkedList
+		- 1 Able to explain and use Arrays, LinkedLists, Dictionaries etc in practical programming tasks
+		- 2 Knows space and time tradeoffs of the basic data structures, Arrays vs LinkedLists, Able to explain how hashtables can be implemented and can handle collisions, Priority queues and ways to implement them etc.
+		- 3 Knowledge of advanced data structures like B-trees, binomial and fibonacci heaps, AVL/Red Black trees, Splay Trees, Skip Lists, tries etc.
+
+	- Algorithms 
+		- 0 Unable to find the average of numbers in an array (It’s hard to believe but I’ve interviewed such candidates)
+		- 1 Basic sorting, searching and data structure traversal and retrieval algorithms
+		- 2 Tree, Graph, simple greedy and divide and conquer algorithms, is able to understand the relevance of the levels of this matrix.
+		- 3 Able to recognize and code dynamic programming solutions, good knowledge of graph algorithms, good knowledge of numerical computation algorithms, able to identify NP problems etc.
+
+	- Systems Programming 
+		- 0 Doesn’t know what a compiler, linker or interpreter is
+		- 1 Basic understanding of compilers, linker and interpreters. Understands what assembly code is and how things work at the hardware level. Some knowledge of virtual memory and paging.
+		- 2 Understands kernel mode vs. user mode, multi-threading, synchronization primitives and how they’re implemented, able to read assembly code. Understands how networks work, understanding of network protocols and socket level programming.
+		- 3 Understands the entire programming stack, hardware (CPU + Memory + Cache + Interrupts + microcode), binary code, assembly, static and dynamic linking, compilation, interpretation, JIT compilation, garbage collection, heap, stack, memory addressing…
+
 
 - Software Engineering 
 	- Version Control 
@@ -176,3 +197,7 @@
 		- 1 Reads tech/programming/software engineering blogs and listens to podcasts regularly.
 		- 2 Maintains a link blog with some collection of useful articles and tools that he/she has collected
 		- 3 Maintains a blog in which personal insights and thoughts on programming are shared
+
+
+
+

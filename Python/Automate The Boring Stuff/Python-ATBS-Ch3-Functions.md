@@ -1,19 +1,15 @@
 ## **3  FUNCTIONS**
 
-![Image](https://automatetheboringstuff.com/2e/images/000014.jpg)
+A _function_ is like a miniprogram within a program.
 
-You’re already familiar with the print(), input(), and len() functions from the previous chapters. Python provides several built-in functions like these, but you can also write your own functions. A _function_ is like a miniprogram within a program.
-
-To better understand how functions work, let’s create one. Enter this program into the file editor and save it as _helloFunc.py_:
+A function is defined by `def name():` 
 ```python
 ➊ def hello():  
     ➋ print('Howdy!')  
        print('Howdy!!!')  
        print('Hello there.')  
   
-➌ hello()  
-   hello()  
-   hello()
+➌ hello()
 ```
 
 You can view the execution of this program at _[https://autbor.com/hellofunc/](https://autbor.com/hellofunc/)_. The first line is a def statement ➊, which defines a function named `hello()`. The code in the block that follows the def statement ➋ is the body of the function. This code is executed when the function is called, not when the function is first defined.
