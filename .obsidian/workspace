@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "c66f140473371d4f",
+        "id": "2b44f2d4dc5fb7d3",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Old 2do List - Parse and add to kanban.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -21,6 +24,7 @@
       {
         "id": "3fd830c350626f17",
         "type": "tabs",
+        "dimension": 79.8442064264849,
         "children": [
           {
             "id": "510caaa916fbbe18",
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#TODO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,10 +58,25 @@
             }
           }
         ]
+      },
+      {
+        "id": "769e9e5e61a13967",
+        "type": "tabs",
+        "dimension": 20.155793573515094,
+        "children": [
+          {
+            "id": "aa3e792e0d2dc06f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 369
   },
   "right": {
     "id": "f0d2c0347a61dba5",
@@ -67,14 +86,6 @@
         "id": "42a0203ed12df354",
         "type": "tabs",
         "children": [
-          {
-            "id": "77974813257fe85f",
-            "type": "leaf",
-            "state": {
-              "type": "online.larslockefeer.obsidian-plugin-todo",
-              "state": {}
-            }
-          },
           {
             "id": "79c53be7cf8f640c",
             "type": "leaf",
@@ -89,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Old 2do List - Parse and add to kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "linksCollapsed": false,
+                "file": "Old 2do List - Parse and add to kanban.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -117,17 +130,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c66f140473371d4f",
+  "active": "2b44f2d4dc5fb7d3",
   "lastOpenFiles": [
-    "Python/Automate The Boring Stuff/Automate the Boring Stuff with Python.pdf",
-    "Python/Automate The Boring Stuff/Automate the Boring Stuff with Python 1.pdf",
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch3-Functions.md",
-    "Note Style Guidelines.md",
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch2-Flow Control.md",
-    "Python/Python-Crash-Course.md",
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch8-Input-Validation.md",
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch9-Read-Writing-Files.md",
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch10-Organizing-Files.md",
-    "Python/Automate The Boring Stuff/Python-ATBS-Ch4-Lists.md"
+    "Old 2do List - Parse and add to kanban.md",
+    "Taming Obsidian - Case Study.md",
+    "07 - Knowledge Principles/01 - Accelerated Learning/9 Step Protocol for Neuroplasticity and Learning - Huberman Lab.md",
+    "07 - Knowledge Principles/01 - Accelerated Learning/20 Rules for Formatting Knowledge.md",
+    "01 - Templates/Kanban-Template 1.md",
+    "01 - Templates/Kanban-Template.md",
+    "02 - Projects/Kanban-Template.md",
+    "02 - Projects/Sprint 1.md",
+    "Untitled 1.md",
+    "02 - Projects/Kanban.md"
   ]
 }

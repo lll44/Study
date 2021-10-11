@@ -1,4 +1,30 @@
-# Note Criteria            
+Outgoing Links: [[]] > This contains links to other notes
+Tags: This contains tags, that reference the status of notes
+#TODO 
+
+## Tags 
+
+## Tags for Note Management
+These tags are not used in the first part of the tags section. 
+
+ "TODO", Immediate Tasks that need to be added
+ "DOING", Task is Claimed, tag with name.
+ "DONE", Finished then left to review later. Not every Tasks need this. Bigger framework tasks like completing a page do.
+ "PLANNING",
+ "FIXME", Issues including Refactoring
+ "ARCHIVE",
+ "HACK",
+ "CHANGED", If you make extensive changes to notes
+ "IDEA", Ideas to add or integrate.
+ "NOTE", Communication
+ "REVIEW" Review of
+ "UPDATE" Update this portion with something
+
+> Summary in one sentence: 
+> This should bring forth consise ideas and purpose of these notes with some of the main concepts listed. 
+
+
+# Note Criteria        
 
 ## Workflow
 [[How To Read Anything]]
@@ -23,14 +49,14 @@
  "TODO", Immediate Tasks that need to be added
  "DOING", Task is Claimed, tag with name.
  "DONE", Finished then left to review later. Not every Tasks need this. Bigger framework tasks like completing a page do.
- "PLANNING",
- "FIXME", Issues including Refactoring
+ "PLAN", This task needs further planning and chunking out. 
+ "FIX", Issues including Refactoring or fixing
  "ARCHIVE",
- "HACK",
+ "HACK", 
  "CHANGED", If you make extensive changes to notes
  "IDEA", Ideas to add or integrate.
  "NOTE", Communication
- "REVIEW" Review of
+ "REVIEW" Review of written by review
  "UPDATE" Update this portion with something
 
 

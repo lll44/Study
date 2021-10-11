@@ -1,9 +1,15 @@
 [
-  "obsidian-incremental-writing",
   "obsidian-extract-pdf-highlights",
   "obsidian-system-dark-mode",
-  "obsidian-plugin-todo",
   "calendar",
   "table-editor-obsidian",
-  "obsidian-mind-map"
+  "nldates-obsidian",
+  "cm-typewriter-scroll-obsidian",
+  "obsidian-kanban",
+  "cm-editor-syntax-highlight-obsidian",
+  "tag-wrangler",
+  "obsidian-contextual-typography",
+  "obsidian-reading-time",
+  "obsidian-journey-plugin",
+  "sliding-panes-obsidian"
 ]
