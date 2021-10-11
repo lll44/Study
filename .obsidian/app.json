@@ -28,5 +28,6 @@
   "promptDelete": false,
   "foldHeading": true,
   "foldIndent": true,
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "newFileLocation": "current"
 }

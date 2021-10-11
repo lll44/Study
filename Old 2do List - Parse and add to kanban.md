@@ -1,16 +1,7 @@
 
-## Python
-- Python 
-	- Save Beginner 30s of Code Snippets 
-		https://www.30secondsofcode.org/python/e/1/
-		
-		Find a way to download the whole file
 
-	- 30s of code snippets 
-		https://github.com/Rob-Rychs/30-seconds-of-code-texteditorsnippets
-
-	- 12 Best Atom Tips 
-		https://www.sitepoint.com/12-favorite-atom-tips-and-shortcuts-to-improve-your-workflow/
+https://github.com/Rob-Rychs/30-seconds-of-code-texteditorsnippets
+https://www.sitepoint.com/12-favorite-atom-tips-and-shortcuts-to-improve-your-workflow/
 
 
 
@@ -19,8 +10,6 @@
 
 roadmap.sh
 https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md#python
-
-On the second pass though learn grey items. Focus on important things first
 
 #TODO: Update with tasks and micro details and images
 

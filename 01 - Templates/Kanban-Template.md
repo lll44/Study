@@ -29,11 +29,6 @@ kanban-plugin: basic
 - 
 
 
-## Backlog
-
-- 
-
-
 
 
 %% kanban:settings

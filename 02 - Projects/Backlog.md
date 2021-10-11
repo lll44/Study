@@ -11,34 +11,27 @@ kanban-plugin: basic
 
 ## 
 
-- [ ] fds
-	- [ ] dfg
-	- [ ] sdfg
-	- [ ] sgdf
-		- [ ] sdf
+- 
 
 
 ## Testing
 
-- [ ] [ ]
+- 
 
 
 ## Review
 
-- [ ] [ ]
+- 
 
 
 ## Done
 
-- [ ] [ ]
+- 
 
 
 ## Backlog
 
-- [ ] [ ]
-
-
-
+- 
 
 %% kanban:settings
 ```

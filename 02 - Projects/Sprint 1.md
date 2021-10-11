@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## Todo
 
-- @cc (4, 5hrs, 4)
 
 
 ## In Progress
