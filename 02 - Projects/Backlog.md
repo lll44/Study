@@ -4,9 +4,11 @@ kanban-plugin: basic
 
 ---
 
-## Python
+## Python 
 
-- [ ] [ ]
+- Task 1
+	- Subtask
+		- subtask 
 
 
 ## 
@@ -31,10 +33,12 @@ kanban-plugin: basic
 
 ## Backlog
 
-- 
+-  
 
 %% kanban:settings
 ```
 {"kanban-plugin":"basic"}
 ```
 %%
+
+

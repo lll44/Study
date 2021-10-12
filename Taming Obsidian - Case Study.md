@@ -2,7 +2,7 @@
 
 September 7, 2021
 
-By [Sam Link](https://www.trustedsec.com/team/sam-link/) in [Penetration Testing](https://www.trustedsec.com/blog/category/penetration-testing/), [Purple Team Adversarial Detection & Countermeasures](https://www.trustedsec.com/blog/category/purple-team-adversarial-detection-countermeasures/), [Red Team Adversarial Attack Simulation](https://www.trustedsec.com/blog/category/red-team-adversarial-attack-simulation/), [Research](https://www.trustedsec.com/blog/category/research/), [Security Testing & Analysis](https://www.trustedsec.com/blog/category/security-testing-analysis/)
+By [Sam Link](https://www.trustedsec.com/team/sam-link/)
 
 ## The Problem
 
@@ -13,7 +13,9 @@ On August 05, 2021, a member of the Conti ransomware group leaked some of the gr
   
 80%!? Yikes…but probably also fair based on my prior experience. Not only is documenting for our own consumption tedious enough when there are hacks to be had, but layering on sharing of that content between a group, while simultaneously accounting for differing personalities, strategies, formats, search styles and platforms doesn’t exactly simplify its complexity.  
   
-Offensive operations are becoming more complex each year and continually require a deeper breadth of knowledge that spans several disciplines like infrastructure creation and configuration, operating system specifics, technique research and tool development etc. The days when operational knowledge was single-handedly maintained by an archetypical “Brent” (à la the [The Phoenix Project](https://itrevolution.com/the-phoenix-project/)) character are long gone. To ensure the highest quality and consistency of testing, we need a knowledge management solution that extinguishes any semblance of siloed knowledge and empowers users to understand and apply aggregate team experience quickly. This does not mean that everyone on a team should then, enabled by each other’s notes, become an expert across all disciplines of operation. I still view the optimal team composition as a compilation of highly specialized individuals. However, when documentation produced by a team member within a unique discipline is readily available across the team, the benefit of each individuals specialization is compounded.  
+Offensive operations are becoming more complex each year and continually require a deeper breadth of knowledge that spans several disciplines like infrastructure creation and configuration, operating system specifics, technique research and tool development etc. The days when operational knowledge was single-handedly maintained by an archetypical “Brent” (à la the [The Phoenix Project](https://itrevolution.com/the-phoenix-project/)) character are long gone. 
+
+To ensure the highest quality and consistency of testing, we need a knowledge management solution that extinguishes any semblance of siloed knowledge and empowers users to understand and apply aggregate team experience quickly. This does not mean that everyone on a team should then, enabled by each other’s notes, become an expert across all disciplines of operation. I still view the optimal team composition as a compilation of highly specialized individuals. However, when documentation produced by a team member within a unique discipline is readily available across the team, the benefit of each individuals specialization is compounded.  
   
 Earlier this year, in an effort to address this issue for ourselves, I began to explore (and subject my team to…) several options for keeping and sharing operational knowledge. While our methodology isn’t perfect yet, we have the added benefit of being able to say the strategy itself is defined by its continual evolution! Mubix’s thread and the discussion it generated made me to want to share where our process started, where we’re at now, and what we’ve learned so far.
 

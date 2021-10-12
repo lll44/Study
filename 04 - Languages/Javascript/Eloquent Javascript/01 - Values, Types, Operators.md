@@ -4,6 +4,7 @@
 #TODO: On all of these notes the markdown formatted weird due to some inline paragraph linking in the website that allows you to jump to paragraphs and link them. You will have to delete these as you read. I recommend just clicking the last brack \) and then cntrl-backspace. Don't delete photos or important links. 
 
 #TODO: Also there are practice questions on the website that display a hint  javascript element that pops up but didn't copy when I pasted it here., So you will need to take a look at the website just to assure everything has copied over. 
+
 > [](https://eloquentjavascript.net/01_values.html#p_93S4YBaGUf)Below the surface of the machine, the program moves. Without effort, it expands and contracts. In great harmony, electrons scatter and regroup. The forms on the monitor are but ripples on the water. The essence stays invisibly below.
 > 
 > Master Yuan-Ma, The Book of Programming
@@ -12,7 +13,7 @@
 
 [](https://eloquentjavascript.net/01_values.html#p_sgNSYKwqbo)Inside the computer’s world, there is only data. You can read data, modify data, create new data—but that which isn’t data cannot be mentioned. All this data is stored as long sequences of bits and is thus fundamentally alike.
 
-[](https://eloquentjavascript.net/01_values.html#p_W1gJpe5a7/)_Bits_ are any kind of two-valued things, usually described as zeros and ones. Inside the computer, they take forms such as a high or low electrical charge, a strong or weak signal, or a shiny or dull spot on the surface of a CD. Any piece of discrete information can be reduced to a sequence of zeros and ones and thus represented in bits.
+_Bits_ are any kind of two-valued things, usually described as zeros and ones. Inside the computer, they take forms such as a high or low electrical charge, a strong or weak signal, or a shiny or dull spot on the surface of a CD. Any piece of discrete information can be reduced to a sequence of zeros and ones and thus represented in bits.
 
 [](https://eloquentjavascript.net/01_values.html#p_PDoqiRoGSa)For example, we can express the number 13 in bits. It works the same way as a decimal number, but instead of 10 different digits, you have only 2, and the weight of each increases by a factor of 2 from right to left. Here are the bits that make up the number 13, with the weights of the digits shown below them:
     

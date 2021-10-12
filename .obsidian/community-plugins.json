@@ -1,15 +1,11 @@
 [
-  "obsidian-extract-pdf-highlights",
   "obsidian-system-dark-mode",
   "calendar",
-  "table-editor-obsidian",
   "nldates-obsidian",
-  "cm-typewriter-scroll-obsidian",
   "obsidian-kanban",
   "cm-editor-syntax-highlight-obsidian",
-  "tag-wrangler",
-  "obsidian-contextual-typography",
   "obsidian-reading-time",
-  "obsidian-journey-plugin",
-  "sliding-panes-obsidian"
+  "sliding-panes-obsidian",
+  "obsidian-plugin-todo",
+  "tag-wrangler"
 ]
