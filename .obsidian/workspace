@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Old 2do List - Parse and add to kanban.md",
+            "file": "Untitled Kanban.md",
             "mode": "source"
           }
         }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Old 2do List - Parse and add to kanban.md",
+                "file": "Untitled Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Old 2do List - Parse and add to kanban.md",
+                "file": "Untitled Kanban.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -132,15 +132,15 @@
   },
   "active": "2b44f2d4dc5fb7d3",
   "lastOpenFiles": [
-    "Old 2do List - Parse and add to kanban.md",
+    "Untitled Kanban.md",
+    "Untitled Kanban 1.md",
+    "Untitled.md",
     "Taming Obsidian - Case Study.md",
+    "Untitled 1.md",
+    "Old 2do List - Parse and add to kanban.md",
     "07 - Knowledge Principles/01 - Accelerated Learning/9 Step Protocol for Neuroplasticity and Learning - Huberman Lab.md",
     "07 - Knowledge Principles/01 - Accelerated Learning/20 Rules for Formatting Knowledge.md",
     "01 - Templates/Kanban-Template 1.md",
-    "01 - Templates/Kanban-Template.md",
-    "02 - Projects/Kanban-Template.md",
-    "02 - Projects/Sprint 1.md",
-    "Untitled 1.md",
-    "02 - Projects/Kanban.md"
+    "01 - Templates/Kanban-Template.md"
   ]
 }
