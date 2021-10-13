@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "2b44f2d4dc5fb7d3",
+        "id": "14e125bd945701d7",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -24,7 +24,7 @@
       {
         "id": "3fd830c350626f17",
         "type": "tabs",
-        "dimension": 79.8442064264849,
+        "dimension": 64.65433300876339,
         "children": [
           {
             "id": "510caaa916fbbe18",
@@ -62,7 +62,7 @@
       {
         "id": "769e9e5e61a13967",
         "type": "tabs",
-        "dimension": 20.155793573515094,
+        "dimension": 35.34566699123661,
         "children": [
           {
             "id": "aa3e792e0d2dc06f",
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369
+    "width": 442
   },
   "right": {
     "id": "f0d2c0347a61dba5",
@@ -130,7 +130,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2b44f2d4dc5fb7d3",
+  "active": "14e125bd945701d7",
   "lastOpenFiles": [
     "Untitled Kanban.md",
     "Untitled Kanban 1.md",

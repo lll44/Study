@@ -7,4 +7,4 @@
 
 
 ## Todo 
-[[Kanban-Template 1]]
+[[Kanban-Template]]
