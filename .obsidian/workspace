@@ -9,18 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "02 - Projects/01 - Sprint/Study Material.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "1cb2d71d8ce5f748",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "02 - Projects/01 - Sprint/Study Material.md",
+            "file": "Untitled Kanban.md",
             "mode": "source"
           }
         }
@@ -112,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Projects/01 - Sprint/Study Material.md",
+                "file": "Untitled Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Projects/01 - Sprint/Study Material.md",
+                "file": "Untitled Kanban.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
