@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled Kanban.md",
+            "file": "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
             "mode": "source"
           }
         }
@@ -24,7 +24,7 @@
       {
         "id": "3fd830c350626f17",
         "type": "tabs",
-        "dimension": 71.76241480038948,
+        "dimension": 71.7624148003895,
         "children": [
           {
             "id": "510caaa916fbbe18",
@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385
+    "width": 385,
+    "collapsed": true
   },
   "right": {
     "id": "f0d2c0347a61dba5",
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled Kanban.md",
+                "file": "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled Kanban.md",
+                "file": "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -136,19 +137,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "1cb2d71d8ce5f748",
+  "active": "130241a2d3180cb8",
   "lastOpenFiles": [
+    "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
+    "04 - Languages/Javascript/Eloquent Javascript/00 -.md",
+    "Untitled Kanban.md",
+    "Untitled Kanban 1.md",
+    "Schedule.md",
+    "Taming Obsidian - Case Study.md",
     "02 - Projects/01 - Sprint/Study Material.md",
     "02 - Projects/01 - Sprint/Simple Git - No Deep Shit.md",
     "02 - Projects/01 - Sprint/Untitled.md",
-    "02 - Projects/01 - Sprint/Untitled 1.md",
-    "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md",
-    "04 - Languages/Javascript/Eloquent Javascript/Chapter-05-Higher Order Functions.md",
-    "04 - Languages/Javascript/Eloquent Javascript/02-Program-Structure.md",
-    "04 - Languages/Javascript/Eloquent Javascript/01-Values-Types-Operators.md",
-    "04 - Languages/Javascript/Eloquent Javascript/00-.md",
-    "04 - Languages/Javascript/Eloquent Javascript/Ch-01-Values-Types-Operators.md"
+    "02 - Projects/01 - Sprint/Untitled 1.md"
   ]
 }
