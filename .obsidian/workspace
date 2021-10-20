@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "130241a2d3180cb8",
+        "id": "8704b6c108318a0c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
+            "file": "Taming Obsidian - Case Study.md",
             "mode": "source"
           }
         }
@@ -18,16 +18,23 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6fe98a3cbf4d4c05",
+    "id": "5d6c8d537bde1990",
     "type": "split",
     "children": [
       {
-        "id": "3fd830c350626f17",
+        "id": "2d277e2913ad84e5",
         "type": "tabs",
-        "dimension": 71.7624148003895,
         "children": [
           {
-            "id": "510caaa916fbbe18",
+            "id": "bef5e13fbf4dda67",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4e58991b7e44cfd4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,12 +42,12 @@
             }
           },
           {
-            "id": "ea237f6622ed9818",
+            "id": "f4ab1783a097b6d5",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TODO",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -50,33 +57,10 @@
             }
           },
           {
-            "id": "0c01461c524abd3b",
+            "id": "55ede0715f23272f",
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "769e9e5e61a13967",
-        "type": "tabs",
-        "dimension": 28.23758519961051,
-        "children": [
-          {
-            "id": "aa3e792e0d2dc06f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "79c53be7cf8f640c",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
               "state": {}
             }
           }
@@ -85,24 +69,47 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385,
-    "collapsed": true
+    "width": 100
   },
   "right": {
-    "id": "f0d2c0347a61dba5",
+    "id": "4ebe73453cfc5734",
     "type": "split",
     "children": [
       {
-        "id": "42a0203ed12df354",
+        "id": "28eed43f2f3799e3",
         "type": "tabs",
         "children": [
           {
-            "id": "61719fc7f5943642",
+            "id": "3ed73e4d7cd68c67",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c4d3fbf0aa9286f0",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "2b841eeccbebf797",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "612a274dd4aa30f8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
+                "file": "Taming Obsidian - Case Study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,43 +121,36 @@
             }
           },
           {
-            "id": "2fa0e40348e318c9",
+            "id": "9d1921d94a8574c7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
+                "file": "Taming Obsidian - Case Study.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "f880a16ac12b1a4c",
-            "type": "leaf",
-            "state": {
-              "type": "online.larslockefeer.obsidian-plugin-todo",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "130241a2d3180cb8",
+  "active": "8704b6c108318a0c",
   "lastOpenFiles": [
-    "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
-    "04 - Languages/Javascript/Eloquent Javascript/00 -.md",
-    "Untitled Kanban.md",
-    "Untitled Kanban 1.md",
-    "Schedule.md",
     "Taming Obsidian - Case Study.md",
-    "02 - Projects/01 - Sprint/Study Material.md",
-    "02 - Projects/01 - Sprint/Simple Git - No Deep Shit.md",
-    "02 - Projects/01 - Sprint/Untitled.md",
-    "02 - Projects/01 - Sprint/Untitled 1.md"
+    "04 - Languages/Javascript/Eloquent Javascript/02 - Program Structure.md",
+    "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
+    "02 - Projects/Backlog.md",
+    "05 - Tools/Obsidian/Taming Obsidian - A Case Study.md",
+    "Note Style Guidelines.md",
+    "05 - Tools/Obsidian/Process.md",
+    "05 - Tools/Obsidian/Obsidian.md",
+    "05 - Tools/Obsidian/Coding Tags.md",
+    "05 - Tools/Obsidian/Taming Obsidian.md"
   ]
 }

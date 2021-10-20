@@ -8,25 +8,25 @@
 
 [](https://eloquentjavascript.net/02_program_structure.html#p_D1mgO0fMBD)In this chapter, we will start to do things that can actually be called _programming_. We will expand our command of the JavaScript language beyond the nouns and sentence fragments we’ve seen so far, to the point where we can express meaningful prose.
 
-## [](https://eloquentjavascript.net/02_program_structure.html#h_5fUOQZwwHx)Expressions and statements
+## Expressions and statements
 
-[](https://eloquentjavascript.net/02_program_structure.html#p_qwJQaYxUlJ)In [Chapter 1](https://eloquentjavascript.net/01_values.html), we made values and applied operators to them to get new values. Creating values like this is the main substance of any JavaScript program. But that substance has to be framed in a larger structure to be useful. So that’s what we’ll cover next.
+A fragment of code that produces a value is called an _expression_. 
 
-[](https://eloquentjavascript.net/02_program_structure.html#p_8CCep1TQ8b)A fragment of code that produces a value is called an _expression_. Every value that is written literally (such as `22` or `"psychoanalysis"`) is an expression. An expression between parentheses is also an expression, as is a binary operator applied to two expressions or a unary operator applied to one.
+Every value that is written literally (such as `22` or `"psychoanalysis"`) is an expression. An expression between parentheses is also an expression, as is a binary operator applied to two expressions or a unary operator applied to one.
 
-[](https://eloquentjavascript.net/02_program_structure.html#p_QXQG3kVSFh)This shows part of the beauty of a language-based interface. Expressions can contain other expressions in a way similar to how subsentences in human languages are nested—a subsentence can contain its own subsentences, and so on. This allows us to build expressions that describe arbitrarily complex computations.
+This shows part of the beauty of a language-based interface. Expressions can contain other expressions in a way similar to how subsentences in human languages are nested—a subsentence can contain its own subsentences, and so on. This allows us to build expressions that describe arbitrarily complex computations.
 
-[](https://eloquentjavascript.net/02_program_structure.html#p_UM5/kUz1tD)If an expression corresponds to a sentence fragment, a JavaScript _statement_ corresponds to a full sentence. A program is a list of statements.
+If an expression corresponds to a sentence fragment, a JavaScript _statement_ corresponds to a full sentence. A program is a list of statements.
 
-[](https://eloquentjavascript.net/02_program_structure.html#p_NAzxo1M6WC)The simplest kind of statement is an expression with a semicolon after it. This is a program:
+The simplest kind of statement is an expression with a semicolon after it. This is a program:
     
     [](https://eloquentjavascript.net/02_program_structure.html#c_hjwmfcgDR0)1; !false;
 
-[](https://eloquentjavascript.net/02_program_structure.html#p_dj4UvUmws0)It is a useless program, though. An expression can be content to just produce a value, which can then be used by the enclosing code. A statement stands on its own, so it amounts to something only if it affects the world. It could display something on the screen—that counts as changing the world—or it could change the internal state of the machine in a way that will affect the statements that come after it. These changes are called _side effects_. The statements in the previous example just produce the values `1` and `true` and then immediately throw them away. This leaves no impression on the world at all. When you run this program, nothing observable happens.
+It is a useless program, though. An expression can be content to just produce a value, which can then be used by the enclosing code. A statement stands on its own, so it amounts to something only if it affects the world. It could display something on the screen—that counts as changing the world—or it could change the internal state of the machine in a way that will affect the statements that come after it. These changes are called _side effects_. The statements in the previous example just produce the values `1` and `true` and then immediately throw them away. This leaves no impression on the world at all. When you run this program, nothing observable happens.
 
 [](https://eloquentjavascript.net/02_program_structure.html#p_z/83KOxUGo)In some cases, JavaScript allows you to omit the semicolon at the end of a statement. In other cases, it has to be there, or the next line will be treated as part of the same statement. The rules for when it can be safely omitted are somewhat complex and error-prone. So in this book, every statement that needs a semicolon will always get one. I recommend you do the same, at least until you’ve learned more about the subtleties of missing semicolons.
 
-## [](https://eloquentjavascript.net/02_program_structure.html#h_lnOC+GBEtu)Bindings
+## Bindings
 
 [](https://eloquentjavascript.net/02_program_structure.html#p_jG4q4gLJDw)How does a program keep an internal state? How does it remember things? We have seen how to produce new values from old values, but this does not change the old values, and the new value has to be immediately used or it will dissipate again. To catch and hold values, JavaScript provides a thing called a _binding_, or _variable_:
     
