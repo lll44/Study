@@ -31,11 +31,11 @@ Most problematically perhaps was that knowledge generation isn’t happening sim
   
 Why was this happening?  
 1. OverHead
-	 No matter how often the wiki was kept in view, creating and formatting content into an article became a task all its own. That meant everyone was maintaining personal documentation outside the shared solution and setting aside additional time to reformat and commit the article for the groups benefit.
+No matter how often the wiki was kept in view, creating and formatting content into an article became a task all its own. That meant everyone was maintaining personal documentation outside the shared solution and setting aside additional time to reformat and commit the article for the groups benefit.
 2. Perfection Perception
-	There can be a propensity to withhold ‘incomplete’ information while waiting for the production of a flawless note. In a technical setting, however, it’s important to acknowledge that your documentation will likely never be “complete” and to develop a strategy where information can be used as readily as its produced.
+There can be a propensity to withhold ‘incomplete’ information while waiting for the production of a flawless note. In a technical setting, however, it’s important to acknowledge that your documentation will likely never be “complete” and to develop a strategy where information can be used as readily as its produced.
 3. Categorization and Organization
-	In a traditional folder-based note structure, we’re conditioned to categorize content as specifically as possible. This works well enough when you’re the sole resource maintain the information, In our own practice, we found this mentality ultimately lead to the duplication of data and a complex structure. The more complex the structure got and the more time it took to find what you were looking for, the more people disassociate with the the perception of the solution as ‘their own.’ This becomes particularly apparent in that moment when you’ve just established remote command and control over a system and you’re digging through a veritable labyrinth of documents looking for that one piece of information you needed five minutes ago.
+In a traditional folder-based note structure, we’re conditioned to categorize content as specifically as possible. This works well enough when you’re the sole resource maintain the information, In our own practice, we found this mentality ultimately lead to the duplication of data and a complex structure. The more complex the structure got and the more time it took to find what you were looking for, the more people disassociate with the the perception of the solution as ‘their own.’ This becomes particularly apparent in that moment when you’ve just established remote command and control over a system and you’re digging through a veritable labyrinth of documents looking for that one piece of information you needed five minutes ago.
 4. The Cloud for sharing
 
 # The Solution
@@ -43,20 +43,20 @@ Why was this happening?
 Here are a list of some of our primary requirements along with how we met them using Obsidian.
 
 1. Markdown
-	- Description: The preferred format for notes themselves was unanimously Markdown. If you haven’t come across it already, Markdown is a lightweight HTML-lite-like language designed specifically for formatting text quickly. It is also an application-agnostic format that could persist in other applications if needed.        
-	- In Obsidian: Obsidian maintains all vault notes and structure in a top level folder corresponding to the vault itself. After that the structure is just like any other folder/subfolder directory and notes are maintained as Markdown (.md) files.
+	- Description: Unanimously preferred format for coders. Markdown is a lightweight HTML-lite-like language designed specifically for formatting text quickly. It is also an application-agnostic format that could persist in other applications if needed.        
+	- In Obsidian: Obsidian vaults are the folder/subfolder directories on your device and notes are maintained as Markdown (.md) files.
 2. Plaintext Backend
 	- Description: Maintaining a plaintext backend of notes as markdown files allows it to be application agnostic and . It also enabled the direct addition, manipulation, searching of content across the vault and provides the easiest possible automation for the notes.
 	- In Obsidian: Like mentioned above, Obsidian maintains all notes as Markdown (.md) files and in a traditional directory structure. 
 3. Git Managed
-	- Description: Git is a backup system used by developers that allow you to version control the notes easily, to keep them easily organized and collab around them. It is not an instant system like dropbox but is much more powerful. Requires small overhead to learn.
+	- Description: [[Git]] is a backup system used by developers that allow you to version control the notes easily, to keep them easily organized and collab around them. It is not an instant system like dropbox but is much more powerful. Requires small overhead to learn.
 	- In Obsidian: The plugin [Denolehov’s Obsidian-Git](https://github.com/denolehov/obsidian-git). anyone who has worked in a collaborative Git development environment can tell you, this type of shared commit access to a repository can result in conflicts quickly. For us, this has been manageable through the assignment of few plugin settings which we’ll discuss later in this article.
 4. Reduced Overhead
 	- Description: We needed to lower the barrier of entry required for committing new content. A [Zettelkasten](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125) like note-taking and knowledge management ideology, empower users to simply ‘create content’ atomically and have the methodology specifics abstracted from that process.
-    - In Obsidian: The plugin, [Templater](https://github.com/SilentVoid13/Templater)we us a single ‘master’ template which was run on the creation of any new note. All content must be generated using this template and, based on a categorization selected during creation, sections of markdown are assembled to produce the corresponding boilerplate note structure.
-  5. Personal Repository
-    - Description: In addition to the group repository, we acknowledged that each consultant should maintain notes which did not need to be visible by the collective team.
-    - In Obsidian: To offer this functionality, we simply created a folder within the group repository that was defined with the .gitignore. This allowed personal and group notes to be viewed in a single pane, something that is otherwise not possible using Obsidian.
+	- In Obsidian: The plugin, [Templater](https://github.com/SilentVoid13/Templater)we us a single ‘master’ template which was run on the creation of any new note. All content must be generated using this template and, based on a categorization selected during creation, sections of markdown are assembled to produce the corresponding boilerplate note structure.
+  1. Personal Repository
+	- Description: In addition to the group repository, we acknowledged that each consultant should maintain notes which did not need to be visible by the collective team.
+	- In Obsidian: To offer this functionality, we simply created a folder within the group repository that was defined with the .gitignore. This allowed personal and group notes to be viewed in a single pane, something that is otherwise not possible using Obsidian.
 
 ## Our Implementation
 
@@ -64,7 +64,7 @@ Here are a list of some of our primary requirements along with how we met them u
 
 Before we get into some more Obsidian-specific content, I’ll briefly define some of the components that we’ll work with throughout this post.
 
-  1. Vault: Your collection of notes. Styles, plugins and application settings are maintained per vault. The number of open vaults correspond directly with the number of application windows open. Use a number system to easily order notes, this also helps for automation later on. 
+1. Vault: Your collection of notes. Styles, plugins and application settings are maintained per vault. The number of open vaults correspond directly with the number of application windows open. Use a number system to easily order notes, this also helps for automation later on. 
 ![](https://d26v3d89gbih6n.cloudfront.net/wp-content/uploads/2021/09/Pasted-image-20210901133009.png)
 
 2. Note: The fundamental component of Obsidian, notes are the pages we interact with and where content is maintained. Notes should be a concise distillation of information as it was interpreted by the author. Notes should be written with the sole intent of being readily usable during subsequent research or active operations.
@@ -152,7 +152,7 @@ Additionally we use a .gitignore file to omit files and directories which either
 
 # Exclude consultant specific files "personal" 
 $VAULTNAME/Personal/ 
-05*-*Personal/ 
+05-Personal/ 
 
 # Exclude Day Planner directory placed in vault root 
 Day*Planners/* 

@@ -1,16 +1,20 @@
 # Program Structure
 
-> [](https://eloquentjavascript.net/02_program_structure.html#p_J/zCYrllfQ)And my heart glows bright red under my filmy, translucent skin and they have to administer 10cc of JavaScript to get me to come back. (I respond well to toxins in the blood.) Man, that stuff will kick the peaches right out your gills!
+> And my heart glows bright red under my filmy, translucent skin and they have to administer 10cc of JavaScript to get me to come back. (I respond well to toxins in the blood.) Man, that stuff will kick the peaches right out your gills!
 > 
 > _why, Why's (Poignant) Guide to Ruby
 
 ![Picture of tentacles holding objects](https://eloquentjavascript.net/img/chapter_picture_2.jpg)
 
-[](https://eloquentjavascript.net/02_program_structure.html#p_D1mgO0fMBD)In this chapter, we will start to do things that can actually be called _programming_. We will expand our command of the JavaScript language beyond the nouns and sentence fragments we’ve seen so far, to the point where we can express meaningful prose.
+In this chapter, we will start to do things that can actually be called _programming_. We will expand our command of the JavaScript language beyond the nouns and sentence fragments we’ve seen so far, to the point where we can express meaningful prose.
 
 ## Expressions and statements
 
+<<<<<<< Updated upstream
 A fragment of code that produces a value is called an _expression_. 
+=======
+In [Chapter 1], we made values and applied operators to them to get new values. Creating values like this is the main substance of any JavaScript program. But that substance has to be framed in a larger structure to be useful. So that’s what we’ll cover next.
+>>>>>>> Stashed changes
 
 Every value that is written literally (such as `22` or `"psychoanalysis"`) is an expression. An expression between parentheses is also an expression, as is a binary operator applied to two expressions or a unary operator applied to one.
 
@@ -28,7 +32,7 @@ It is a useless program, though. An expression can be content to just produce a 
 
 ## Bindings
 
-[](https://eloquentjavascript.net/02_program_structure.html#p_jG4q4gLJDw)How does a program keep an internal state? How does it remember things? We have seen how to produce new values from old values, but this does not change the old values, and the new value has to be immediately used or it will dissipate again. To catch and hold values, JavaScript provides a thing called a _binding_, or _variable_:
+How does a program keep an internal state? How does it remember things? We have seen how to produce new values from old values, but this does not change the old values, and the new value has to be immediately used or it will dissipate again. To catch and hold values, JavaScript provides a thing called a _binding_, or _variable_:
     
     [](https://eloquentjavascript.net/02_program_structure.html#c_aT9yLxdY/V)let caught = 5 * 5;
 
