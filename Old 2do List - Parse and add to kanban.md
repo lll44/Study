@@ -1,3 +1,15 @@
+## In Progress 
+
+
+-  Git ignore basic tutorial 
+	- Ignore workspace
+	- Ignore specific plugins
+	- Ignore day planner & notes. 
+
+
+
+
+
 
 
 https://github.com/Rob-Rychs/30-seconds-of-code-texteditorsnippets
@@ -88,11 +100,10 @@ More
 	- Free Design Resources 
 		Stock photos, icons, html & css templates, javascript animations.
 
-	- Front End Road Maps 
-		https://github.com/dexteryy/spellbook-of-modern-webdev
+
 		Web Dev Notes <https://github.com/8483/notes>
 		
-		https://github.com/jondot/awesome-devenv <https://github.com/8483/notes>
+		https://github.com/jondot/awesome-devenv 
 
 		- HTML 
 			Basics, 

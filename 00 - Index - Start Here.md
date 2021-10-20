@@ -1,22 +1,21 @@
+[[]]
 
-
-# Index
-
-> This index is used to navigate the files and folders, because often times things can get lost in file structures. It will also will allow more context on how to navigate the index.
-
+#todo  
 
 
 
-
-## Todo 
-[[Kanban-Template]]
-[[Tentative Kanban]] - 
+[[Backlog]]
+[[01 - Sprint Kanban]]
 
 
+## Format
+
+[[Old 2do List - Parse and add to kanban]]
+
+[[Taming Obsidian - Case Study]]
 
 
-
-
+[[A Visual Git Guide]]
 
 
 

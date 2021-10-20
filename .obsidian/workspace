@@ -1,15 +1,26 @@
 {
   "main": {
-    "id": "6dfc0a2d9aafc1ac",
+    "id": "0c1c8f784a6b85fe",
     "type": "split",
     "children": [
       {
-        "id": "8704b6c108318a0c",
+        "id": "d4c99f0da69b5824",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Taming Obsidian - Case Study.md",
+            "file": "05 - Tools/Obsidian/Taming Obsidian - A Case Study.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "bfbce55fd5f09b3c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "New-Note-Template.md",
             "mode": "source"
           }
         }
@@ -18,23 +29,23 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5d6c8d537bde1990",
+    "id": "aff2e66ad76acc87",
     "type": "split",
     "children": [
       {
-        "id": "2d277e2913ad84e5",
+        "id": "1690b1e2539042b7",
         "type": "tabs",
         "children": [
           {
-            "id": "bef5e13fbf4dda67",
+            "id": "501fe15af82a055e",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "recent-files",
               "state": {}
             }
           },
           {
-            "id": "4e58991b7e44cfd4",
+            "id": "4cbd669b60fd92cf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -42,7 +53,7 @@
             }
           },
           {
-            "id": "f4ab1783a097b6d5",
+            "id": "cc03783a83a2533a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -57,7 +68,7 @@
             }
           },
           {
-            "id": "55ede0715f23272f",
+            "id": "a2414c2443231b41",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -69,18 +80,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 300
   },
   "right": {
-    "id": "4ebe73453cfc5734",
+    "id": "f0fcf01405852126",
     "type": "split",
     "children": [
       {
-        "id": "28eed43f2f3799e3",
+        "id": "e47363e6b94071f6",
         "type": "tabs",
         "children": [
           {
-            "id": "3ed73e4d7cd68c67",
+            "id": "959f0d74ba4a2ace",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -88,7 +99,7 @@
             }
           },
           {
-            "id": "c4d3fbf0aa9286f0",
+            "id": "faee552ee6fa5f25",
             "type": "leaf",
             "state": {
               "type": "online.larslockefeer.obsidian-plugin-todo",
@@ -96,20 +107,20 @@
             }
           },
           {
-            "id": "2b841eeccbebf797",
+            "id": "7bc060fd0791bbfd",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "todo",
               "state": {}
             }
           },
           {
-            "id": "612a274dd4aa30f8",
+            "id": "9797b828705db62f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taming Obsidian - Case Study.md",
+                "file": "05 - Tools/Obsidian/Taming Obsidian - A Case Study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,36 +132,31 @@
             }
           },
           {
-            "id": "9d1921d94a8574c7",
+            "id": "1ec11b312b283f45",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taming Obsidian - Case Study.md",
-                "linksCollapsed": true,
+                "file": "05 - Tools/Obsidian/Taming Obsidian - A Case Study.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "8704b6c108318a0c",
+  "active": "d4c99f0da69b5824",
   "lastOpenFiles": [
-    "Taming Obsidian - Case Study.md",
-    "04 - Languages/Javascript/Eloquent Javascript/02 - Program Structure.md",
-    "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
-    "02 - Projects/Backlog.md",
     "05 - Tools/Obsidian/Taming Obsidian - A Case Study.md",
+    "New-Note-Template.md",
+    "Untitled.md",
     "Note Style Guidelines.md",
     "05 - Tools/Obsidian/Process.md",
-    "05 - Tools/Obsidian/Obsidian.md",
-    "05 - Tools/Obsidian/Coding Tags.md",
-    "05 - Tools/Obsidian/Taming Obsidian.md"
+    "04 - Languages/Javascript/Eloquent Javascript/19 - Project - Pixel Art Editor.md"
   ]
 }

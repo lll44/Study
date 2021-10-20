@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "01 - Sprint Kanban",
+      "path": "02 - Projects/01 - Sprint/01 - Sprint Kanban.md"
+    },
+    {
+      "type": "file",
+      "title": "Backlog",
+      "path": "02 - Projects/Backlog.md"
+    },
+    {
+      "type": "file",
+      "title": "Study Material",
+      "path": "02 - Projects/Study Material.md"
+    },
+    {
+      "type": "file",
+      "title": "Old 2do List - Parse and add to kanban",
+      "path": "Old 2do List - Parse and add to kanban.md"
+    }
+  ]
+}

@@ -29,5 +29,6 @@
   "foldHeading": true,
   "foldIndent": true,
   "attachmentFolderPath": "./",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "trashOption": "local"
 }

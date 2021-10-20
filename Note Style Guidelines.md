@@ -1,6 +1,6 @@
 Outgoing Links: [[]] > This contains links to other notes
 Tags: This contains tags, that reference the status of notes
-#TODO 
+#todo: This will 
 
 ## Tags 
 
