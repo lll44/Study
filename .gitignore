@@ -24,12 +24,6 @@ _book
 # OR only to exclude workspace cache
 .obsidian/workspace/*
 
-
-
-.obsidian/graph.json
-.obsidian/workspace
-.obsidian/plugins/recent-files-obsidian/*
-
 # Exclude plugins?
 # .obsidian/plugins/*
 
@@ -52,4 +46,8 @@ null*
 # Add below lines to exclude OS settings and caches
 .trash/
 .DS_Store
-```
+
+
+.obsidian/graph.json
+.obsidian/plugins/recent-files-obsidian/data.json
+.obsidian/workspace
