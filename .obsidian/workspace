@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
+            "file": "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md",
             "mode": "source"
           }
         }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385,
-    "collapsed": true
+    "width": 385
   },
   "right": {
     "id": "f0d2c0347a61dba5",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
+                "file": "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
+                "file": "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -142,15 +141,15 @@
   },
   "active": "130241a2d3180cb8",
   "lastOpenFiles": [
+    "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md",
+    "04 - Languages/Javascript/Eloquent Javascript/04 - Data Structures - Objects and Arrays.md",
+    "04 - Languages/Javascript/Eloquent Javascript/03 - Functions.md",
+    "04 - Languages/Javascript/Eloquent Javascript/02 - Program Structure.md",
     "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
     "04 - Languages/Javascript/Eloquent Javascript/00 -.md",
     "Untitled Kanban.md",
     "Untitled Kanban 1.md",
     "Schedule.md",
-    "Taming Obsidian - Case Study.md",
-    "02 - Projects/01 - Sprint/Study Material.md",
-    "02 - Projects/01 - Sprint/Simple Git - No Deep Shit.md",
-    "02 - Projects/01 - Sprint/Untitled.md",
-    "02 - Projects/01 - Sprint/Untitled 1.md"
+    "Taming Obsidian - Case Study.md"
   ]
 }

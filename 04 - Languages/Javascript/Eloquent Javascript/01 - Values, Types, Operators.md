@@ -86,7 +86,7 @@ There are three special values in JavaScript that are considered numbers but don
 
 The next basic data type is the _string_. Strings are used to represent text. They are written by enclosing their content in quotes.
 
-```
+```javascript
 `Down on the sea`
 "Lie on the ocean" 
 'Float on the ocean'
@@ -95,7 +95,7 @@ The next basic data type is the _string_. Strings are used to represent text. Th
 You can use single quotes, double quotes, or backticks to mark strings.
 
 _Newlines_ (the characters you get when you press enter) can be included without escaping only when the string is quoted with backticks 
-```
+```javascript
 `
 ```
 
@@ -109,7 +109,7 @@ Ex:
 `"This is the first line\nAnd this is the second"`
 
 The actual text contained is this:
-```    
+```javascript
 This is the first line 
 And this is the second
 ```
@@ -134,18 +134,18 @@ The following line will produce the string `"concatenate"`:
 String values have a number of associated functions (_methods_) that can be used to perform other operations on them. More about these in [Chapter 4]
 
 Strings written with single or double quotes behave very much the same—the only difference is in which type of quote you need to escape inside of them. Backtick-quoted strings, usually called _template literals_, can do a few more tricks. Apart from being able to span lines, they can also embed other values.
-```   
+```javascript
 `half of 100 is ${100 / 2}`
 ```
 When you write something inside `${}` in a template literal, its result will be computed, converted to a string, and included at that position. The example produces 
-```
+```javascript
 _half of 100 is 50_
 ```
 
 ## Unary operators
 
 Some operators are written as words. One example is the `typeof` operator, which produces a string value naming the type of the value you give it.
- ```   
+ ```javascript
 console.log(typeof 4.5) 
 // → number
 console.log(typeof "x") 
@@ -159,7 +159,7 @@ Operators that uses:
 - two values are  _binary_ operators, while those that take one are called 
 - one value operators are  _unary_ operators. 
 - The minus operator can be used both as a binary operator and as a unary operator.
-```    
+```javascript
 console.log(- (10 - 2))
 // → -8
 ```
@@ -170,7 +170,7 @@ JavaScript has a _Boolean_ type true and false.
 ### Comparison
 
 Here is one way to produce Boolean values:
-```    
+```javascript
 console.log(3 > 2) 
 // → true 
 console.log(3 < 2) 
@@ -179,7 +179,7 @@ console.log(3 < 2)
 The `>` and `<` signs are “is greater than” and “is less than”, respectively. They are binary operators. 
 
 Strings can be compared in the same way.
-```
+```javascript
 console.log("Aardvark" < "Zoroaster") 
 // → true
 ```
@@ -189,7 +189,7 @@ The way strings are ordered is roughly alphabetic:
 - When comparing strings, JavaScript goes over the characters from left to right, comparing the Unicode codes one by one.
 
 `>=` (greater than or equal to), `<=` (less than or equal to), `==` (equal to), and `!=` (not equal to), Ex:
-```    
+```javascript
 console.log("Itchy" != "Scratchy") 
 // → true 
 console.log("Apple" == "Orange") 
@@ -197,7 +197,7 @@ console.log("Apple" == "Orange")
 ```
 
 There is only one value in JavaScript that is not equal to itself, and that is `NaN` (“not a number”).
-```    
+```javascript    
 console.log(NaN == NaN) 
 // → false
 ```
@@ -210,7 +210,7 @@ Some operations can be applied to Boolean values themselves.
 JavaScript supports three logical operators: _and_, _or_, and _not_
 
 `&&` operator represents logical _and_. It is a binary operator, and its result is true only if both the values given to it are true.
-```
+```javascript
 console.log(true && false) 
 // → false 
 console.log(true && true) 
@@ -218,7 +218,7 @@ console.log(true && true)
 ```
 
 `||` operator denotes logical _or_. It produces true if either of the values given to it is true.
-```    
+```javascript
 console.log(false || true) 
 // → true 
 console.log(false || false) 
@@ -230,12 +230,12 @@ _Not_ is written as an exclamation mark (`!`). A unary operator that flips the v
 `||` has the lowest precedence, then comes `&&`, then the comparison operators (`>`, `==`, and so on), and then Arithmetic. 
 
 Ex:
-```
+```javascript
 1 + 1 == 2 && 10 * 10 > 50
 ```
 
 _ternary_, operating on three values. Is written with a question mark and a colon, like this:
-```    
+```javascript
 console.log(true ? 1 : 2); 
 // → 1 
 console.log(false ? 1 : 2); 
@@ -254,7 +254,7 @@ The difference between `undefined` and `null` is an accident of JavaScript’s d
 
 ## Automatic type conversion
 
-```    
+```javascript
 console.log(8 * null) 
 // → 0 
 console.log("5" - 1) 
@@ -281,7 +281,7 @@ Comparing values of the same type using `==`, should be true when both values ar
 
 When `null` or `undefined` occurs on either side of the operator, it produces true only if both sides are one of `null` or `undefined`.
     
-```
+```javascript
 console.log(null == undefined); 
 // → true 
 console.log(null == 0); 
@@ -304,7 +304,7 @@ The logical operators `&&` and `||` handle values of different types in a peculi
 The `||` operator will return the value to its left when that can be converted to true and will return the value on its right otherwise. 
 
 This has the expected effect when the values are Boolean and does something analogous for values of other types.
-```    
+```javascript
 console.log(null || "user") 
 // → user 
 console.log("Agnes" || "user") 
