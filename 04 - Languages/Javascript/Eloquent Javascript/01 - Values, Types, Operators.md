@@ -80,7 +80,7 @@ There are three special values in JavaScript that are considered numbers but don
 `Infinity` and `-Infinity`, represent the positive and negative infinities. 
 `Infinity - 1` is still `Infinity`
 
-`NaN` stands for “not a number”, even though it _is_ a value of the number type. You’ll get this result when you, for example, try to calculate `0 / 0` (zero divided by zero), `Infinity - Infinity`, or any number of other numeric operations that don’t yield a meaningful result.
+`NaN` stands for “not a number”, even though it is a value of the number type. You’ll get this result when you, for example, try to calculate `0 / 0` (zero divided by zero), `Infinity - Infinity`, or any number of other numeric operations that don’t yield a meaningful result.
 
 ## Strings
 
@@ -105,7 +105,7 @@ _escaping_ the character is whenever a backslash ( `\` ) is found inside quoted 
 `t` after a backslash means is a tab character. 
 
 Ex:
-    
+
 `"This is the first line\nAnd this is the second"`
 
 The actual text contained is this:
