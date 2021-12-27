@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md",
+            "file": "04 - Languages/Javascript/Eloquent Javascript/17 - Drawing On Canvas.md",
             "mode": "source"
           }
         }
@@ -54,6 +54,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "1738047614469162",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
               "state": {}
             }
           }
@@ -101,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md",
+                "file": "04 - Languages/Javascript/Eloquent Javascript/17 - Drawing On Canvas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md",
+                "file": "04 - Languages/Javascript/Eloquent Javascript/17 - Drawing On Canvas.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -131,6 +139,14 @@
               "type": "online.larslockefeer.obsidian-plugin-todo",
               "state": {}
             }
+          },
+          {
+            "id": "75522be20c43c6c5",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
           }
         ]
       }
@@ -141,15 +157,15 @@
   },
   "active": "130241a2d3180cb8",
   "lastOpenFiles": [
-    "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md",
-    "04 - Languages/Javascript/Eloquent Javascript/04 - Data Structures - Objects and Arrays.md",
-    "04 - Languages/Javascript/Eloquent Javascript/03 - Functions.md",
-    "04 - Languages/Javascript/Eloquent Javascript/02 - Program Structure.md",
-    "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
-    "04 - Languages/Javascript/Eloquent Javascript/00 -.md",
-    "Untitled Kanban.md",
-    "Untitled Kanban 1.md",
-    "Schedule.md",
-    "Taming Obsidian - Case Study.md"
+    "04 - Languages/Javascript/Eloquent Javascript/17 - Drawing On Canvas.md",
+    "04 - Languages/Javascript/Eloquent Javascript/16 - Project - Platform Game.md",
+    "04 - Languages/Javascript/Eloquent Javascript/18 - HTTP and Forms.md",
+    "04 - Languages/Javascript/Eloquent Javascript/19 - Project - Pixel Art Editor.md",
+    "04 - Languages/Javascript/Eloquent Javascript/21 - Project - Skill Sharing Website.md",
+    "04 - Languages/Javascript/Eloquent Javascript/20 - NodeJS.md",
+    "04 - Languages/Javascript/Eloquent Javascript/15 - Handling Events.md",
+    "04 - Languages/Javascript/Eloquent Javascript/12 - Project - Programming Language.md",
+    "04 - Languages/Javascript/Eloquent Javascript/11 - Asynchronous Programming.md",
+    "04 - Languages/Javascript/Eloquent Javascript/08 - Bugs and Errors.md"
   ]
 }
