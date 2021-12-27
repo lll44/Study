@@ -1,15 +1,22 @@
 # Developer Roadmap - Overview Material
-> This serves as material for overall professional development. 
 
+<<<<<<< Updated upstream:02 - Projects/Study Material.md
 All the tools here are open source and don't cost any money.
+=======
+
+>>>>>>> Stashed changes:02 - Projects/01 - Sprint/Study Material.md
 
 https://roadmap.sh/frontend
 https://roadmap.sh/backend
 https://roadmap.sh/react
+<<<<<<< Updated upstream:02 - Projects/Study Material.md
 
 https://webgems.io/
 
+=======
+>>>>>>> Stashed changes:02 - Projects/01 - Sprint/Study Material.md
 
+https://webgems.io/=
 https://github.com/freeCodeCamp/freeCodeCamp
 https://hackr.io/
 https://hackr.io/design

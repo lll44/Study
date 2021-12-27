@@ -21,14 +21,18 @@
     "editor:redo",
     "editor:toggle-keyboard",
     "editor:configure-toolbar",
-    "editor:delete-paragraph",
-    "editor:swap-line-up",
-    "editor:swap-line-down"
+    "editor:copy",
+    "editor:paste"
   ],
   "promptDelete": false,
+<<<<<<< Updated upstream
   "foldHeading": true,
   "foldIndent": true,
   "attachmentFolderPath": "./",
   "newFileLocation": "current",
   "trashOption": "local"
+=======
+  "legacyEditor": false,
+  "livePreview": true
+>>>>>>> Stashed changes
 }

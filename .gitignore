@@ -1,15 +1,13 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+# to exclude Obsidian workspace settings (including plugin and hotkey configurations)
+.obsidian/*
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
+# OR only to exclude workspace cache
+.obsidian/workspace
 
-# Book build output
-_book
+# Exclude plugins
+.obsidian/plugins/*
 
+<<<<<<< Updated upstream
 # eBook build output
 *.epub
 *.mobi
@@ -36,6 +34,16 @@ Day*Planners/*
 
 # This file is used to keep track of last auto
 backup/pull
+=======
+# Exclude consultant specific files "personal"
+# $VAULTNAME/Personal/
+# 05*-*Personal/
+
+# Exclude Day Planner directory placed in vault root
+# Day*Planners/*
+
+# This file is used to keep track of last auto backup/pull
+>>>>>>> Stashed changes
 .obsidian-git-data
 
 # Exclude Untitled Notes
@@ -46,8 +54,11 @@ null*
 # Add below lines to exclude OS settings and caches
 .trash/
 .DS_Store
+<<<<<<< Updated upstream
 
 
 .obsidian/graph.json
 .obsidian/plugins/recent-files-obsidian/data.json
 .obsidian/workspace
+=======
+>>>>>>> Stashed changes

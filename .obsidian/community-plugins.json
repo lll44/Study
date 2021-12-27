@@ -1,8 +1,7 @@
 [
-  "obsidian-system-dark-mode",
-  "calendar",
-  "nldates-obsidian",
+  "obsidian-to-anki-plugin",
   "obsidian-kanban",
+<<<<<<< Updated upstream
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-reading-time",
   "sliding-panes-obsidian",
@@ -15,4 +14,9 @@
   "cm-typewriter-scroll-obsidian",
   "advanced-toolbar",
   "obsidian-focus-mode"
+=======
+  "workspaces-plus",
+  "obsidian-system-dark-mode",
+  "obsidian-collapse-all-plugin"
+>>>>>>> Stashed changes
 ]
