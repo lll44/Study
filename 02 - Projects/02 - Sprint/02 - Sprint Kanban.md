@@ -8,7 +8,7 @@ kanban-plugin: basic
 
 
 
-## In Progress
+## Doing
 
 
 
@@ -16,15 +16,18 @@ kanban-plugin: basic
 
 
 
-## Done
+## Complete
 
-**Complete**
+
+
+## Backlog
+
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic","new-note-folder":"02 - Projects","show-checkboxes":true,"hide-date-in-title":true}
+{"kanban-plugin":"basic"}
 ```
 %%

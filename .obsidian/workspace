@@ -1,33 +1,29 @@
 {
   "main": {
-    "id": "6dfc0a2d9aafc1ac",
+    "id": "54361979e4e8c97d",
     "type": "split",
     "children": [
       {
-        "id": "130241a2d3180cb8",
+        "id": "fbc67a6011a642ca",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "6fe98a3cbf4d4c05",
+    "id": "d549127b7b476e9c",
     "type": "split",
     "children": [
       {
-        "id": "3fd830c350626f17",
+        "id": "6531e4610f5de510",
         "type": "tabs",
-        "dimension": 71.7624148003895,
         "children": [
           {
-            "id": "510caaa916fbbe18",
+            "id": "5ce5308826d62d0f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,12 +31,12 @@
             }
           },
           {
-            "id": "ea237f6622ed9818",
+            "id": "b74138c93301652f",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TODO",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,60 +44,27 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "0c01461c524abd3b",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
           }
         ]
-      },
-      {
-        "id": "769e9e5e61a13967",
-        "type": "tabs",
-        "dimension": 28.23758519961051,
-        "children": [
-          {
-            "id": "aa3e792e0d2dc06f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "79c53be7cf8f640c",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 385
+    "width": 257
   },
   "right": {
-    "id": "f0d2c0347a61dba5",
+    "id": "4dd59574aef96322",
     "type": "split",
     "children": [
       {
-        "id": "42a0203ed12df354",
+        "id": "faee9bef955d3d3c",
         "type": "tabs",
         "children": [
           {
-            "id": "61719fc7f5943642",
+            "id": "a762d3a35b94ecd8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,24 +74,18 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "518c98e9191ba866",
+        "type": "tabs",
+        "children": [
           {
-            "id": "2fa0e40348e318c9",
+            "id": "c24702fdd1f72ff1",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "f880a16ac12b1a4c",
-            "type": "leaf",
-            "state": {
-              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "type": "map-of-content",
               "state": {}
             }
           }
@@ -139,17 +96,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "130241a2d3180cb8",
+  "active": "fbc67a6011a642ca",
   "lastOpenFiles": [
-    "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md",
-    "04 - Languages/Javascript/Eloquent Javascript/04 - Data Structures - Objects and Arrays.md",
-    "04 - Languages/Javascript/Eloquent Javascript/03 - Functions.md",
-    "04 - Languages/Javascript/Eloquent Javascript/02 - Program Structure.md",
-    "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
-    "04 - Languages/Javascript/Eloquent Javascript/00 -.md",
-    "Untitled Kanban.md",
-    "Untitled Kanban 1.md",
+    "02 - Projects/Sprint 01.md",
+    "02 - Projects/Kanban.md",
     "Schedule.md",
-    "Taming Obsidian - Case Study.md"
+    "02 - Projects/Old 2do List - Parse and add to kanban.md",
+    "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
+    "07 - Knowledge Principles/Taming Obsidian for Teams.md",
+    "Obsidian For Groups.md",
+    "Taming Obsidian - Case Study.md",
+    "04 - Languages/Javascript/Eloquent Javascript/09 - Regular Expressions.md",
+    "04 - Languages/Javascript/Eloquent Javascript/03 - Functions.md"
   ]
 }

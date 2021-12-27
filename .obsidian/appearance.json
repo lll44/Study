@@ -1,5 +1,10 @@
 {
+<<<<<<< Updated upstream
   "baseFontSize": 15,
   "theme": "obsidian",
+=======
+  "baseFontSize": 18,
+  "theme": "moonstone",
+>>>>>>> Stashed changes
   "cssTheme": "Yin and Yang"
 }
