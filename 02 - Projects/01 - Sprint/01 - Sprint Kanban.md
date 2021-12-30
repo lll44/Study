@@ -10,8 +10,6 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] Learn GitHub Basics
-- [ ] Import Tutorials as markdown;<br>- [ ] GitHub (atlassian??)<br>- [ ] JS (rest of eloquent)<br>- [ ] CSS & HTML<br>- [ ] Free Code Camp<br>- [ ] Atom?? Test flight<br>- [ ] Important obsidian plug-ins. Keep it minimal. Day planner, templater, basic use cases
 
 
 ## Review

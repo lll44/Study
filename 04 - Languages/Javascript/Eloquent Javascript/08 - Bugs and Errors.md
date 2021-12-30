@@ -8,7 +8,6 @@ Last-Updated:
 # Chapter 8Bugs and Errors
 =======
 # Chapter 8 Bugs and Errors
->>>>>>> Stashed changes
 
 > [](https://eloquentjavascript.net/08_error.html#p_tsWlII94Rs)Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
 > 

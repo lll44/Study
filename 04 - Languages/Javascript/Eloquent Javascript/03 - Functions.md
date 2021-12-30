@@ -92,7 +92,6 @@ The exception is when multiple bindings have the same name—where code can see 
 const halve = function(n) {
   return n / 2;
 };
-
 let n = 10;
 console.log(halve(100));
 // → 50
