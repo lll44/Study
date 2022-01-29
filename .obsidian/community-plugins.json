@@ -1,22 +1,19 @@
 [
-  "obsidian-to-anki-plugin",
   "obsidian-kanban",
-<<<<<<< Updated upstream
-  "cm-editor-syntax-highlight-obsidian",
-  "obsidian-reading-time",
-  "sliding-panes-obsidian",
-  "obsidian-plugin-todo",
-  "tag-wrangler",
-  "obsidian-day-planner",
-  "obsidian-checklist-plugin",
+  "obsidian-collapse-all-plugin",
+  "map-of-content",
+  "obsidian-mind-map",
+  "calendar",
+  "obsidian-editor-shortcuts",
   "obsidian-contextual-typography",
-  "recent-files-obsidian",
-  "cm-typewriter-scroll-obsidian",
-  "advanced-toolbar",
-  "obsidian-focus-mode"
-=======
-  "workspaces-plus",
+  "obsidian-focus-mode",
+  "obsidian-day-planner",
+  "cm-editor-syntax-highlight-obsidian",
   "obsidian-system-dark-mode",
-  "obsidian-collapse-all-plugin"
->>>>>>> Stashed changes
+  "obsidian-regex-replace",
+  "obsidian-regex-pipeline",
+  "breadcrumbs",
+  "obsidian-minimal-settings",
+  "find-and-replace-in-selection",
+  "obsidian-git"
 ]

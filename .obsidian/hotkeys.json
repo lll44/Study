@@ -1,15 +1,33 @@
-<<<<<<< Updated upstream
 {
+  "obsidian-editor-shortcuts:insertLineBelow": [],
+  "workspace:edit-file-title": [],
   "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": ","
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "."
+    }
+  ],
+  "editor:follow-link": [],
+  "editor:toggle-checklist-status": [],
+  "obsidian-regex-replace:obsidian-regex-replace": [
     {
       "modifiers": [
         "Alt",
         "Mod"
       ],
-      "key": "S"
+      "key": "]"
     }
   ]
 }
-=======
-{}
->>>>>>> Stashed changes

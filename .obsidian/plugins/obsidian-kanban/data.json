@@ -1,13 +1,4 @@
 {
-<<<<<<< Updated upstream
-  "lane-width": 400,
-  "new-line-trigger": "enter",
   "hide-tags-display": false,
-  "hide-tags-in-title": true,
-  "new-note-folder": "02 - Projects",
-  "new-note-template": "01 - Templates/Kanban-Template.md"
-=======
-  "new-line-trigger": "enter",
-  "hide-tags-display": true
->>>>>>> Stashed changes
+  "hide-tags-in-title": true
 }

@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [],
   "collapse-display": true,
   "showArrow": false,
@@ -17,10 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-<<<<<<< Updated upstream
-  "scale": 0.13229812555159526,
-=======
-  "scale": 0.23074729207418102,
->>>>>>> Stashed changes
+  "scale": 0.28548580833378145,
   "close": true
 }

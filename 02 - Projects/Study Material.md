@@ -1,28 +1,13 @@
-# Developer Roadmap - Overview Material
+# Developer Roadmap Overview Material
 
-<<<<<<< Updated upstream:02 - Projects/Study Material.md
-All the tools here are open source and don't cost any money.
-=======
 
->>>>>>> Stashed changes:02 - Projects/01 - Sprint/Study Material.md
+## Main Resources
 
 https://roadmap.sh/frontend
 https://roadmap.sh/backend
 https://roadmap.sh/react
-<<<<<<< Updated upstream:02 - Projects/Study Material.md
-
 https://webgems.io/
-
-=======
->>>>>>> Stashed changes:02 - Projects/01 - Sprint/Study Material.md
-
-https://webgems.io/=
-https://github.com/freeCodeCamp/freeCodeCamp
-https://hackr.io/
-https://hackr.io/design
-
-
-
+https://www.codewars.com/
 
 ## Tools
 https://devdocs.io/
@@ -36,12 +21,7 @@ https://www.atlassian.com/git/tutorials
 https://agripongit.vincenttunru.com/
 http://think-like-a-git.net/
 
-## Further Resources
-https://github.com/stemmlerjs/software-design-and-architecture-roadmap
-https://github.com/prakhar1989/awesome-courses/blob/master/README.md
 
-Course Material
-Find online stuff with also good core examples on the side
 
 ## Data Structures & Algorithms
 https://runestone.academy/runestone/books/published/pythonds/index.html
@@ -110,12 +90,9 @@ https://learnlayout.com/no-layout.html
 Supplement:
 https://github.com/micromata/awesome-css-learning#readme
 
-
 Resources: 
 
 Optional:
-
-
 https://hackr.io/tutorials/learn-css?sort=upvotes&type_tags%5B%5D=1
 
 # SQL
@@ -123,38 +100,29 @@ https://sqlbolt.com/
 https://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/
 
 
+# Web To be learned later
 
-# Code Practice 
-https://www.codewars.com/
-
-
-# Web - To be learned later
-
-Learn
+Learn?
 https://www.geeksforgeeks.org/web-development/?ref=shm
 https://upskillcourses.com/courses/essential-web-developer-course
 
-Resources:
-https://github.com/liuchong/awesome-roadmaps#readme
 
-
-
-
-Supplement: 
-
-Optional :
 
 
 # Further Resources
+[Awesome Courses](https://github.com/prakhar1989/awesome-courses/blob/master/README.md)
+[Awesome Roadmaps](https://github.com/prakhar1989/awesome-courses/blob/master/README.md)
 
 
-# Swift
- https://hackr.io/tutorials/learn-ios-swift
+## Swift
+https://hackr.io/tutorials/learn-ios-swift
 https://github.com/BohdanOrlov/iOS-Developer-Roadmap
 
 Review intermediate resources after coding. https://github.com/karlhorky/learn-to-program#readme
 
-# React
+## React
 
 
 
+## Software Design & Architecture
+https://github.com/stemmlerjs/software-design-and-architecture-roadmap
