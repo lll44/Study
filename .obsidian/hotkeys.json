@@ -1,15 +1,1 @@
-<<<<<<< Updated upstream
-{
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "S"
-    }
-  ]
-}
-=======
 {}
->>>>>>> Stashed changes

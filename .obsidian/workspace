@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "130241a2d3180cb8",
+        "id": "2e8b2d2f16277855",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "02 - Projects/Sprint 01.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -21,7 +24,7 @@
       {
         "id": "3fd830c350626f17",
         "type": "tabs",
-        "dimension": 85.52821997105644,
+        "dimension": 64.6888567293777,
         "children": [
           {
             "id": "510caaa916fbbe18",
@@ -67,7 +70,7 @@
       {
         "id": "769e9e5e61a13967",
         "type": "tabs",
-        "dimension": 14.471780028943561,
+        "dimension": 35.31114327062229,
         "children": [
           {
             "id": "aa3e792e0d2dc06f",
@@ -76,17 +79,8 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "79c53be7cf8f640c",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "02 - Projects/Sprint 01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "02 - Projects/Sprint 01.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -142,16 +138,25 @@
               "type": "todo",
               "state": {}
             }
+          },
+          {
+            "id": "6c170ce7e8b9b647",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "130241a2d3180cb8",
+  "active": "2e8b2d2f16277855",
   "lastOpenFiles": [
+    "02 - Projects/Sprint 01.md",
     "04 - Languages/HTML CSS (ShayHowe)/04 - Opening the Box Model.md",
     "04 - Languages/HTML CSS (ShayHowe)/03 - Getting to Know CSS.md",
     "04 - Languages/HTML CSS (ShayHowe)/02 - Getting to Know HTML.md",
@@ -160,7 +165,6 @@
     "04 - Languages/Javascript/Eloquent Javascript/09 - Regular Expressions.md",
     "02 - Projects/Kanban.md",
     "04 - Languages/Javascript/Eloquent Javascript/17 - Drawing On Canvas.md",
-    "04 - Languages/Javascript/Eloquent Javascript/16 - Project - Platform Game.md",
-    "04 - Languages/Javascript/Eloquent Javascript/18 - HTTP and Forms.md"
+    "04 - Languages/Javascript/Eloquent Javascript/16 - Project - Platform Game.md"
   ]
 }
