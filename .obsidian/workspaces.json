@@ -1,0 +1,219 @@
+{
+  "workspaces": {
+    "Planning": {
+      "main": {
+        "id": "6ba4d0f7080b1729",
+        "type": "split",
+        "children": [
+          {
+            "id": "912019486eab5d95",
+            "type": "split",
+            "children": [
+              {
+                "id": "1a574f471fe99ac9",
+                "type": "split",
+                "dimension": 57.64362220058422,
+                "children": [
+                  {
+                    "id": "4cef7706d33c02ab",
+                    "type": "leaf",
+                    "dimension": 74.56964006259781,
+                    "state": {
+                      "type": "kanban",
+                      "state": {
+                        "file": "02 - Projects/Sprint 01.md"
+                      }
+                    }
+                  },
+                  {
+                    "id": "639663fa32a4da40",
+                    "type": "leaf",
+                    "dimension": 25.43035993740219,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "02 - Projects/Study Material.md",
+                        "mode": "source"
+                      }
+                    }
+                  }
+                ],
+                "direction": "vertical"
+              },
+              {
+                "id": "8250df5ee93267fa",
+                "type": "leaf",
+                "dimension": 42.356377799415775,
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "02 - Projects/Kanban.md"
+                  }
+                }
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "af550927c4d071ba",
+        "type": "split",
+        "children": [
+          {
+            "id": "de70c4c9af23f6a2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8db57ba690d631fe",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d17ceb516a2fa080",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "372eab2ddda80f57",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "b9c277f1e7b43ffc",
+        "type": "split",
+        "children": [
+          {
+            "id": "214a25ef896abf5c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "214ac7eca4855b20",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "be67476f26d040ed",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "02 - Projects/Study Material.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "4218a07817b19576",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "02 - Projects/Study Material.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "d5ae2291bec0daaa",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "2f81c94b06d27b21",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "02 - Projects/Study Material.md"
+                  }
+                }
+              },
+              {
+                "id": "717a911d6e9955ff",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-matrix",
+                  "state": {}
+                }
+              },
+              {
+                "id": "12609a8cfebad3ab",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-stats",
+                  "state": {}
+                }
+              },
+              {
+                "id": "51241bf4711db459",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-down",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "eca5ac8ed897e687",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3b1b0a56e5bc5f35",
+                "type": "leaf",
+                "state": {
+                  "type": "map-of-content",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "active": "639663fa32a4da40"
+    }
+  },
+  "active": "Planning"
+}

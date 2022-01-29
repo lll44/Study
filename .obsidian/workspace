@@ -1,29 +1,50 @@
 {
   "main": {
-    "id": "54361979e4e8c97d",
+    "id": "6ba4d0f7080b1729",
     "type": "split",
     "children": [
       {
-        "id": "fbc67a6011a642ca",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
+        "id": "a6cd4f15a15e4551",
+        "type": "split",
+        "children": [
+          {
+            "id": "4cef7706d33c02ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS - ES6.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "cff95e8e2ab12470",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 - Languages/Javascript/Eloquent Javascript/09 - Regular Expressions.md",
+                "mode": "source"
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d549127b7b476e9c",
+    "id": "af550927c4d071ba",
     "type": "split",
     "children": [
       {
-        "id": "6531e4610f5de510",
+        "id": "de70c4c9af23f6a2",
         "type": "tabs",
         "children": [
           {
-            "id": "5ce5308826d62d0f",
+            "id": "8db57ba690d631fe",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -31,7 +52,7 @@
             }
           },
           {
-            "id": "b74138c93301652f",
+            "id": "d17ceb516a2fa080",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -44,27 +65,44 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "372eab2ddda80f57",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 257
+    "width": 300
   },
   "right": {
-    "id": "4dd59574aef96322",
+    "id": "b9c277f1e7b43ffc",
     "type": "split",
     "children": [
       {
-        "id": "faee9bef955d3d3c",
+        "id": "214a25ef896abf5c",
         "type": "tabs",
         "children": [
           {
-            "id": "a762d3a35b94ecd8",
+            "id": "214ac7eca4855b20",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "be67476f26d040ed",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JS - ES6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -74,39 +112,116 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "4218a07817b19576",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "JS - ES6.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d5ae2291bec0daaa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2f81c94b06d27b21",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JS - ES6.md"
+              }
+            }
+          },
+          {
+            "id": "717a911d6e9955ff",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "12609a8cfebad3ab",
+            "type": "leaf",
+            "state": {
+              "type": "BC-stats",
+              "state": {}
+            }
+          },
+          {
+            "id": "51241bf4711db459",
+            "type": "leaf",
+            "state": {
+              "type": "BC-down",
+              "state": {}
+            }
+          },
+          {
+            "id": "874ac6697930e627",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 8
       },
       {
-        "id": "518c98e9191ba866",
+        "id": "eca5ac8ed897e687",
         "type": "tabs",
         "children": [
           {
-            "id": "c24702fdd1f72ff1",
+            "id": "3b1b0a56e5bc5f35",
             "type": "leaf",
             "state": {
               "type": "map-of-content",
               "state": {}
             }
+          },
+          {
+            "id": "f6a7367be3529f00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Codewars.md",
+                "mode": "source"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "fbc67a6011a642ca",
+  "active": "4cef7706d33c02ab",
   "lastOpenFiles": [
-    "02 - Projects/Sprint 01.md",
-    "02 - Projects/Kanban.md",
-    "Schedule.md",
-    "02 - Projects/Old 2do List - Parse and add to kanban.md",
-    "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md",
-    "07 - Knowledge Principles/Taming Obsidian for Teams.md",
-    "Obsidian For Groups.md",
-    "Taming Obsidian - Case Study.md",
+    "JS - ES6.md",
     "04 - Languages/Javascript/Eloquent Javascript/09 - Regular Expressions.md",
-    "04 - Languages/Javascript/Eloquent Javascript/03 - Functions.md"
+    "Codewars.md",
+    "02 - Projects/Sprint 01.md",
+    "02 - Projects/Study Material.md",
+    "02 - Projects/04 - Personal Websites/Personal Site Text - CC.md",
+    "02 - Projects/04 - Personal Websites/Group Notebook Resume.md",
+    "02 - Projects/Kanban.md",
+    "02 - Projects/Old 2do List - Parse and add to kanban.md",
+    "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md"
   ]
 }
