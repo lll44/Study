@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "04 - Languages/Javascript/Eloquent Javascript/17 - Drawing On Canvas.md",
+            "file": "04 - Languages/HTML CSS (ShayHowe)/04 - Opening the Box Model.md",
             "mode": "source"
           }
         }
@@ -24,7 +24,7 @@
       {
         "id": "3fd830c350626f17",
         "type": "tabs",
-        "dimension": 71.7624148003895,
+        "dimension": 85.52821997105644,
         "children": [
           {
             "id": "510caaa916fbbe18",
@@ -70,7 +70,7 @@
       {
         "id": "769e9e5e61a13967",
         "type": "tabs",
-        "dimension": 28.23758519961051,
+        "dimension": 14.471780028943561,
         "children": [
           {
             "id": "aa3e792e0d2dc06f",
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 - Languages/Javascript/Eloquent Javascript/17 - Drawing On Canvas.md",
+                "file": "04 - Languages/HTML CSS (ShayHowe)/04 - Opening the Box Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 - Languages/Javascript/Eloquent Javascript/17 - Drawing On Canvas.md",
+                "file": "04 - Languages/HTML CSS (ShayHowe)/04 - Opening the Box Model.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -157,15 +157,15 @@
   },
   "active": "130241a2d3180cb8",
   "lastOpenFiles": [
+    "04 - Languages/HTML CSS (ShayHowe)/04 - Opening the Box Model.md",
+    "04 - Languages/HTML CSS (ShayHowe)/03 - Getting to Know CSS.md",
+    "04 - Languages/HTML CSS (ShayHowe)/02 - Getting to Know HTML.md",
+    "04 - Languages/HTML CSS (ShayHowe)/01 - Building Your First Web Page.md",
+    "04 - Languages/Javascript/Eloquent Javascript/06 - Objects.md",
+    "04 - Languages/Javascript/Eloquent Javascript/09 - Regular Expressions.md",
+    "02 - Projects/Kanban.md",
     "04 - Languages/Javascript/Eloquent Javascript/17 - Drawing On Canvas.md",
     "04 - Languages/Javascript/Eloquent Javascript/16 - Project - Platform Game.md",
-    "04 - Languages/Javascript/Eloquent Javascript/18 - HTTP and Forms.md",
-    "04 - Languages/Javascript/Eloquent Javascript/19 - Project - Pixel Art Editor.md",
-    "04 - Languages/Javascript/Eloquent Javascript/21 - Project - Skill Sharing Website.md",
-    "04 - Languages/Javascript/Eloquent Javascript/20 - NodeJS.md",
-    "04 - Languages/Javascript/Eloquent Javascript/15 - Handling Events.md",
-    "04 - Languages/Javascript/Eloquent Javascript/12 - Project - Programming Language.md",
-    "04 - Languages/Javascript/Eloquent Javascript/11 - Asynchronous Programming.md",
-    "04 - Languages/Javascript/Eloquent Javascript/08 - Bugs and Errors.md"
+    "04 - Languages/Javascript/Eloquent Javascript/18 - HTTP and Forms.md"
   ]
 }

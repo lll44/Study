@@ -4,223 +4,16 @@ Tags:
 Last-Updated:
 ```
 
-<<<<<<< Updated upstream
-# Chapter 9Regular Expressions
-
-> [](https://eloquentjavascript.net/09_regexp.html#p_MWUwIAb0uO)Some people, when confronted with a problem, think ‘I know, I’ll use regular expressions.’ Now they have two problems.
-> 
-> Jamie Zawinski
-
-> [](https://eloquentjavascript.net/09_regexp.html#p_icxlw7+18l)Yuan-Ma said, ‘When you cut against the grain of the wood, much strength is needed. When you program against the grain of the problem, much code is needed.’
-> 
-=======
 # 09 Regular Expressions
 
 > Some people, when confronted with a problem, think ‘I know, I’ll use regular expressions.’ Now they have two problems.
 > Jamie Zawinski
 
 > Yuan-Ma said, ‘When you cut against the grain of the wood, much strength is needed. When you program against the grain of the problem, much code is needed.’
->>>>>>> Stashed changes
 > Master Yuan-Ma, The Book of Programming
 
 ![A railroad diagram](https://eloquentjavascript.net/img/chapter_picture_9.jpg)
 
-<<<<<<< Updated upstream
-[](https://eloquentjavascript.net/09_regexp.html#p_mYvGNMWwx9)Programming tools and techniques survive and spread in a chaotic, evolutionary way. It’s not always the pretty or brilliant ones that win but rather the ones that function well enough within the right niche or that happen to be integrated with another successful piece of technology.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_iH3Aqi6y2A)In this chapter, I will discuss one such tool, _regular expressions_. Regular expressions are a way to describe patterns in string data. They form a small, separate language that is part of JavaScript and many other languages and systems.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_cxbejyPUGl)Regular expressions are both terribly awkward and extremely useful. Their syntax is cryptic, and the programming interface JavaScript provides for them is clumsy. But they are a powerful tool for inspecting and processing strings. Properly understanding regular expressions will make you a more effective programmer.
-
-## [](https://eloquentjavascript.net/09_regexp.html#h_5w4yGFJRYl)Creating a regular expression
-
-[](https://eloquentjavascript.net/09_regexp.html#p_u/9SKAI2Yi)A regular expression is a type of object. It can be either constructed with the `RegExp` constructor or written as a literal value by enclosing a pattern in forward slash (`/`) characters.
-    
-    edit & run code by clicking it
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_O1I2rl+HTy)let re1 = new RegExp("abc"); let re2 = /abc/;
-
-[](https://eloquentjavascript.net/09_regexp.html#p_dviEva2QQM)Both of those regular expression objects represent the same pattern: an _a_ character followed by a _b_ followed by a _c_.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_qv8UWLVrTv)When using the `RegExp` constructor, the pattern is written as a normal string, so the usual rules apply for backslashes.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_0mNIcPpslS)The second notation, where the pattern appears between slash characters, treats backslashes somewhat differently. First, since a forward slash ends the pattern, we need to put a backslash before any forward slash that we want to be _part_ of the pattern. In addition, backslashes that aren’t part of special character codes (like ` `) will be _preserved_, rather than ignored as they are in strings, and change the meaning of the pattern. Some characters, such as question marks and plus signs, have special meanings in regular expressions and must be preceded by a backslash if they are meant to represent the character itself.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_uRzUiBSrul)let eighteenPlus = /eighteen\+/;
-
-## [](https://eloquentjavascript.net/09_regexp.html#h_vPyyYjMEtz)Testing for matches
-
-[](https://eloquentjavascript.net/09_regexp.html#p_SHaMWlzFzk)Regular expression objects have a number of methods. The simplest one is `test`. If you pass it a string, it will return a Boolean telling you whether the string contains a match of the pattern in the expression.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_Szn1CmrIV5)console.log(/abc/.test("abcde")); // → true console.log(/abc/.test("abxde")); // → false
-
-[](https://eloquentjavascript.net/09_regexp.html#p_YGcbMDV493)A regular expression consisting of only nonspecial characters simply represents that sequence of characters. If _abc_ occurs anywhere in the string we are testing against (not just at the start), `test` will return `true`.
-
-## [](https://eloquentjavascript.net/09_regexp.html#h_8EFR0DU1xd)Sets of characters
-
-[](https://eloquentjavascript.net/09_regexp.html#p_ZyB7HeLr75)Finding out whether a string contains _abc_ could just as well be done with a call to `indexOf`. Regular expressions allow us to express more complicated patterns.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_i/99SEfu9y)Say we want to match any number. In a regular expression, putting a set of characters between square brackets makes that part of the expression match any of the characters between the brackets.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_sC+2E08KnL)Both of the following expressions match all strings that contain a digit:
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_Z3UJdL//cY)console.log(/[0123456789]/.test("in 1992")); // → true console.log(/[0-9]/.test("in 1992")); // → true
-
-[](https://eloquentjavascript.net/09_regexp.html#p_i0WYLVUede)Within square brackets, a hyphen (`-`) between two characters can be used to indicate a range of characters, where the ordering is determined by the character’s Unicode number. Characters 0 to 9 sit right next to each other in this ordering (codes 48 to 57), so `[0-9]` covers all of them and matches any digit.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_1qtYlDfA/1)A number of common character groups have their own built-in shortcuts. Digits are one of them: `\d` means the same thing as `[0-9]`.
-
-`\d`
-Any digit character
-
-`\w`
-An alphanumeric character (“word character”)
-
-`\s`
-Any whitespace character (space, tab, newline, and similar)
-
-`\D`
-A character that is _not_ a digit
-
-`\W`
-A nonalphanumeric character
-
-`\S`
-A nonwhitespace character
-
-`.`
-Any character except for newline
-
-[](https://eloquentjavascript.net/09_regexp.html#p_yXMUKEYpwG)So you could match a date and time format like 01-30-2003 15:20 with the following expression:
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_Y0e7M8nAL0)let dateTime = /\d\d-\d\d-\d\d\d\d \d\d:\d\d/; console.log(dateTime.test("01-30-2003 15:20")); // → true console.log(dateTime.test("30-jan-2003 15:20")); // → false
-
-[](https://eloquentjavascript.net/09_regexp.html#p_gdY0EhLXlE)That looks completely awful, doesn’t it? Half of it is backslashes, producing a background noise that makes it hard to spot the actual pattern expressed. We’ll see a slightly improved version of this expression [later](https://eloquentjavascript.net/09_regexp.html#date_regexp_counted).
-
-[](https://eloquentjavascript.net/09_regexp.html#p_P0qAMYu0C/)These backslash codes can also be used inside square brackets. For example, `[\d.]` means any digit or a period character. But the period itself, between square brackets, loses its special meaning. The same goes for other special characters, such as `+`.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_HqQEZsitdl)To _invert_ a set of characters—that is, to express that you want to match any character _except_ the ones in the set—you can write a caret (`^`) character after the opening bracket.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_XH8deAcckk)let notBinary = /[^01]/; console.log(notBinary.test("1100100010100110")); // → false console.log(notBinary.test("1100100010200110")); // → true
-
-## [](https://eloquentjavascript.net/09_regexp.html#h_iFI1qvUwY9)Repeating parts of a pattern
-
-[](https://eloquentjavascript.net/09_regexp.html#p_crYiu/oAUM)We now know how to match a single digit. What if we want to match a whole number—a sequence of one or more digits?
-
-[](https://eloquentjavascript.net/09_regexp.html#p_B4wupHzbR+)When you put a plus sign (`+`) after something in a regular expression, it indicates that the element may be repeated more than once. Thus, `/\d+/` matches one or more digit characters.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_9/5mFF4Ih4)console.log(/'\d+'/.test("'123'")); // → true console.log(/'\d+'/.test("''")); // → false console.log(/'\d*'/.test("'123'")); // → true console.log(/'\d*'/.test("''")); // → true
-
-[](https://eloquentjavascript.net/09_regexp.html#p_/oNBIVm41F)The star (`*`) has a similar meaning but also allows the pattern to match zero times. Something with a star after it never prevents a pattern from matching—it’ll just match zero instances if it can’t find any suitable text to match.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_77Y5t9C8NV)A question mark makes a part of a pattern _optional_, meaning it may occur zero times or one time. In the following example, the _u_ character is allowed to occur, but the pattern also matches when it is missing.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_EiCIowdq+d)let neighbor = /neighbou?r/; console.log(neighbor.test("neighbour")); // → true console.log(neighbor.test("neighbor")); // → true
-
-[](https://eloquentjavascript.net/09_regexp.html#p_B4ikd8xN8i)To indicate that a pattern should occur a precise number of times, use braces. Putting `{4}` after an element, for example, requires it to occur exactly four times. It is also possible to specify a range this way: `{2,4}` means the element must occur at least twice and at most four times.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_a1yNHuI+49)Here is another version of the date and time pattern that allows both single- and double-digit days, months, and hours. It is also slightly easier to decipher.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_Tw+K6Mxe45)let dateTime = /\d{1,2}-\d{1,2}-\d{4} \d{1,2}:\d{2}/; console.log(dateTime.test("1-30-2003 8:45")); // → true
-
-[](https://eloquentjavascript.net/09_regexp.html#p_RjqN6VMQIa)You can also specify open-ended ranges when using braces by omitting the number after the comma. So, `{5,}` means five or more times.
-
-## [](https://eloquentjavascript.net/09_regexp.html#h_uICSDspz1I)Grouping subexpressions
-
-[](https://eloquentjavascript.net/09_regexp.html#p_pKTOYUDGIr)To use an operator like `*` or `+` on more than one element at a time, you have to use parentheses. A part of a regular expression that is enclosed in parentheses counts as a single element as far as the operators following it are concerned.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_P/f6a65XwI)let cartoonCrying = /boo+(hoo+)+/i; console.log(cartoonCrying.test("Boohoooohoohooo")); // → true
-
-[](https://eloquentjavascript.net/09_regexp.html#p_S5jkv2dMC+)The first and second `+` characters apply only to the second _o_ in _boo_ and _hoo_, respectively. The third `+` applies to the whole group `(hoo+)`, matching one or more sequences like that.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_c4RlIM4/HI)The `i` at the end of the expression in the example makes this regular expression case insensitive, allowing it to match the uppercase _B_ in the input string, even though the pattern is itself all lowercase.
-
-## [](https://eloquentjavascript.net/09_regexp.html#h_CV5XL/TADP)Matches and groups
-
-[](https://eloquentjavascript.net/09_regexp.html#p_K3KRDzatsp)The `test` method is the absolute simplest way to match a regular expression. It tells you only whether it matched and nothing else. Regular expressions also have an `exec` (execute) method that will return `null` if no match was found and return an object with information about the match otherwise.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_JJMWZpk0iD)let match = /\d+/.exec("one two 100"); console.log(match); // → ["100"] console.log(match.index); // → 8
-
-[](https://eloquentjavascript.net/09_regexp.html#p_fJSwbQyG6w)An object returned from `exec` has an `index` property that tells us _where_ in the string the successful match begins. Other than that, the object looks like (and in fact is) an array of strings, whose first element is the string that was matched. In the previous example, this is the sequence of digits that we were looking for.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_VT4fpht7D7)String values have a `match` method that behaves similarly.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_uAkAqNYx+q)console.log("one two 100".match(/\d+/)); // → ["100"]
-
-[](https://eloquentjavascript.net/09_regexp.html#p_/9rdcJO9zZ)When the regular expression contains subexpressions grouped with parentheses, the text that matched those groups will also show up in the array. The whole match is always the first element. The next element is the part matched by the first group (the one whose opening parenthesis comes first in the expression), then the second group, and so on.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_5E2M1BBsUm)let quotedText = /'([^']*)'/; console.log(quotedText.exec("she said 'hello'")); // → ["'hello'", "hello"]
-
-[](https://eloquentjavascript.net/09_regexp.html#p_f4bciMASJ1)When a group does not end up being matched at all (for example, when followed by a question mark), its position in the output array will hold `undefined`. Similarly, when a group is matched multiple times, only the last match ends up in the array.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_j9t+gn+1eT)console.log(/bad(ly)?/.exec("bad")); // → ["bad", undefined] console.log(/(\d)+/.exec("123")); // → ["123", "3"]
-
-[](https://eloquentjavascript.net/09_regexp.html#p_GvLofvnQnz)Groups can be useful for extracting parts of a string. If we don’t just want to verify whether a string contains a date but also extract it and construct an object that represents it, we can wrap parentheses around the digit patterns and directly pick the date out of the result of `exec`.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_DzNUSBaBZb)But first we’ll take a brief detour, in which we discuss the built-in way to represent date and time values in JavaScript.
-
-## [](https://eloquentjavascript.net/09_regexp.html#h_8U7L7LCU27)The Date class
-
-[](https://eloquentjavascript.net/09_regexp.html#p_2NeTRvucQq)JavaScript has a standard class for representing dates—or, rather, points in time. It is called `Date`. If you simply create a date object using `new`, you get the current date and time.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_AjgqFetryg)console.log(new Date()); // → Mon Nov 13 2017 16:19:11 GMT+0100 (CET)
-
-[](https://eloquentjavascript.net/09_regexp.html#p_IcV7kv3B1y)You can also create an object for a specific time.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_2VCU0f4HsQ)console.log(new Date(2009, 11, 9)); // → Wed Dec 09 2009 00:00:00 GMT+0100 (CET) console.log(new Date(2009, 11, 9, 12, 59, 59, 999)); // → Wed Dec 09 2009 12:59:59 GMT+0100 (CET)
-
-[](https://eloquentjavascript.net/09_regexp.html#p_cYaexzwHiw)JavaScript uses a convention where month numbers start at zero (so December is 11), yet day numbers start at one. This is confusing and silly. Be careful.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_gVdQSb0Lv9)The last four arguments (hours, minutes, seconds, and milliseconds) are optional and taken to be zero when not given.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_1mIMU5T5MA)Timestamps are stored as the number of milliseconds since the start of 1970, in the UTC time zone. This follows a convention set by “Unix time”, which was invented around that time. You can use negative numbers for times before 1970. The `getTime` method on a date object returns this number. It is big, as you can imagine.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_lMlCuckMIc)console.log(new Date(2013, 11, 19).getTime()); // → 1387407600000 console.log(new Date(1387407600000)); // → Thu Dec 19 2013 00:00:00 GMT+0100 (CET)
-
-[](https://eloquentjavascript.net/09_regexp.html#p_Cn9WUyCZhq)If you give the `Date` constructor a single argument, that argument is treated as such a millisecond count. You can get the current millisecond count by creating a new `Date` object and calling `getTime` on it or by calling the `Date.now` function.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_iqL2Ehg9D4)Date objects provide methods such as `getFullYear`, `getMonth`, `getDate`, `getHours`, `getMinutes`, and `getSeconds` to extract their components. Besides `getFullYear` there’s also `getYear`, which gives you the year minus 1900 (`98` or `119`) and is mostly useless.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_/RCtQyD3w/)Putting parentheses around the parts of the expression that we are interested in, we can now create a date object from a string.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_xW0xfMnpiZ)function getDate(string) { let [_, month, day, year] = /(\d{1,2})-(\d{1,2})-(\d{4})/.exec(string); return new Date(year, month - 1, day); } console.log(getDate("1-30-2003")); // → Thu Jan 30 2003 00:00:00 GMT+0100 (CET)
-
-[](https://eloquentjavascript.net/09_regexp.html#p_YUOJEGEtSI)The `_` (underscore) binding is ignored and used only to skip the full match element in the array returned by `exec`.
-
-## [](https://eloquentjavascript.net/09_regexp.html#h_26ixny78VY)Word and string boundaries
-
-[](https://eloquentjavascript.net/09_regexp.html#p_xdYJVr9vlf)Unfortunately, `getDate` will also happily extract the nonsensical date 00-1-3000 from the string `"100-1-30000"`. A match may happen anywhere in the string, so in this case, it’ll just start at the second character and end at the second-to-last character.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_kLS7rqRrqG)If we want to enforce that the match must span the whole string, we can add the markers `^` and `$`. The caret matches the start of the input string, whereas the dollar sign matches the end. So, `/^\d+$/` matches a string consisting entirely of one or more digits, `/^!/` matches any string that starts with an exclamation mark, and `/x^/` does not match any string (there cannot be an _x_ before the start of the string).
-
-[](https://eloquentjavascript.net/09_regexp.html#p_fEYS5Ev94W)If, on the other hand, we just want to make sure the date starts and ends on a word boundary, we can use the marker ``. A word boundary can be the start or end of the string or any point in the string that has a word character (as in `\w`) on one side and a nonword character on the other.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_6U0b866tUk)console.log(/cat/.test("concatenate")); // → true console.log(/cat/.test("concatenate")); // → false
-
-[](https://eloquentjavascript.net/09_regexp.html#p_btxd6luedx)Note that a boundary marker doesn’t match an actual character. It just enforces that the regular expression matches only when a certain condition holds at the place where it appears in the pattern.
-
-## [](https://eloquentjavascript.net/09_regexp.html#h_In3b+t6uOO)Choice patterns
-
-[](https://eloquentjavascript.net/09_regexp.html#p_G5RTt0AFku)Say we want to know whether a piece of text contains not only a number but a number followed by one of the words _pig_, _cow_, or _chicken_, or any of their plural forms.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_GcEbQJT+nS)We could write three regular expressions and test them in turn, but there is a nicer way. The pipe character (`|`) denotes a choice between the pattern to its left and the pattern to its right. So I can say this:
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_z0soEIN8RB)let animalCount = /\d+ (pig|cow|chicken)s?/; console.log(animalCount.test("15 pigs")); // → true console.log(animalCount.test("15 pigchickens")); // → false
-
-[](https://eloquentjavascript.net/09_regexp.html#p_bPWKulKcxf)Parentheses can be used to limit the part of the pattern that the pipe operator applies to, and you can put multiple such operators next to each other to express a choice between more than two alternatives.
-
-## [](https://eloquentjavascript.net/09_regexp.html#h_AzxCBCKdvY)The mechanics of matching
-
-[](https://eloquentjavascript.net/09_regexp.html#p_SXQOi9ZwwH)Conceptually, when you use `exec` or `test`, the regular expression engine looks for a match in your string by trying to match the expression first from the start of the string, then from the second character, and so on, until it finds a match or reaches the end of the string. It’ll either return the first match that can be found or fail to find any match at all.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_HJjJAo8dQp)To do the actual matching, the engine treats a regular expression something like a flow diagram. This is the diagram for the livestock expression in the previous example:
-
-![Visualization of /\d+ (pig|cow|chicken)s?/](https://eloquentjavascript.net/img/re_pigchickens.svg)
-
-[](https://eloquentjavascript.net/09_regexp.html#p_SNiUdMyezk)Our expression matches if we can find a path from the left side of the diagram to the right side. We keep a current position in the string, and every time we move through a box, we verify that the part of the string after our current position matches that box.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_MB99a8uIlE)So if we try to match `"the 3 pigs"` from position 4, our progress through the flow chart would look like this:
-=======
 
 
 Regular expressions are a way to describe patterns in string data. Properly understanding regular expressions will make you a more effective programmer.
@@ -262,7 +55,7 @@ A regular expression consisting of only nonspecial characters simply represents 
 
 Fiinding if a string contains _abc_ could just as well be done with a call to `indexOf`, but Regex allows to express more complicated patterns.
 
-To match any number in a set, put a set of characters between square brackets to test the match for them. 
+To match any number in a set, put a set of characters between square 3brackets to test the match for them. 
 
 ```js    
     []console.log(/[0123456789]/.test("in 1992")); 
@@ -478,7 +271,6 @@ To do the actual matching, the engine treats a regular expression something like
 Our expression matches if we can find a path from the left side of the diagram to the right side. We keep a current position in the string, and every time we move through a box, we verify that the part of the string after our current position matches that box.
 
 So if we try to match `"the 3 pigs"` from position 4, our progress through the flow chart would look like this:
->>>>>>> Stashed changes
 
   * [](https://eloquentjavascript.net/09_regexp.html#p_bgxoerTVW4)At position 4, there is a word boundary, so we can move past the first box.
 
@@ -494,39 +286,6 @@ So if we try to match `"the 3 pigs"` from position 4, our progress through the f
 
 ## [](https://eloquentjavascript.net/09_regexp.html#h_NFMtGK0tD3)Backtracking
 
-<<<<<<< Updated upstream
-[](https://eloquentjavascript.net/09_regexp.html#p_tCd15MFAty)The regular expression `/([01]+b|[\da-f]+h|\d+)/` matches either a binary number followed by a _b_, a hexadecimal number (that is, base 16, with the letters _a_ to _f_ standing for the digits 10 to 15) followed by an _h_, or a regular decimal number with no suffix character. This is the corresponding diagram:
-
-![Visualization of /([01]+b|\d+|[\da-f]+h)/](https://eloquentjavascript.net/img/re_number.svg)
-
-[](https://eloquentjavascript.net/09_regexp.html#p_MypvfTaiTG)When matching this expression, it will often happen that the top (binary) branch is entered even though the input does not actually contain a binary number. When matching the string `"103"`, for example, it becomes clear only at the 3 that we are in the wrong branch. The string _does_ match the expression, just not the branch we are currently in.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_SjTCKE9hvf)So the matcher _backtracks_. When entering a branch, it remembers its current position (in this case, at the start of the string, just past the first boundary box in the diagram) so that it can go back and try another branch if the current one does not work out. For the string `"103"`, after encountering the 3 character, it will start trying the branch for hexadecimal numbers, which fails again because there is no _h_ after the number. So it tries the decimal number branch. This one fits, and a match is reported after all.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_VymH7raTcU)The matcher stops as soon as it finds a full match. This means that if multiple branches could potentially match a string, only the first one (ordered by where the branches appear in the regular expression) is used.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_zEBIV8lYeb)Backtracking also happens for repetition operators like + and `*`. If you match `/^.*x/` against `"abcxe"`, the `.*` part will first try to consume the whole string. The engine will then realize that it needs an _x_ to match the pattern. Since there is no _x_ past the end of the string, the star operator tries to match one character less. But the matcher doesn’t find an _x_ after `abcx` either, so it backtracks again, matching the star operator to just `abc`. _Now_ it finds an _x_ where it needs it and reports a successful match from positions 0 to 4.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_0MBBMH8aI2)It is possible to write regular expressions that will do a _lot_ of backtracking. This problem occurs when a pattern can match a piece of input in many different ways. For example, if we get confused while writing a binary-number regular expression, we might accidentally write something like `/([01]+)+b/`.
-
-![Visualization of /([01]+)+b/](https://eloquentjavascript.net/img/re_slow.svg)
-
-[](https://eloquentjavascript.net/09_regexp.html#p_5cI0Ma3Wy8)If that tries to match some long series of zeros and ones with no trailing _b_ character, the matcher first goes through the inner loop until it runs out of digits. Then it notices there is no _b_, so it backtracks one position, goes through the outer loop once, and gives up again, trying to backtrack out of the inner loop once more. It will continue to try every possible route through these two loops. This means the amount of work _doubles_ with each additional character. For even just a few dozen characters, the resulting match will take practically forever.
-
-## [](https://eloquentjavascript.net/09_regexp.html#h_k0YuTOu54D)The replace method
-
-[](https://eloquentjavascript.net/09_regexp.html#p_HMQv5qrs78)String values have a `replace` method that can be used to replace part of the string with another string.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_dPdIdK/Wyi)console.log("papa".replace("p", "m")); // → mapa
-
-[](https://eloquentjavascript.net/09_regexp.html#p_jjBKX9l81o)The first argument can also be a regular expression, in which case the first match of the regular expression is replaced. When a `g` option (for _global_) is added to the regular expression, _all_ matches in the string will be replaced, not just the first.
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_ztGnSKyKy1)console.log("Borobudur".replace(/[ou]/, "a")); // → Barobudur console.log("Borobudur".replace(/[ou]/g, "a")); // → Barabadar
-
-[](https://eloquentjavascript.net/09_regexp.html#p_BTzyExrWv3)It would have been sensible if the choice between replacing one match or all matches was made through an additional argument to `replace` or by providing a different method, `replaceAll`. But for some unfortunate reason, the choice relies on a property of the regular expression instead.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_/5YU/Qo2Np)The real power of using regular expressions with `replace` comes from the fact that we can refer to matched groups in the replacement string. For example, say we have a big string containing the names of people, one name per line, in the format `Lastname, Firstname`. If we want to swap these names and remove the comma to get a `Firstname Lastname` format, we can use the following code:
-=======
 The regular expression `/([01]+b|[\da-f]+h|\d+)/` matches either a binary number followed by a _b_, a hexadecimal number (that is, base 16, with the letters _a_ to _f_ standing for the digits 10 to 15) followed by an _h_, or a regular decimal number with no suffix character. This is the corresponding diagram:
 
 ![Visualization of /([01]+b|\d+|[\da-f]+h)/](https://eloquentjavascript.net/img/re_number.svg)
@@ -558,33 +317,11 @@ The first argument can also be a regular expression, in which case the first mat
 It would have been sensible if the choice between replacing one match or all matches was made through an additional argument to `replace` or by providing a different method, `replaceAll`. But for some unfortunate reason, the choice relies on a property of the regular expression instead.
 
 The real power of using regular expressions with `replace` comes from the fact that we can refer to matched groups in the replacement string. For example, say we have a big string containing the names of people, one name per line, in the format `Lastname, Firstname`. If we want to swap these names and remove the comma to get a `Firstname Lastname` format, we can use the following code:
->>>>>>> Stashed changes
     
     [](https://eloquentjavascript.net/09_regexp.html#c_5P5aZAbVLL)console.log( "Liskov, Barbara
     McCarthy, John
     Wadler, Philip" .replace(/(\w+), (\w+)/g, "$2 $1")); // → Barbara Liskov // John McCarthy // Philip Wadler
 
-<<<<<<< Updated upstream
-[](https://eloquentjavascript.net/09_regexp.html#p_sEudLRqyzC)The `$1` and `$2` in the replacement string refer to the parenthesized groups in the pattern. `$1` is replaced by the text that matched against the first group, `$2` by the second, and so on, up to `$9`. The whole match can be referred to with `$&`.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_BpgnqwKFHn)It is possible to pass a function—rather than a string—as the second argument to `replace`. For each replacement, the function will be called with the matched groups (as well as the whole match) as arguments, and its return value will be inserted into the new string.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_GbNoBizUD+)Here’s a small example:
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_fwgl3+oeyX)let s = "the cia and fbi"; console.log(s.replace(/(fbi|cia)/g, str => str.toUpperCase())); // → the CIA and FBI
-
-[](https://eloquentjavascript.net/09_regexp.html#p_EXxvdgdiP1)Here’s a more interesting one:
-    
-    [](https://eloquentjavascript.net/09_regexp.html#c_Zo/y2Vv93l)let stock = "1 lemon, 2 cabbages, and 101 eggs"; function minusOne(match, amount, unit) { amount = Number(amount) - 1; if (amount == 1) { // only one left, remove the 's' unit = unit.slice(0, unit.length - 1); } else if (amount == 0) { amount = "no"; } return amount + " " + unit; } console.log(stock.replace(/(\d+) (\w+)/g, minusOne)); // → no lemon, 1 cabbage, and 100 eggs
-
-[](https://eloquentjavascript.net/09_regexp.html#p_bv4e/DVilz)This takes a string, finds all occurrences of a number followed by an alphanumeric word, and returns a string wherein every such occurrence is decremented by one.
-
-[](https://eloquentjavascript.net/09_regexp.html#p_H94SX/MJX8)The `(\d+)` group ends up as the `amount` argument to the function, and the `(\w+)` group gets bound to `unit`. The function converts `amount` to a number—which always works since it matched `\d+`—and makes some adjustments in case there is only one or zero left.
-
-## [](https://eloquentjavascript.net/09_regexp.html#h_kiECehz+i+)Greed
-
-[](https://eloquentjavascript.net/09_regexp.html#p_VccKwuX/1m)It is possible to use `replace` to write a function that removes all comments from a piece of JavaScript code. Here is a first attempt:
-=======
 The `$1` and `$2` in the replacement string refer to the parenthesized groups in the pattern. `$1` is replaced by the text that matched against the first group, `$2` by the second, and so on, up to `$9`. The whole match can be referred to with `$&`.
 
 It is possible to pass a function—rather than a string—as the second argument to `replace`. For each replacement, the function will be called with the matched groups (as well as the whole match) as arguments, and its return value will be inserted into the new string.
@@ -604,7 +341,6 @@ The `(\d+)` group ends up as the `amount` argument to the function, and the `(\w
 ## [](https://eloquentjavascript.net/09_regexp.html#h_kiECehz+i+)Greed
 
 It is possible to use `replace` to write a function that removes all comments from a piece of JavaScript code. Here is a first attempt:
->>>>>>> Stashed changes
     
     [](https://eloquentjavascript.net/09_regexp.html#c_u0oKSJTOA2)function stripComments(code) { return code.replace(/\/\/.*|\/\*[^]*\*\//g, ""); } console.log(stripComments("1 + /Applications /Library /System /Users /Volumes /bin /cores /dev /etc /home /opt /private /sbin /tmp /usr /var 2 */3")); // → 1 + 3 console.log(stripComments("x = 10;// ten!")); // → x = 10; console.log(stripComments("1 /Applications /Library /System /Users /Volumes /bin /cores /dev /etc /home /opt /private /sbin /tmp /usr /var a */+/* b */ 1")); // → 1 1
 

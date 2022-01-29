@@ -1,22 +1,3 @@
 [
-  "obsidian-to-anki-plugin",
-  "obsidian-kanban",
-<<<<<<< Updated upstream
-  "cm-editor-syntax-highlight-obsidian",
-  "obsidian-reading-time",
-  "sliding-panes-obsidian",
-  "obsidian-plugin-todo",
-  "tag-wrangler",
-  "obsidian-day-planner",
-  "obsidian-checklist-plugin",
-  "obsidian-contextual-typography",
-  "recent-files-obsidian",
-  "cm-typewriter-scroll-obsidian",
-  "advanced-toolbar",
-  "obsidian-focus-mode"
-=======
-  "workspaces-plus",
-  "obsidian-system-dark-mode",
-  "obsidian-collapse-all-plugin"
->>>>>>> Stashed changes
+  "obsidian-git"
 ]

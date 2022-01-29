@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "09 - Regular Expressions",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/09 - Regular Expressions.md"
+    },
+    {
+      "basename": "Kanban",
+      "path": "02 - Projects/Kanban.md"
+    },
+    {
       "basename": "17 - Drawing On Canvas",
       "path": "04 - Languages/Javascript/Eloquent Javascript/17 - Drawing On Canvas.md"
     },
@@ -41,10 +49,6 @@
       "path": "04 - Languages/Javascript/Eloquent Javascript/08 - Bugs and Errors.md"
     },
     {
-      "basename": "09 - Regular Expressions",
-      "path": "04 - Languages/Javascript/Eloquent Javascript/09 - Regular Expressions.md"
-    },
-    {
       "basename": "06 - Objects",
       "path": "04 - Languages/Javascript/Eloquent Javascript/06 - Objects.md"
     },
@@ -73,20 +77,12 @@
       "path": "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md"
     },
     {
-      "basename": "Backlog",
-      "path": "02 - Projects/Backlog.md"
-    },
-    {
       "basename": "Taming Obsidian - A Case Study",
       "path": "05 - Tools/Obsidian/Taming Obsidian - A Case Study.md"
     },
     {
       "basename": "New-Note-Template",
       "path": "New-Note-Template.md"
-    },
-    {
-      "basename": "Note Style Guidelines",
-      "path": "Note Style Guidelines.md"
     },
     {
       "basename": "Process",
