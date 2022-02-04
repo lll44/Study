@@ -4,33 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a6cd4f15a15e4551",
-        "type": "split",
-        "children": [
-          {
-            "id": "4cef7706d33c02ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS - ES6.md",
-                "mode": "source"
-              }
-            }
-          },
-          {
-            "id": "cff95e8e2ab12470",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04 - Languages/Javascript/Eloquent Javascript/09 - Regular Expressions.md",
-                "mode": "source"
-              }
-            }
+        "id": "889f62d3a789705b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Dev Interview Tips.md",
+            "mode": "source"
           }
-        ],
-        "direction": "vertical"
+        }
       }
     ],
     "direction": "vertical"
@@ -42,6 +24,7 @@
       {
         "id": "de70c4c9af23f6a2",
         "type": "tabs",
+        "dimension": 32.229795520934765,
         "children": [
           {
             "id": "8db57ba690d631fe",
@@ -75,10 +58,25 @@
             }
           }
         ]
+      },
+      {
+        "id": "45a3c2152afa6a36",
+        "type": "tabs",
+        "dimension": 67.77020447906524,
+        "children": [
+          {
+            "id": "639663fa32a4da40",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 280
   },
   "right": {
     "id": "b9c277f1e7b43ffc",
@@ -87,6 +85,7 @@
       {
         "id": "214a25ef896abf5c",
         "type": "tabs",
+        "dimension": 40.79844206426485,
         "children": [
           {
             "id": "214ac7eca4855b20",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS - ES6.md",
+                "file": "Dev Interview Tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS - ES6.md",
+                "file": "Dev Interview Tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,16 +132,6 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "2f81c94b06d27b21",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "JS - ES6.md"
               }
             }
           },
@@ -171,7 +160,7 @@
             }
           },
           {
-            "id": "874ac6697930e627",
+            "id": "9ba02004be0a7912",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -179,11 +168,12 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       },
       {
         "id": "eca5ac8ed897e687",
         "type": "tabs",
+        "dimension": 59.20155793573515,
         "children": [
           {
             "id": "3b1b0a56e5bc5f35",
@@ -194,12 +184,22 @@
             }
           },
           {
-            "id": "f6a7367be3529f00",
+            "id": "2f81c94b06d27b21",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Dev Interview Tips.md"
+              }
+            }
+          },
+          {
+            "id": "7ac63da858237f93",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Codewars.md",
+                "file": "10 - Codewars/Codewars.md",
                 "mode": "source"
               }
             }
@@ -211,17 +211,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "4cef7706d33c02ab",
+  "active": "889f62d3a789705b",
   "lastOpenFiles": [
-    "JS - ES6.md",
-    "04 - Languages/Javascript/Eloquent Javascript/09 - Regular Expressions.md",
-    "Codewars.md",
-    "02 - Projects/Sprint 01.md",
-    "02 - Projects/Study Material.md",
-    "02 - Projects/04 - Personal Websites/Personal Site Text - CC.md",
-    "02 - Projects/04 - Personal Websites/Group Notebook Resume.md",
-    "02 - Projects/Kanban.md",
-    "02 - Projects/Old 2do List - Parse and add to kanban.md",
+    "Dev Interview Tips.md",
+    "Anki-Sync.md",
+    "Schedule.md",
+    "New-Note-Template.md",
+    "11 - Cheatsheets/Git Cheat Sheets.md",
+    "10 - Codewars/Codewars.md",
+    "11 - Cheatsheets/Python Cheatsheet.md",
+    "11 - Cheatsheets/HTML Cheatsheet.md",
+    "11 - Cheatsheets/Js Cheatsheet.md",
     "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md"
   ]
 }

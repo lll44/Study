@@ -1,3 +1,14 @@
+## 2022-01-31: [Friend or Foe]
+
+All friends of yours have exactly four letters in their name. 
+
+```js
+function friend(friends){
+	return result = friends.filter(w => w.length === 4);
+}
+```
+
+
 
 ## 2022-01-28: [Calculate Century Year](https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097/train/javascript)
 
