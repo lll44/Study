@@ -4,15 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "889f62d3a789705b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Dev Interview Tips.md",
-            "mode": "source"
+        "id": "912019486eab5d95",
+        "type": "split",
+        "children": [
+          {
+            "id": "1a574f471fe99ac9",
+            "type": "split",
+            "dimension": 57.643622200584225,
+            "children": [
+              {
+                "id": "4cef7706d33c02ab",
+                "type": "leaf",
+                "dimension": 74.56964006259781,
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "02 - Projects/Sprint 01.md"
+                  }
+                }
+              },
+              {
+                "id": "639663fa32a4da40",
+                "type": "leaf",
+                "dimension": 25.43035993740219,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "02 - Projects/Study Material.md",
+                    "mode": "source"
+                  }
+                }
+              }
+            ],
+            "direction": "vertical"
+          },
+          {
+            "id": "8250df5ee93267fa",
+            "type": "leaf",
+            "dimension": 42.35637779941579,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "02 - Projects/Kanban.md"
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -24,7 +62,6 @@
       {
         "id": "de70c4c9af23f6a2",
         "type": "tabs",
-        "dimension": 32.229795520934765,
         "children": [
           {
             "id": "8db57ba690d631fe",
@@ -58,25 +95,10 @@
             }
           }
         ]
-      },
-      {
-        "id": "45a3c2152afa6a36",
-        "type": "tabs",
-        "dimension": 67.77020447906524,
-        "children": [
-          {
-            "id": "639663fa32a4da40",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 280
+    "width": 300
   },
   "right": {
     "id": "b9c277f1e7b43ffc",
@@ -85,7 +107,6 @@
       {
         "id": "214a25ef896abf5c",
         "type": "tabs",
-        "dimension": 40.79844206426485,
         "children": [
           {
             "id": "214ac7eca4855b20",
@@ -101,7 +122,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev Interview Tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +138,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev Interview Tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,6 +152,14 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true
               }
+            }
+          },
+          {
+            "id": "2f81c94b06d27b21",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
             }
           },
           {
@@ -158,22 +185,12 @@
               "type": "BC-down",
               "state": {}
             }
-          },
-          {
-            "id": "9ba02004be0a7912",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       },
       {
         "id": "eca5ac8ed897e687",
         "type": "tabs",
-        "dimension": 59.20155793573515,
         "children": [
           {
             "id": "3b1b0a56e5bc5f35",
@@ -182,46 +199,24 @@
               "type": "map-of-content",
               "state": {}
             }
-          },
-          {
-            "id": "2f81c94b06d27b21",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Dev Interview Tips.md"
-              }
-            }
-          },
-          {
-            "id": "7ac63da858237f93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10 - Codewars/Codewars.md",
-                "mode": "source"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "889f62d3a789705b",
+  "active": "4cef7706d33c02ab",
   "lastOpenFiles": [
-    "Dev Interview Tips.md",
-    "Anki-Sync.md",
-    "Schedule.md",
-    "New-Note-Template.md",
-    "11 - Cheatsheets/Git Cheat Sheets.md",
-    "10 - Codewars/Codewars.md",
-    "11 - Cheatsheets/Python Cheatsheet.md",
-    "11 - Cheatsheets/HTML Cheatsheet.md",
-    "11 - Cheatsheets/Js Cheatsheet.md",
-    "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md"
+    "02 - Projects/Study Material.md",
+    "conflict-files-obsidian-git.md",
+    "02 - Projects/Sprint 01.md",
+    "04 - Languages/HTML CSS (ShayHowe)/04 - Opening the Box Model.md",
+    "04 - Languages/HTML CSS (ShayHowe)/03 - Getting to Know CSS.md",
+    "04 - Languages/HTML CSS (ShayHowe)/02 - Getting to Know HTML.md",
+    "04 - Languages/HTML CSS (ShayHowe)/01 - Building Your First Web Page.md",
+    "04 - Languages/Javascript/Eloquent Javascript/06 - Objects.md",
+    "04 - Languages/Javascript/Eloquent Javascript/09 - Regular Expressions.md",
+    "02 - Projects/Kanban.md"
   ]
 }

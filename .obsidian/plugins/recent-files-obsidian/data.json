@@ -1,6 +1,82 @@
 {
   "recentFiles": [
     {
+      "basename": "17 - Drawing On Canvas",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/17 - Drawing On Canvas.md"
+    },
+    {
+      "basename": "16 - Project - Platform Game",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/16 - Project - Platform Game.md"
+    },
+    {
+      "basename": "18 - HTTP and Forms",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/18 - HTTP and Forms.md"
+    },
+    {
+      "basename": "19 - Project - Pixel Art Editor",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/19 - Project - Pixel Art Editor.md"
+    },
+    {
+      "basename": "21 - Project - Skill Sharing Website",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/21 - Project - Skill Sharing Website.md"
+    },
+    {
+      "basename": "20 - NodeJS",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/20 - NodeJS.md"
+    },
+    {
+      "basename": "15 - Handling Events",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/15 - Handling Events.md"
+    },
+    {
+      "basename": "12 - Project - Programming Language",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/12 - Project - Programming Language.md"
+    },
+    {
+      "basename": "11 - Asynchronous Programming",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/11 - Asynchronous Programming.md"
+    },
+    {
+      "basename": "08 - Bugs and Errors",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/08 - Bugs and Errors.md"
+    },
+    {
+      "basename": "09 - Regular Expressions",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/09 - Regular Expressions.md"
+    },
+    {
+      "basename": "06 - Objects",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/06 - Objects.md"
+    },
+    {
+      "basename": "05 - Higher Order Functions",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md"
+    },
+    {
+      "basename": "04 - Data Structures - Objects and Arrays",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/04 - Data Structures - Objects and Arrays.md"
+    },
+    {
+      "basename": "07 - Project Robot",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/07 - Project Robot.md"
+    },
+    {
+      "basename": "10 - Modules",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/10 - Modules.md"
+    },
+    {
+      "basename": "01 - Building Your First Web Page",
+      "path": "04 - Languages/HTML CSS (ShayHowe)/01 - Building Your First Web Page.md"
+    },
+    {
+      "basename": "01 - Values, Types, Operators",
+      "path": "04 - Languages/Javascript/Eloquent Javascript/01 - Values, Types, Operators.md"
+    },
+    {
+      "basename": "Backlog",
+      "path": "02 - Projects/Backlog.md"
+    },
+    {
       "basename": "Taming Obsidian - A Case Study",
       "path": "05 - Tools/Obsidian/Taming Obsidian - A Case Study.md"
     },
@@ -15,10 +91,6 @@
     {
       "basename": "Process",
       "path": "05 - Tools/Obsidian/Process.md"
-    },
-    {
-      "basename": "19 - Project - Pixel Art Editor",
-      "path": "04 - Languages/Javascript/Eloquent Javascript/19 - Project - Pixel Art Editor.md"
     }
   ],
   "omittedPaths": [],
