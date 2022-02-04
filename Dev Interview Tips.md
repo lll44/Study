@@ -5,7 +5,7 @@ Mike from Spotify
 github with lots of examples for the CTO to oogle at, you should have a blog with maybe even as few as monthly entries.
 
 
-What shows a candidate is highly considerable for hire?
+What shows a candidate is highly c onsiderable for hire?
 What underrated skills should be considered?
 Any tips on the job finding process?
 What does he think of the programming notebook, and what does he think about the projects we're working on? Are there any skills or possible projects you think we should add in?
