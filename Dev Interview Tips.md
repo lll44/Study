@@ -44,3 +44,8 @@ Possibly ask about funding, and acquisition
 Look into start up finding rounds. Who does the fund raising. Is it CEO? It is most of the time. 
 
 
+
+
+#TEST example
+
+Adding more to this document
