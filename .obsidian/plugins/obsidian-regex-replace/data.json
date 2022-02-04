@@ -1,0 +1,8 @@
+{
+  "findText": "<<<<<<< Updated upstream:",
+  "replaceText": "",
+  "useRegEx": true,
+  "selOnly": false,
+  "caseInsensitive": false,
+  "processLineBreak": false
+}

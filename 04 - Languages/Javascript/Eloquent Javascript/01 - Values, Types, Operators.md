@@ -1,10 +1,6 @@
 # 1 - Values, Types, and Operators
 
 
-#TODO: On all of these notes the markdown formatted weird due to some inline paragraph linking in the website that allows you to jump to paragraphs and link them. You will have to delete these as you read. I recommend just clicking the last brack \) and then cntrl-backspace. Don't delete photos or important links. 
-
-#TODO: Also there are practice questions on the website that display a hint  javascript element that pops up but didn't copy when I pasted it here., So you will need to take a look at the website just to assure everything has copied over. 
-
 ![Picture of a sea of bits](https://eloquentjavascript.net/img/chapter_picture_1.jpg)
 
 _Bits_ are any kind of two-valued things, zeros and ones.

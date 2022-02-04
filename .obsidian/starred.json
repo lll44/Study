@@ -19,6 +19,11 @@
       "type": "file",
       "title": "Old 2do List - Parse and add to kanban",
       "path": "Old 2do List - Parse and add to kanban.md"
+    },
+    {
+      "type": "file",
+      "title": "Anki-Sync",
+      "path": "Anki-Sync.md"
     }
   ]
 }

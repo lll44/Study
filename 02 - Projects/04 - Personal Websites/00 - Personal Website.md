@@ -7,6 +7,8 @@ kanban-plugin: basic
 ## Todo
 
 - [ ] Find Static Site Generators
+- [ ] Pick Photos to Showcases
+- [ ] Choose a color palette to edit from CSS
 
 
 ## In Progress

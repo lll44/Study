@@ -219,23 +219,18 @@ More
 		- Git 
 		- Read Workflow Section of this 
 			https://old.reddit.com/r/webdev/wiki/index
-
 	- Optional / Later 
 		- REST & API Client App Paw 
 			https://paw.cloud/
 	- Git 
 		- Git Intro 
 			https://webtuu.com/blog/04/a-laymans-introduction-to-git
-
 		- Productive Git for Developers 
 			https://egghead.io/courses/productive-git-for-developers
-
 		- Learn Git Mistakes 
 			https://ohshitgit.com/
-
 		- Git Howto 
 			https://githowto.com/setup
-
 		- Review These Links for building course 
 	
 
@@ -248,7 +243,6 @@ More
 	Remember that the more tools you rely on the messier your process can become it’s a good idea to understand some of the conepts and usages of tools to see where they end up.
 	
 	I shouldn’t use these tools as a replacement for good practice.
-
 	- Code Quaility 
 		- How to Read Code 
 			https://spin.atomicobject.com/2017/06/01/how-to-read-code/
@@ -266,10 +260,8 @@ More
 			https://github.com/rupa/zhttps://github.com/rupa/z
 			
 			
-
 		- 150 Best Dev Tools 
 			https://old.reddit.com/r/learnprogramming/comments/3r7lhp/a_collection_of_150_what_are_the_best_dev/
-
 		- Review Devtools 
 			https://old.reddit.com/r/learnprogramming/wiki/tools
 

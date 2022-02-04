@@ -2,16 +2,9 @@
 
 ![Picture of a weresquirrel](https://eloquentjavascript.net/img/chapter_picture_4.jpg)
 
-Numbers, Booleans, and strings are the atoms that data structures are built from. 
-Many types of information require more than one atom, though. 
 _Objects_ allow us to group values—including other objects—to build more complex structures.
 
 The programs we have built so far have been limited by the fact that they were operating only on simple data types. 
-This chapter will introduce basic data structures. 
-
-
-The chapter will work through a more or less realistic programming example, introducing concepts as they apply to the problem at hand. 
-The example code will often build on functions and bindings that were introduced earlier in the text.
 
 ## The weresquirrel
 
@@ -43,7 +36,6 @@ console.log(listOfNumbers[2 - 1]);
 // → 3
 ```
 
-The notation for getting at the elements inside an array also uses square brackets. 
 A pair of square brackets immediately after an expression, with another expression inside of them, will look up the element in the left-hand expression that corresponds to the _index_ given by the expression in the brackets.
 
 The first index of an array is zero. 
@@ -53,8 +45,10 @@ The index numerator is the amount of items to skip, counting from the start of t
 
 ## Properties
 
-We’ve seen a few suspicious-looking expressions like `myString.length` (to get the length of a string) and `Math.max` (the maximum function) in past chapters. 
+We’ve seen a few suspicious-looking expressions like `myString.length` (to get the length of a string) and `Math.max` (the maximum function) in past chapters.
+
 These are expressions that access a _property_ of some value. 
+
 first case: we access the `length` property of the value in `myString`. 
 Second: we access the property named `max` in the `Math` object (which is a collection of mathematics-related constants and functions).
 
