@@ -1,1 +1,19 @@
-[]
+[
+  "obsidian-kanban",
+  "obsidian-collapse-all-plugin",
+  "map-of-content",
+  "obsidian-mind-map",
+  "calendar",
+  "obsidian-editor-shortcuts",
+  "obsidian-contextual-typography",
+  "obsidian-focus-mode",
+  "obsidian-day-planner",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-system-dark-mode",
+  "obsidian-regex-replace",
+  "obsidian-regex-pipeline",
+  "breadcrumbs",
+  "obsidian-minimal-settings",
+  "find-and-replace-in-selection",
+  "obsidian-git"
+]

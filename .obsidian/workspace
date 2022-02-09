@@ -15,7 +15,7 @@
               {
                 "id": "4cef7706d33c02ab",
                 "type": "leaf",
-                "dimension": 74.56964006259781,
+                "dimension": 53.70569280343717,
                 "state": {
                   "type": "kanban",
                   "state": {
@@ -26,7 +26,7 @@
               {
                 "id": "639663fa32a4da40",
                 "type": "leaf",
-                "dimension": 25.43035993740219,
+                "dimension": 46.29430719656283,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -41,7 +41,7 @@
           {
             "id": "8250df5ee93267fa",
             "type": "leaf",
-            "dimension": 42.356377799415775,
+            "dimension": 42.35637779941579,
             "state": {
               "type": "kanban",
               "state": {
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Projects/Study Material.md",
+                "file": "02 - Projects/Sprint 01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Projects/Study Material.md",
+                "file": "02 - Projects/Sprint 01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Projects/Study Material.md"
+                "file": "02 - Projects/Sprint 01.md"
               }
             }
           },
@@ -210,8 +210,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "639663fa32a4da40",
+  "active": "4cef7706d33c02ab",
   "lastOpenFiles": [
+    "02 - Projects/Sprint 01.md",
     "02 - Projects/Study Material.md",
     "02 - Projects/Kanban.md",
     "Dev Interview Tips.md",
@@ -220,7 +221,6 @@
     "New-Note-Template.md",
     "11 - Cheatsheets/Git Cheat Sheets.md",
     "10 - Codewars/Codewars.md",
-    "11 - Cheatsheets/Python Cheatsheet.md",
-    "11 - Cheatsheets/HTML Cheatsheet.md"
+    "11 - Cheatsheets/Python Cheatsheet.md"
   ]
 }
