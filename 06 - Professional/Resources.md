@@ -1,6 +1,6 @@
 # Awesome Lists
 
-Particular ones that standout. 
+https://www.awwwards.com/jobs/offer/
 
 
 

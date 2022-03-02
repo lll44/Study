@@ -10,7 +10,7 @@
 
 ## Format
 
-[[Old 2do List - Parse and add to kanban]]
+[[WebDevRoadmap and Tools]]
 
 [[Taming Obsidian - Case Study]]
 

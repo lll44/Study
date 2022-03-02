@@ -1,31 +1,11 @@
-<<<<<<< Updated upstream:Old 2do List - Parse and add to kanban.md
-## In Progress 
-
-
--  Git ignore basic tutorial 
-	- Ignore workspace
-	- Ignore specific plugins
-	- Ignore day planner & notes. 
-
-
-
-
-
-
-
+## Web Developer Roadmap
 https://github.com/Rob-Rychs/30-seconds-of-code-texteditorsnippets
 https://www.sitepoint.com/12-favorite-atom-tips-and-shortcuts-to-improve-your-workflow/
-
-
-
-
-## Web Developer Roadmap
 
 roadmap.sh
 https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md#python
 
 #TODO: Update with tasks and micro details and images
-
 
 Front End
 Internet
@@ -48,7 +28,6 @@ State Management
 Styling
 Mobile
 
-
 Build Tools
 Task Runners
 Module Bundlers
@@ -63,20 +42,12 @@ Graph QL
 Static Site Generators
 Mobile & Desktop Applications
 
-
-=======
-
-
 roadmap.sh
 https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md#python
-
->>>>>>> Stashed changes:02 - Projects/Old 2do List - Parse and add to kanban.md
-
 
 ### Backend
 
 https://roadmap.sh/backend
-
 Basic Internet and Front End (CSS/HTML/JavaScript) Knowledge
 OS and General Knowledge
 Learn a Language
@@ -97,105 +68,75 @@ Building for Scale
 Mitigation Strategies
 More
 
-
-
-
-
-
 # Technical
 
 - Web Development 
 	- Free Design Resources 
 		Stock photos, icons, html & css templates, javascript animations.
-
-
 		Web Dev Notes <https://github.com/8483/notes>
-		
 		https://github.com/jondot/awesome-devenv 
-
 		- HTML 
 			Basics, 
 			Writing Semantic HTML
 			Basic SEO
 			Accessibility
-
 		- CSS 
 			Basics
 			Making Layouts
 			Media Queries
 			Learn CSS3
-
 		- Basic Javascript 
 			Syntax
 			Learn Dom Manipulation
 			Learn Fetch API / Ajax (XHR)
 			ES6 + and modular Javascript
-			
 			Further Concepts:
 			Hosting, Event Bubbling, Scope Prototype, Shadow DOM, strict, how browsers work, DNS, HTTP
-
 		- Package Managers 
 			Either NPM or Yarn
-			
 			Many prefer yarn but research!!
-
 		- CSS Frameworks 
 			- Bootstrap 
 			- Research Others 
 				Materialize CSS
 				Bulma
 				Semantic
-
 		- CSS Preprocessors 
 			SASS
 			PostCSS
 			Less
-			
 			“PostCSS is not a preprocessor but can be used as one. Go for SASS, and revisit PostCSSS later. Less in the market but I won’t go for it” 
 			Check differences
-
 		- Build Tools 
 			- Task Runners 
 				NPM scripts
 				Gulp
-
-			- Modulae Runners’ 
+			- Modulae Runners
 				Webpack
 				Parcel
 				Rollup
-
 			- Linters & Formatters 
 				Prettier
 				Eslint
-				
-				
 				JSHint
 				JSLint
 				JSCS
-
 		- Pick a framework 
 			First understand what single page applications are and how they work, also what the positives and negatives of them are?
-			
 			React.js
-			
 			Angular 
 				RXJAS
 				ngrx
 			Vuejs
 				Vuex
-
 		- CSS in JS 
 			Styled Components
 			CSS Modules
-			
 			Emotion, Radium, Glamorous
-
 		- Testing your Apss 
 		- Security 
 			https://github.com/FallibleInc/security-guide-for-developers
-			
 			https://github.com/collections/protect-user-data
-
 		- Progressive Web Apps 
 		- Type Checkers 
 		- Server Side Rendering 
@@ -212,10 +153,8 @@ More
 	- Back End 
 		- Server Language 
 			Python
-
 		- Databases 
 			MySQL.
-
 		- Git 
 		- Read Workflow Section of this 
 			https://old.reddit.com/r/webdev/wiki/index
@@ -235,43 +174,30 @@ More
 	
 
 
-
-
 ## Dev Skills
 
 - Coding Optimization 
 	Remember that the more tools you rely on the messier your process can become it’s a good idea to understand some of the conepts and usages of tools to see where they end up.
-	
 	I shouldn’t use these tools as a replacement for good practice.
 	- Code Quaility 
 		- How to Read Code 
 			https://spin.atomicobject.com/2017/06/01/how-to-read-code/
-
 		- https://github.com/topics/code-quality 
 		- https://github.com/joho/awesome-code-review 
 	- Writing Documentation 
 		- Writing Documentation 
 			https://github.com/charlax/professional-programming#documentation
-
 	- DevTools 2 Implement 
 		- CMD Line Tools 
 			From application: Firefox on Monday, April 8, 2019 at 8:48:22 PM
-			
 			https://github.com/rupa/zhttps://github.com/rupa/z
-			
-			
 		- 150 Best Dev Tools 
 			https://old.reddit.com/r/learnprogramming/comments/3r7lhp/a_collection_of_150_what_are_the_best_dev/
 		- Review Devtools 
 			https://old.reddit.com/r/learnprogramming/wiki/tools
-
 		- More Software Dev Tools 
 			https://github.com/collections/productivity-tools
-
 		- https://braydie.gitbooks.io/how-to-be-a-programmer/content/en/ 
 		- Look into Git Repos for professional tools 
 		- Learning Unicode 
 			https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
-
-
-

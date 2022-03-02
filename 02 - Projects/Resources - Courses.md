@@ -1,8 +1,5 @@
 # Developer Roadmap Overview Material
-
-
 ## Main Resources
-
 https://roadmap.sh/frontend
 https://roadmap.sh/backend
 https://roadmap.sh/react
@@ -21,27 +18,20 @@ https://www.atlassian.com/git/tutorials
 https://agripongit.vincenttunru.com/
 http://think-like-a-git.net/
 
-
-
 ## Data Structures & Algorithms
 https://runestone.academy/runestone/books/published/pythonds/index.html
 https://github.com/jwasham/coding-interview-university
-
 https://www.learneroo.com/subjects/8
-
-
 
 Supplement: 
 https://www.geeksforgeeks.org/fundamentals-of-algorithms/
 https://www.geeksforgeeks.org/data-structures/
 
-
 Optional :
 https://mitpress.mit.edu/books/introduction-algorithms
 
 
-
-# Javascript
+## Javascript
 Learn
 https://eloquentjavascript.net/
 
@@ -99,20 +89,15 @@ https://hackr.io/tutorials/learn-css?sort=upvotes&type_tags%5B%5D=1
 https://sqlbolt.com/
 https://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/
 
-
 # Web To be learned later
-
-Learn?
 https://www.geeksforgeeks.org/web-development/?ref=shm
 https://upskillcourses.com/courses/essential-web-developer-course
-
 
 
 
 # Further Resources
 [Awesome Courses](https://github.com/prakhar1989/awesome-courses/blob/master/README.md)
 [Awesome Roadmaps](https://github.com/prakhar1989/awesome-courses/blob/master/README.md)
-
 
 ## Swift
 https://hackr.io/tutorials/learn-ios-swift
@@ -121,8 +106,5 @@ https://github.com/BohdanOrlov/iOS-Developer-Roadmap
 Review intermediate resources after coding. https://github.com/karlhorky/learn-to-program#readme
 
 ## React
-
-
-
 ## Software Design & Architecture
 https://github.com/stemmlerjs/software-design-and-architecture-roadmap
