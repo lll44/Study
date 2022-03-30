@@ -1,0 +1,169 @@
+[
+  {
+    "tag": "card",
+    "tagCount": 8,
+    "relativePaths": [
+      "Obsidian Flashcards.md"
+    ]
+  },
+  {
+    "tag": "card-reverse",
+    "tagCount": 1,
+    "relativePaths": [
+      "Obsidian Flashcards.md"
+    ]
+  },
+  {
+    "tag": "card/reverse",
+    "tagCount": 1,
+    "relativePaths": [
+      "Obsidian Flashcards.md"
+    ]
+  },
+  {
+    "tag": "card-spaced",
+    "tagCount": 1,
+    "relativePaths": [
+      "Obsidian Flashcards.md"
+    ]
+  },
+  {
+    "tag": "my-local-tag",
+    "tagCount": 1,
+    "relativePaths": [
+      "Obsidian Flashcards.md"
+    ]
+  },
+  {
+    "tag": "show",
+    "tagCount": 2,
+    "relativePaths": [
+      "11 - Cheatsheets/Git Cheat Sheets.md"
+    ]
+  },
+  {
+    "tag": "include",
+    "tagCount": 9,
+    "relativePaths": [
+      "09 - Grokking/03 - Fast and Slow Pointers/02 - Start of LinkedList Cycle.md",
+      "09 - Grokking/03 - Fast and Slow Pointers/01 - Linked List Cycle.md",
+      "09 - Grokking/02 - Two Heaps/03 - Squaring a Sorted Array.md",
+      "09 - Grokking/02 - Two Heaps/02 - Remove Duplicates.md"
+    ]
+  },
+  {
+    "tag": "security",
+    "tagCount": 1,
+    "relativePaths": [
+      "07 - Knowledge Principles/Taming Obsidian for Teams.md"
+    ]
+  },
+  {
+    "tag": "pkm",
+    "tagCount": 2,
+    "relativePaths": [
+      "07 - Knowledge Principles/Taming Obsidian for Teams.md"
+    ]
+  },
+  {
+    "tag": "note",
+    "tagCount": 7,
+    "relativePaths": [
+      "07 - Knowledge Principles/Taming Obsidian for Teams.md",
+      "05 - Tools/Atom/Atom.md",
+      "05 - Tools/Atom/Atom-Keybindings.md",
+      "04 - Languages/Python/Automate The Boring Stuff/Python-ATBS-Ch3-Functions.md",
+      "00 - Index.md"
+    ]
+  },
+  {
+    "tag": "todo",
+    "tagCount": 24,
+    "relativePaths": [
+      "07 - Knowledge Principles/PKM - Personal Knowledge Management Intro.md",
+      "07 - Knowledge Principles/Note Style Guidelines.md",
+      "06 - Professional/Agile/Agile Project Management.md",
+      "05 - Tools/Obsidian/Community Plugins.md",
+      "05 - Tools/Atom/Atom.md",
+      "05 - Tools/Atom/Atom-Keybindings.md",
+      "04 - Languages/Javascript/Eloquent Javascript/Dropbox/Obsidian Notes/06 - Objects.md",
+      "04 - Languages/Javascript/Eloquent Javascript/Dropbox/Obsidian Notes/05 - Higher Order Functions.md",
+      "04 - Languages/Javascript/Eloquent Javascript/Dropbox/Obsidian Notes/04 - Data Structures - Objects and Arrays.md",
+      "04 - Languages/Javascript/Eloquent Javascript/Dropbox/Obsidian Notes/01 - Values, Types, Operators.md",
+      "04 - Languages/Javascript/Eloquent Javascript/09 - Regular Expressions.md",
+      "04 - Languages/Javascript/Eloquent Javascript/06 - Objects.md",
+      "04 - Languages/Javascript/Eloquent Javascript/05 - Higher Order Functions.md",
+      "04 - Languages/Javascript/Eloquent Javascript/04 - Data Structures - Objects and Arrays.md",
+      "02 - Projects/WebDevRoadmap and Tools.md",
+      "00 - Index.md"
+    ]
+  },
+  {
+    "tag": "dadmode",
+    "tagCount": 1,
+    "relativePaths": [
+      "06 - Professional/Agile/Agile Project Management.md"
+    ]
+  },
+  {
+    "tag": "daily",
+    "tagCount": 1,
+    "relativePaths": [
+      "05 - Tools/Obsidian/Note Organization.md"
+    ]
+  },
+  {
+    "tag": "flashcard",
+    "tagCount": 1,
+    "relativePaths": [
+      "05 - Tools/Obsidian/Community Plugins.md"
+    ]
+  },
+  {
+    "tag": "q",
+    "tagCount": 1,
+    "relativePaths": [
+      "04 - Languages/Python/Automate The Boring Stuff/Python-ATBS-Ch8-Input-Validation.md"
+    ]
+  },
+  {
+    "tag": "zombiedice",
+    "tagCount": 1,
+    "relativePaths": [
+      "04 - Languages/Python/Automate The Boring Stuff/Python-ATBS-Ch6-Manipulating-Strings.md"
+    ]
+  },
+  {
+    "tag": "os",
+    "tagCount": 1,
+    "relativePaths": [
+      "04 - Languages/Python/Automate The Boring Stuff/Python-ATBS-Ch10-Organizing-Files.md"
+    ]
+  },
+  {
+    "tag": "example",
+    "tagCount": 20,
+    "relativePaths": [
+      "04 - Languages/Javascript/Eloquent Javascript/Dropbox/Obsidian Notes/02 - Program Structure.md",
+      "04 - Languages/Javascript/Eloquent Javascript/02 - Program Structure.md"
+    ]
+  },
+  {
+    "tag": "cf",
+    "tagCount": 10,
+    "relativePaths": [
+      "02 - Projects/00 - Automation/Automations.md",
+      "01 - Templates/Schedule.md",
+      "01 - Backlog.md"
+    ]
+  },
+  {
+    "tag": "cc",
+    "tagCount": 9,
+    "relativePaths": [
+      "02 - Projects/00 - Automation/Automations.md",
+      "01 - Templates/Schedule.md",
+      "01 - Backlog.md"
+    ]
+  }
+]

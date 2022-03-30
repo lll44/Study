@@ -2,23 +2,30 @@
 .body {
     --at-button-height: 48;
     --at-row-count: 2;
+    --at-row-count: 0;
 }
 
 /*Multi Row Toolbar*/
-.AT-multirow .mobile-toolbar-options-container {
+.AT-multirow.AT-row .mobile-toolbar-options-container {
     flex-flow: column wrap;
+}
+
+.AT-multirow.AT-column .mobile-toolbar-options-container { 
+    flex-flow: row wrap; 
+    overflow-y: auto;
 }
 
 .mobile-toolbar-option {
     height: var(--at-button-height);
+    min-width: var(--at-button-width);
 }
 
 .AT-multirow .mobile-toolbar {
-    height: calc(var(--at-button-height) * var(--at-row-count)) !important;   
+    height: calc(var(--at-button-height) * var(--at-row-count) + var(--at-spacing)) !important;   
 }
 
 .AT-multirow .mobile-toolbar-options-container {
-    height: calc(var(--at-button-height) * var(--at-row-count)) !important;
+    height: calc(var(--at-button-height) * var(--at-row-count) + var(--at-spacing)) !important;
 }
 
 .AT-no-toolbar .mobile-toolbar {

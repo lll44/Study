@@ -1,8 +1,5 @@
 
 
-
-
-
 Prismic 
 - Provides dashboard for CMS where you edit and create fields.
 - Internationalizes the website and auto translates. 
@@ -44,8 +41,8 @@ Lodash
 - Useful for mapping elements, find, foreach. 
 
 OGL
-- WebGL that is simple. 
-- Three.JS alternative is the best for in depth WebGL.
+- WebGL that is simpler. 
+- Alternative Three.JS is the best for in depth WebGL.
 
 Phaser, freejazz, has been used for other projects. 
 

@@ -25,6 +25,11 @@ kanban-plugin: basic
 - [ ] - [ ] [[A Visual Git Guide]]
 
 
+## Python 🐍
+
+- [ ] **Python**<br>[Chapter 0 – Introduction](https://automatetheboringstuff.com/2e/chapter0/ "https://automatetheboringstuff.com/2e/chapter0/")    <br>[Chapter 1 – Python Basics](https://automatetheboringstuff.com/2e/chapter1/ "https://automatetheboringstuff.com/2e/chapter1/")<br>[Chapter 2 – Flow Control](https://automatetheboringstuff.com/2e/chapter2/ "https://automatetheboringstuff.com/2e/chapter2/")<br>[Chapter 3 – Functions](https://automatetheboringstuff.com/2e/chapter3/ "https://automatetheboringstuff.com/2e/chapter3/")<br>[Chapter 4 – Lists](https://automatetheboringstuff.com/2e/chapter4/ "https://automatetheboringstuff.com/2e/chapter4/")<br><br>[Chapter 5 – Dictionaries and Structuring Data](https://automatetheboringstuff.com/2e/chapter5/ "https://automatetheboringstuff.com/2e/chapter5/")<br>[Chapter 6 – Manipulating Strings](https://automatetheboringstuff.com/2e/chapter6/ "https://automatetheboringstuff.com/2e/chapter6/")<br>[Chapter 7 – Pattern Matching with Regular Expressions](https://automatetheboringstuff.com/2e/chapter7/ "https://automatetheboringstuff.com/2e/chapter7/")<br>[Chapter 8 – Input Validation](https://automatetheboringstuff.com/2e/chapter8/ "https://automatetheboringstuff.com/2e/chapter8/")<br>[Chapter 9 – Reading and Writing Files](https://automatetheboringstuff.com/2e/chapter9/ "https://automatetheboringstuff.com/2e/chapter9/")    <br>[Chapter 10 – Organizing Files](https://automatetheboringstuff.com/2e/chapter10/ "https://automatetheboringstuff.com/2e/chapter10/")<br>[Chapter 11 – Debugging](https://automatetheboringstuff.com/2e/chapter11/ "https://automatetheboringstuff.com/2e/chapter11/")
+
+
 ## Javascript
 
 - [ ] **Eloquent Javascript Intro** #CF <br>- [ ] [[01 - Values, Types, Operators]] <br>- [ ] [[02 - Program Structure]]<br>- [ ] [[03 - Functions]]<br>- [ ] [[04 - Data Structures - Objects and Arrays]]<br>- [ ] [[05 - Higher Order Functions]]<br>- [ ] [[06 - Objects]]<br>- [ ] [[07 - Project Robot]]<br>- [ ] [[08 - Bugs and Errors]]<br>- [ ] [[09 - Regular Expressions]]<br>- [ ] [[10 - Modules]]<br>- [ ] [[11 - Asynchronous Programming]]<br>- [ ] [[12 - Project - Programming Language]]
@@ -52,11 +57,6 @@ kanban-plugin: basic
 ## Best Practices
 
 - [ ] **Research Best Practices**
-
-
-## Python 🐍
-
-- [ ] **Python**<br>[Chapter 0 – Introduction](https://automatetheboringstuff.com/2e/chapter0/ "https://automatetheboringstuff.com/2e/chapter0/")    <br>[Chapter 1 – Python Basics](https://automatetheboringstuff.com/2e/chapter1/ "https://automatetheboringstuff.com/2e/chapter1/")<br>[Chapter 2 – Flow Control](https://automatetheboringstuff.com/2e/chapter2/ "https://automatetheboringstuff.com/2e/chapter2/")<br>[Chapter 3 – Functions](https://automatetheboringstuff.com/2e/chapter3/ "https://automatetheboringstuff.com/2e/chapter3/")<br>[Chapter 4 – Lists](https://automatetheboringstuff.com/2e/chapter4/ "https://automatetheboringstuff.com/2e/chapter4/")<br><br>[Chapter 5 – Dictionaries and Structuring Data](https://automatetheboringstuff.com/2e/chapter5/ "https://automatetheboringstuff.com/2e/chapter5/")<br>[Chapter 6 – Manipulating Strings](https://automatetheboringstuff.com/2e/chapter6/ "https://automatetheboringstuff.com/2e/chapter6/")<br>[Chapter 7 – Pattern Matching with Regular Expressions](https://automatetheboringstuff.com/2e/chapter7/ "https://automatetheboringstuff.com/2e/chapter7/")<br>[Chapter 8 – Input Validation](https://automatetheboringstuff.com/2e/chapter8/ "https://automatetheboringstuff.com/2e/chapter8/")<br>[Chapter 9 – Reading and Writing Files](https://automatetheboringstuff.com/2e/chapter9/ "https://automatetheboringstuff.com/2e/chapter9/")    <br>[Chapter 10 – Organizing Files](https://automatetheboringstuff.com/2e/chapter10/ "https://automatetheboringstuff.com/2e/chapter10/")<br>[Chapter 11 – Debugging](https://automatetheboringstuff.com/2e/chapter11/ "https://automatetheboringstuff.com/2e/chapter11/")
 
 
 ## Backend 🌎

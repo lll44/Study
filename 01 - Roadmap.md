@@ -6,9 +6,9 @@ kanban-plugin: basic
 
 ## End Game
 
+- [ ] **Basic React**
 - [ ] **Portfolio Site**<br>- Write Developer Resume<br>- Wireframe in Figma<br>- Place on Templates
 - [ ] **Job Ready 💰**<br>- [ ] Apply for Jobs<br>	- [ ] Research **Tech**<br>	- [ ] RSS Feeds for Sites<br>- [ ] Networking / Meetups<br>- [ ] Salary Negotiations
-- [ ] **Basic React**
 - [ ] **Job Goals 🏆**
 - [ ] **Post Job 📚**<br>- GrustleCorp<br>- System Design<br>- Tutoring Site<br>- Basic React
 

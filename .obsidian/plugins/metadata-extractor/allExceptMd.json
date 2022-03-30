@@ -1,0 +1,196 @@
+{
+  "folders": [
+    {
+      "name": "",
+      "relativePath": "/"
+    },
+    {
+      "name": "00 - Inbox - Seedbox",
+      "relativePath": "00 - Inbox - Seedbox"
+    },
+    {
+      "name": "01 - Templates",
+      "relativePath": "01 - Templates"
+    },
+    {
+      "name": "02 - Projects",
+      "relativePath": "02 - Projects"
+    },
+    {
+      "name": "03 - Computer Science",
+      "relativePath": "03 - Computer Science"
+    },
+    {
+      "name": "04 - Languages",
+      "relativePath": "04 - Languages"
+    },
+    {
+      "name": "05 - Tools",
+      "relativePath": "05 - Tools"
+    },
+    {
+      "name": "06 - Professional",
+      "relativePath": "06 - Professional"
+    },
+    {
+      "name": "07 - Knowledge Principles",
+      "relativePath": "07 - Knowledge Principles"
+    },
+    {
+      "name": "08 - Mental Heatlh",
+      "relativePath": "08 - Mental Heatlh"
+    },
+    {
+      "name": "09 - Grokking",
+      "relativePath": "09 - Grokking"
+    },
+    {
+      "name": "10 - Codewars",
+      "relativePath": "10 - Codewars"
+    },
+    {
+      "name": "11 - Cheatsheets",
+      "relativePath": "11 - Cheatsheets"
+    },
+    {
+      "name": "Day Planners",
+      "relativePath": "Day Planners"
+    },
+    {
+      "name": "00 - Automation",
+      "relativePath": "02 - Projects/00 - Automation"
+    },
+    {
+      "name": "01 - JS Tutorial",
+      "relativePath": "02 - Projects/01 - JS Tutorial"
+    },
+    {
+      "name": "02 - Blender 3JS",
+      "relativePath": "02 - Projects/02 - Blender 3JS"
+    },
+    {
+      "name": "04 - Personal Websites",
+      "relativePath": "02 - Projects/04 - Personal Websites"
+    },
+    {
+      "name": "00 - Data Structures",
+      "relativePath": "03 - Computer Science/00 - Data Structures"
+    },
+    {
+      "name": "01 - Best Practices",
+      "relativePath": "03 - Computer Science/01 - Best Practices"
+    },
+    {
+      "name": "CSS",
+      "relativePath": "04 - Languages/CSS"
+    },
+    {
+      "name": "Git",
+      "relativePath": "04 - Languages/Git"
+    },
+    {
+      "name": "HTML CSS (ShayHowe)",
+      "relativePath": "04 - Languages/HTML CSS (ShayHowe)"
+    },
+    {
+      "name": "Javascript",
+      "relativePath": "04 - Languages/Javascript"
+    },
+    {
+      "name": "Python",
+      "relativePath": "04 - Languages/Python"
+    },
+    {
+      "name": "Selenium",
+      "relativePath": "04 - Languages/Selenium"
+    },
+    {
+      "name": "Atom",
+      "relativePath": "05 - Tools/Atom"
+    },
+    {
+      "name": "Obsidian",
+      "relativePath": "05 - Tools/Obsidian"
+    },
+    {
+      "name": "Agile",
+      "relativePath": "06 - Professional/Agile"
+    },
+    {
+      "name": "01 - Accelerated Learning",
+      "relativePath": "07 - Knowledge Principles/01 - Accelerated Learning"
+    },
+    {
+      "name": "Project Management",
+      "relativePath": "07 - Knowledge Principles/Project Management"
+    },
+    {
+      "name": "01 - Sliding Window",
+      "relativePath": "09 - Grokking/01 - Sliding Window"
+    },
+    {
+      "name": "02 - Two Heaps",
+      "relativePath": "09 - Grokking/02 - Two Heaps"
+    },
+    {
+      "name": "03 - Fast and Slow Pointers",
+      "relativePath": "09 - Grokking/03 - Fast and Slow Pointers"
+    },
+    {
+      "name": "04 - Merge Intervals",
+      "relativePath": "09 - Grokking/04 - Merge Intervals"
+    },
+    {
+      "name": "Basic CSS & HTML",
+      "relativePath": "04 - Languages/CSS/Basic CSS & HTML"
+    },
+    {
+      "name": "Eloquent Javascript",
+      "relativePath": "04 - Languages/Javascript/Eloquent Javascript"
+    },
+    {
+      "name": "Automate The Boring Stuff",
+      "relativePath": "04 - Languages/Python/Automate The Boring Stuff"
+    },
+    {
+      "name": "Dropbox",
+      "relativePath": "04 - Languages/Javascript/Eloquent Javascript/Dropbox"
+    },
+    {
+      "name": "Obsidian Notes",
+      "relativePath": "04 - Languages/Javascript/Eloquent Javascript/Dropbox/Obsidian Notes"
+    }
+  ],
+  "nonMdFiles": [
+    {
+      "name": "Eloquent Javascript.zip",
+      "basename": "Eloquent Javascript",
+      "relativePath": "04 - Languages/Javascript/Eloquent Javascript.zip"
+    },
+    {
+      "name": "Pasted image 20210719130944.png",
+      "basename": "Pasted image 20210719130944",
+      "relativePath": "06 - Professional/Agile/Pasted image 20210719130944.png"
+    },
+    {
+      "name": "Pasted image 20210719130952.png",
+      "basename": "Pasted image 20210719130952",
+      "relativePath": "06 - Professional/Agile/Pasted image 20210719130952.png"
+    },
+    {
+      "name": "Pasted image 20210719131222.png",
+      "basename": "Pasted image 20210719131222",
+      "relativePath": "06 - Professional/Agile/Pasted image 20210719131222.png"
+    },
+    {
+      "name": "scrum_process_atlassian.svg",
+      "basename": "scrum_process_atlassian",
+      "relativePath": "06 - Professional/Agile/scrum_process_atlassian.svg"
+    },
+    {
+      "name": "desktop.ini",
+      "basename": "desktop",
+      "relativePath": "04 - Languages/Javascript/Eloquent Javascript/Dropbox/desktop.ini"
+    }
+  ]
+}

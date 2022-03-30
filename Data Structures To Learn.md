@@ -25,7 +25,7 @@ A data structure is a particular way of organizing and storing data in a compute
 - `A` [Graph](https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/graph) (both directed and undirected)
   
   
-  ### Algorithms 
+  ## Algorithms 
 - `B` [Bubble Sort](https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/sorting/bubble-sort)
 - `B` [Selection Sort](https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/sorting/selection-sort)
 - `B` [Insertion Sort](https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/sorting/insertion-sort)
@@ -34,13 +34,13 @@ A data structure is a particular way of organizing and storing data in a compute
 - `B` [Quicksort](https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/sorting/quick-sort) - in-place and non-in-place implementations
 
 
-### Trees
+## Trees
 
 - `A` [Tree](https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/tree)
 - `B` [Depth-First Search](https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/tree/depth-first-search) (DFS)
 - `B` [Breadth-First Search](https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/tree/breadth-first-search) (BFS)
 
-  * **Graphs**
+## **Graphs**
 - `B` [Depth-First Search](https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/graph/depth-first-search) (DFS)
 - `B` [Breadth-First Search](https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/graph/breadth-first-search) (BFS)
 
@@ -48,7 +48,7 @@ A data structure is a particular way of organizing and storing data in a compute
 
 An algorithmic paradigm is a generic method or approach which underlies the design of a class of algorithms. It is an abstraction higher than the notion of an algorithm, just as an algorithm is an abstraction higher than a computer program.
 
-### Types of Algorithms
+## Types of Algorithms
 > Research differences
 - **Brute Force** - look at all the possibilities and selects the best solution 
 - **Greedy** - choose the best option at the current time, without any consideration for the future.

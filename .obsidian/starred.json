@@ -13,7 +13,7 @@
     {
       "type": "file",
       "title": "Study Material",
-      "path": "02 - Projects/Study Material.md"
+      "path": "02 - Projects/Resources - Courses.md"
     },
     {
       "type": "file",
@@ -24,6 +24,11 @@
       "type": "file",
       "title": "Anki-Sync",
       "path": "Anki-Sync.md"
+    },
+    {
+      "type": "file",
+      "title": "Alfred Obsidian Launcher",
+      "path": "05 - Tools/Obsidian/Alfred Obsidian Launcher.md"
     }
   ]
 }

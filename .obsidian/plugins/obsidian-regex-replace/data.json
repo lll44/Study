@@ -1,5 +1,5 @@
 {
-  "findText": "<<<<<<< Updated upstream:",
+  "findText": "\\[\\]\\(\\S*\\)",
   "replaceText": "",
   "useRegEx": true,
   "selOnly": false,

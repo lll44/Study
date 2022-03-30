@@ -15,5 +15,19 @@
   "breadcrumbs",
   "obsidian-minimal-settings",
   "find-and-replace-in-selection",
-  "obsidian-git"
+  "obsidian-git",
+  "open-with",
+  "obsidian-admonition",
+  "obsidian-icons-plugin",
+  "obsidian-dynamic-toc",
+  "obsidian-advanced-uri",
+  "metadata-extractor",
+  "lumberjack-obsidian",
+  "note-refactor-obsidian",
+  "convert-url-to-iframe",
+  "obsidian-linter",
+  "flashcards-obsidian",
+  "obsidian-text-format",
+  "code-block-copy",
+  "advanced-toolbar"
 ]
