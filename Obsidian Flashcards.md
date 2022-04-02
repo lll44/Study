@@ -5,7 +5,6 @@
 ```toc
 
 ```
-
 ## Installation
 
 1. Install this plugin on Obsidian:
@@ -31,6 +30,7 @@ First, Anki and [AnkiConnect](https://ankiweb.net/shared/info/2055492159) shou
 ## Write Cards
 
 Hashtags is the way to define them and can be customized in the settings, but the default one is `#card`. Here there is an example file ([Preview](https://github.com/reuseman/flashcards-obsidian/blob/main/docs/demo.md) | [Markdown](https://raw.githubusercontent.com/reuseman/flashcards-obsidian/main/docs/demo.md)).
+
 
 ### #card Hashtag
 

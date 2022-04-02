@@ -1,6 +1,0 @@
-
-
-# Quick Switcher
-
-# Linter
-

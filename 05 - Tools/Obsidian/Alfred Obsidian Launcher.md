@@ -1,13 +1,78 @@
 
 
+
+
+
+
+
+
 # [Shimmering Obsidian - Alfred](https://github.com/chrisgrieser/shimmering-obsidian)
 
-
-```toc 
-style: bullet 
-number min_depth: 1 
-max_depth: 6 
+```toc
+ 	style: bullet
+ 	min_depth: 2
+ 	max_depth: 6
 ```
+
+
+## Main Functions
+
+`o`: Searches all notes, aliases, folders, and headings combined.
+- `⌘ + ↵`: Open the file in a new pane.
+- `⌥ + ↵`: Reveal the file in Finder.
+- `fn + ↵`: Append the content to the selected note.
+- `⌃ + ↵`: Copy the [Obsidian-URI to the selected file](https://help.obsidian.md/Advanced+topics/Using+obsidian+URI#Action+`hook-get-address`)
+- `⇧ + ↵`: Browse all links of the selected note.
+- Press `⇧` or `⌘ y` to toggle preview the selected note via macOS' Quick Look feature via Peek. 
+- Type `folder`, `heading`(`h1`,`h2`,...), `aliases`
+- `..` to browse the *parent* folder or use `⌥` or `new` to create a note in that folder. 
+o
+`ow`: Switch to a different workspace
+`os`: Search starred Files and Searches
+`or`: shows 10 most recent files.
+`ol`: Browse links of the current note
+`ot`: Search tags and subsequently files with that tag
+`om`: Move the current note to a different folder
+`oo`: Open scratchpad note.  
+
+
+`op`: Combined Search of community plugins and community themes.
+-  `↵` Opens Community Plugin Browser.
+	- `⌘ + ↵` GitHub repo.
+	- `⌥ + ↵` Coot the plugin URI (`obsidian://show-plugin?id=...`) to your clipboard. When Discord is the frontmost app, the copied link will be surrounded with `<` `>` for more convenient pasting in the Discord Desktop app (disables auto-preview).
+	- `⇧ + ↵` to display & search the GitHub issues. See [the section below](#-Searching-GitHub-Issues).
+	- *Holding* `⌃` will display download numbers, author, and plugin ID.[^2] This is useful, when the plugin description is so long, that you cannot see this anymore.
+
+
+`ov`: Open Vaults in Obsidian, Finder, or the Terminal
+- Select a Vault and press `↵` to open it in Obsidian.
+	- `⌘ + ↵` will open the root of the selected vault in your default Terminal. You can change the default terminal in the Alfred Settings.
+	- `⌥ + ↵` open the root in Finder.
+	- `⇧ + ↵` to control the selected vault with _Shimmering Obsidian_. (This Alfred workflow can only work on one vault a the same time.) The first time you are controlling another vault, you need to install [the requirements](../README.md#Workflow-Installation) and run `osetup` in that vault once.
+	- _⚙️ For developers_: `fn + ↵` run `git pull`on the vault
+- Open the Vault Menu to create new vaults or remove vaults.
+
+
+- `o.obsidian`: The hidden `.obsidian` folder located in your vault root will be opened in Finder.
+- `o.trash`: Open the hidden `.trash` folder.
+- `oapplicationsupport`: Open Obsidian's Application Support folder.
+- `oplugin`: The plugin folder in `.obsidian` folder will be opened in Finder.
+- `ocss`: Open the `themes` and `snippets` folder. (Along with your installed themes and snippets.)
+
+**`on`: Create a `n`ew note.**
+- **File Name:** Anything you type after the keyword `on` (e.g., `on foobar`) will become the filename of the new note (e.g., `foobar.md`).
+- **Content:** The `template_note_path` determines the content of the new note.
+- **Location:** The new note will be placed in the folder specific `new_note_location`. If empty, it will be in your vault root.
+- If you have set `use_quickadd` to `true`, this command will instead trigger the [QuickAdd Plugin](https://github.com/chhoumann/quickadd). Anything you type after the keyword `on` (e.g., `on foobar`) will be passed to search the QuickAdd choices. File Name, Location, and Content will be determined by QuickAdd.
+
+`oo` or `triggered via hotkey`: Append to your Scratchpad Note**
+-  `scratchpad_note_path` sets
+	- When triggered via hotkey, will append the current selection.
+	- When you append `#foobar` to `scratchpad_note_path` (e.g. `Inbox/Scratchpad-Note#Thoughts`), the text will be added below the heading "foobar" located in that note.
+- The text set in the `scratchpad_append_prefix` will be inserted in front of the input text.
+- If `open_after_appending` is set to `true`, will open the scratchpad afterwards.
+- Using `- [ ]` as prefix and inserting below a specific heading enables you to add cards to a Kanban Board.
+
 
 ## Search
 Similar to built-in “QuickSwitch” feature, but can be triggered without Obsidian running.
@@ -38,7 +103,7 @@ collapse: closed
 
 ### Search for Folders
 When **selecting a folder**, you will **“browse”** the selected folder files, or add `folder` to your search query.
-- You can use `⌥` or `new` create a new note *in that folder*. It will use the template note defined in `template_note_path`.
+- You can use `⌥` or `new` to create a new note in that folder using the template note defined in `template_note_path`.
 - `..` to browse the *parent* folder of the current folder. 
 
 ### Search for Headings
@@ -46,7 +111,7 @@ Select or add  `heading` to your search query, to only display headings,`o fooba
 - Add `h1`, `h2`, … to your search query, to only display headings of a certain level.
 - Use `h_Ivl_ignore` to  ignore certain levels.
 
-## Browse Links of a Note
+### Browse Links of a Note
 **`ol`: Browse links of the current note**
 - OR use `⇧ + ↵` on any search result of the main `o` search to browse the links of that note**
 - Selecting an outgoing link or backlink will open the respective note.
@@ -56,20 +121,17 @@ Select or add  `heading` to your search query, to only display headings,`o fooba
 	- Selecting an external link with `↵` will open the link in the default browser.
 	- Press `⌥ + ↵` on an external link to copy the URL to the clipboard instead.
 
-## Search Notes via their Tags
+### Search Notes via their Tags
 **`ot`: Search tags and subsequently files with that tag**
 - Display and search a full list of all tags in your vault.
 	- Press `⌘ + ↵` instead to open Obsidian's search pane and search for the tag there.
 - If `merge_nested_tags` is set to `true`, all nested tags are subsumed under their parent tag, e.g., `#inbox/toread` will be displayed under the `#inbox` tag. When set to `false`, all nested tags are displayed separately.
 
-## Search Starred Files
+### Search Starred Files
 `os`: Search starred Files and Searches
-- If you select a starred *search*, Obsidian will open the search pane with the respective query.
-- Requires the Starred core plugin enabled.
 
-## Search Recent Files
-**`or`: Open recent Files**
-- Up to the 10 most recent files are displayed.
+### Search Recent Files
+`or`: shows 10 most recent files.
 
 ## Vault Search as Alfred Fallback
 The main search (`o`) can be used as [Fallback Search for Alfred](https://www.alfredapp.com/help/features/default-results/fallback-searches/), showing up when any Alfred search has no result.
@@ -94,7 +156,7 @@ The main search (`o`) can be used as [Fallback Search for Alfred](https://www.al
 - **Location:** The new note will be placed in the folder specific `new_note_location`. If empty, it will be in your vault root.
 - If you have set `use_quickadd` to `true`, this command will instead trigger the [QuickAdd Plugin](https://github.com/chhoumann/quickadd). Anything you type after the keyword `on` (e.g., `on foobar`) will be passed to search the QuickAdd choices. File Name, Location, and Content will be determined by QuickAdd.
 
-## Scratchpad
+### Scratchpad
 `oo` or `triggered via hotkey`: Append to your Scratchpad Note**
 -  `scratchpad_note_path` sets
 	- When triggered via hotkey, will append the current selection.
@@ -103,7 +165,7 @@ The main search (`o`) can be used as [Fallback Search for Alfred](https://www.al
 - If `open_after_appending` is set to `true`, will open the scratchpad afterwards.
 - Using `- [ ]` as prefix and inserting below a specific heading enables you to add cards to a Kanban Board.
 
-## Daily Notes (deprecated)
+### Daily Notes (deprecated)
 **`od`: Open & Append to today's daily note [settings].**
 - Either open today's daily note or append to today's daily note, use `cmd + ↵` to open after appending.
 - This does *not* require the Daily Notes plugin to be enabled.
@@ -113,17 +175,14 @@ The main search (`o`) can be used as [Fallback Search for Alfred](https://www.al
 
 ℹ️ I encourage you to check out the [Alfred workflow for Obsidian by hauselin](https://github.com/hauselin/obsidian-alfred), which focuses on daily notes.*
 
-## Move Note
+### Move Note
 `om` : Move the current note to a different folder
-- This fully replicates the functionality of the `Move File to another folder` and requires file explorer.
 
 
 
-
-# Screenshot Features
 
 ## OCR Screenshots
-`Triggered via Hotkey`: Take an OCR Screenshot.
+`Hotkey`: Take an OCR Screenshot.
 
 ```ad-note
 title: Workflow Parameters
@@ -141,22 +200,22 @@ collapse: closed
 
 
 ### Requirements
-For the OCR Screenshot Feature, you need to install [Tesseract](https://tesseract-ocr.github.io/tessdoc/Installation.html). If you use Homebrew, you can do so with the following two commands:
+For the OCR Screenshot Feature, you need to install [Tesseract](https://tesseract-ocr.github.io/tessdoc/Installation.html) via home brew. 
 
 ```bash
 brew install tesseract
 brew install tesseract-lang # for non-English languages
 ```
 
-💡 *The first time you use the OCR or image screenshot feature*, you might need to give Alfred permission to record your screen. 
+💡 The first time you use the OCR you need to give Alfred permission to record your screen. 
 
 <img src="https://user-images.githubusercontent.com/73286100/131231644-a800c0b0-8dc2-4ae9-bd41-c3937741b94a.png" alt="Permissions for OCR Screenshots" width=35%>
 
 ## 🆕 Image Screenshot
-**`Triggered via Hotkey`: Take an Image Screenshot.**
-- Similar to the default Mac Hotkey `⌘ ⇧ + 4`, the image will be directly saved in your vault with the file name `Screenshot {date} {time}.png` and the image will be embedded (`![[image_file_name.png]]`) in the note `Images.md` in your vault root.
-- The images will be saved in `{vault-path}/screenshots/` by default or use `screenshot_path` to specify the *absolute* path of a folder in your vault where to save the images instead.
-- If the file “Images.md” already exists in your vault root, any subsequent screenshots will instead append to this note. This is intended for taking screenshots in quick succession.
+**`Hotkey`: Take an Image Screenshot.**
+- Saved in your vault with the file name `Screenshot {date} {time}.png` and the image will be embedded (`![[image_file_name.png]]`) in the note `Images.md` in your vault root.
+- Images saved in `{vault-path}/screenshots/` by default or use `screenshot_path` to specify the *absolute* path.
+- If the file “Images.md” already exists in your vault root, subsequent screenshots will append to this note for taking screenshots in quick succession.
 - When `open_after_screenshot` is set to `true`, then the note will be opened after taking the screenshot. 
 
 ## Setting up Hotkeys
@@ -174,16 +233,6 @@ At the top left of the workflow, there are some sky-blue fields. You need to dou
 - Set the max number via,`max_number_of_bkps`) 
 - Hidden folders `.obsidian` and `.trash` are included.
 
-
-- 💡 Advanced users: you can use the following AppleScript snippet to trigger a backup. This is useful to create automated backups via [launchd](https://launchd.info/), [Cron jobs](https://ostechnix.com/a-beginners-guide-to-cron-jobs/), or [Keyboard Maestro](https://www.keyboardmaestro.com/main/).
-
-```applescript
-tell application id "com.runningwithcrayons.Alfred"
-	run trigger "backup-obsidian" in workflow "de.chris-grieser.shimmering-obsidian" with argument ""
-end tell
-# pass 'no sound' as argument to turn off backup confirmation sound
-```
-
 ⚠️ If you want 100% safety, please use professional backup solutions.
 
 
@@ -198,12 +247,12 @@ end tell
 
 ## Carl
 **`ocarl`: Search `carl` auto-responses. 🐢**
-- Search and paste auto-responses from the beloved Discord Bot of the [Obsidian Discord Server](https://discord.gg/veuWUTm).
+
 
 ## Update Plugins & Metadata
 **`oupdate`: Update Plugins and Metadata used by this workflow**
 - Update your Community Plugins
-- Update your Beta Plugins (installed via [the BRAT Plugin](https://github.com/TfTHacker/obsidian42-brat))
+- Update your Beta Plugins via [the BRAT Plugin](https://github.com/TfTHacker/obsidian42-brat)
 - Re-index the data for the [Documentation Search](Documentation%20and%20Forum%20Search.md).
 - Refresh the metadata used for this workflow manually or set an interval to refresh it automatically. See the section on [workflow configuration for more information](Workflow%20Configuration.md#Metadata-Extractor-Configuration)
 
@@ -212,9 +261,9 @@ end tell
 ## Plugins
 
 `op`: Combined Search of community plugins and community themes.
--  `↵` Opens the plugin in Obsidian's Community Plugin Browser.
-	- `⌘ + ↵` Opens the GitHub repo instead.
-	- `⌥ + ↵` to copy the plugin URI (`obsidian://show-plugin?id=...`) to your clipboard. When Discord is the frontmost app, the copied link will be surrounded with `<` `>` for more convenient pasting in the Discord Desktop app (disables auto-preview).
+-  `↵` Opens Community Plugin Browser.
+	- `⌘ + ↵` GitHub repo.
+	- `⌥ + ↵` Coot the plugin URI (`obsidian://show-plugin?id=...`) to your clipboard. When Discord is the frontmost app, the copied link will be surrounded with `<` `>` for more convenient pasting in the Discord Desktop app (disables auto-preview).
 	- `⇧ + ↵` to display & search the GitHub issues. See [the section below](#-Searching-GitHub-Issues).
 	- *Holding* `⌃` will display download numbers, author, and plugin ID.[^2] This is useful, when the plugin description is so long, that you cannot see this anymore.
 	- ⚙️ Use `fn + ↵` to clone the GitHub Repository into the folder specified in `download_folder_path` via `git clone` (http).
@@ -227,7 +276,7 @@ end tell
 
 ## Themes
 `op`: Combined Search of community plugins and community themes.**
-- Press `↵` to open the theme browser. (There are no separate theme pages in Obsidian Theme Browser that can be opened.)
+- Press `↵` to open the theme browser. 
 	- Use `⇧` or `⌘ + Y` to open a Quick Look Preview of the theme's promo screenshot. Press `⇧` or `⌘ + Y` again to close the preview.
 	- *🎨 For Theme Designers:* Use `fn + ↵` to download the main .css file of the theme into the folder specified in the [workflow configuration](Workflow%20Configuration.md#Plugin-and-Theme-Search) (`download_folder_path`).
 - Only themes officially included in the community themes are displayed — themes solely available via GitHub or still in review are not shown.
@@ -247,8 +296,7 @@ end tell
 <img src="https://user-images.githubusercontent.com/73286100/139559362-747b0c57-c29b-45b5-bc62-4ab53c0718c5.gif" alt="Issue Search" width=60%>
 <img src="https://i.imgur.com/AvavR7n.png" alt="update information" width=60%>
 
-[^1]: Unfortunately, there isn't enough versioning information for themes to do the same for them.
-[^2]: Accessing the settings of an installed plugin via [the plugin search](Plugin%20and%20Theme%20Search.md) (`op`) via `ctrl + ↵` has been disabled in release 2.4.
+
 
 
 # Documentation & Forum Search
@@ -268,17 +316,25 @@ end tell
 - Press `⌘ + ↵` to open the forum category in your default browser.
 - Use `⌥ + ↵` to copy the link to the category to your clipboard instead. When Discord is the frontmost app, the copied link will be surrounded with `<` `>` for more convenient pasting in the Discord Desktop app (disables auto-preview).
 
+# Workspace Switcher
+
+**`ow`: Switch to a different `w`orkspace**
+
+  * Displays a list of your workspaces. Select one to open the workspace.
+  * You can also manage your Workspaces from here, i.e., saving, loading & deleting a workspace.
+  * Using the [workflow configuration](https://github.com/chrisgrieser/shimmering-obsidian/blob/04c6f844575fb56fb0f87810f668237fb683747e/docs/Workflow%20Configuration.md#Miscellaneous) `workspace_to_spellcheck`, you can define one workspace as a "spellcheck workspace". This means every time you switch to that workspace via `ow`, Spellcheck will be turned on, and every time you switch to a _different_ workspace, spellcheck will be turned off.
+    * Using `ow`, you can also simply toggle Obsidian's built in spellcheck.
+  * Unsurprisingly, this workflow requires the [Workspaces Core Plugin](https://help.obsidian.md/Plugins/Workspaces) to be enabled.
+  
 
 
----
-nav_order: 2
----
+
 
 # Vault Switcher
 
 **`ov`: Open `V`aults in Obsidian, Finder, or the Terminal**
 - Select a Vault and press `↵` to open it in Obsidian.
-	- `⌘ + ↵` will open the root of the selected vault in your default Terminal. You can [change the default terminal in the Alfred Settings](https://www.alfredapp.com/help/features/terminal/).
+	- `⌘ + ↵` will open the root of the selected vault in your default Terminal. You can change the default terminal in the Alfred Settings.
 	- `⌥ + ↵` open the root in Finder.
 	- `⇧ + ↵` to control the selected vault with _Shimmering Obsidian_. (This Alfred workflow can only work on one vault a the same time.) The first time you are controlling another vault, you need to install [the requirements](../README.md#Workflow-Installation) and run `osetup` in that vault once.
 	- _⚙️ For developers_: `fn + ↵` run `git pull`on the vault

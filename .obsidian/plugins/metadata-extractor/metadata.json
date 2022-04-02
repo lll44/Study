@@ -1,7 +1,18 @@
 [
   {
     "fileName": "Useful regex",
-    "relativePath": "Useful regex.md"
+    "relativePath": "Useful regex.md",
+    "backlinks": [
+      {
+        "fileName": "01 - Map of Content",
+        "link": "Useful regex",
+        "relativePath": "01 - Map of Content.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Untitled",
+    "relativePath": "Untitled.md"
   },
   {
     "fileName": "Untitled Kanban",
@@ -25,20 +36,6 @@
       {
         "heading": "Obsidian Setup",
         "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Obsidian Hotkeys and Functions",
-    "relativePath": "Obsidian Hotkeys and Functions.md",
-    "headings": [
-      {
-        "heading": "Quick Switcher",
-        "level": 1
-      },
-      {
-        "heading": "Linter",
-        "level": 1
       }
     ]
   },
@@ -168,6 +165,10 @@
     ]
   },
   {
+    "fileName": "OCR-Screenshots",
+    "relativePath": "OCR-Screenshots.md"
+  },
+  {
     "fileName": "Markdown Cleanup Instructions",
     "relativePath": "Markdown Cleanup Instructions.md",
     "headings": [
@@ -231,546 +232,6 @@
         "relativePath": "01 - Roadmap.md",
         "cleanLink": "Data Structures To Learn",
         "displayText": "Data Structures To Learn > Important Data Structures!!"
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220330",
-    "relativePath": "Day Planners/Day Planner-20220330.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220329",
-    "relativePath": "Day Planners/Day Planner-20220329.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220328",
-    "relativePath": "Day Planners/Day Planner-20220328.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220327",
-    "relativePath": "Day Planners/Day Planner-20220327.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220326",
-    "relativePath": "Day Planners/Day Planner-20220326.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220325",
-    "relativePath": "Day Planners/Day Planner-20220325.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220324",
-    "relativePath": "Day Planners/Day Planner-20220324.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220323",
-    "relativePath": "Day Planners/Day Planner-20220323.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220322",
-    "relativePath": "Day Planners/Day Planner-20220322.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220320",
-    "relativePath": "Day Planners/Day Planner-20220320.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220319",
-    "relativePath": "Day Planners/Day Planner-20220319.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220318",
-    "relativePath": "Day Planners/Day Planner-20220318.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220317",
-    "relativePath": "Day Planners/Day Planner-20220317.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220316",
-    "relativePath": "Day Planners/Day Planner-20220316.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220315",
-    "relativePath": "Day Planners/Day Planner-20220315.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220314",
-    "relativePath": "Day Planners/Day Planner-20220314.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220313",
-    "relativePath": "Day Planners/Day Planner-20220313.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220312",
-    "relativePath": "Day Planners/Day Planner-20220312.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220311",
-    "relativePath": "Day Planners/Day Planner-20220311.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220310",
-    "relativePath": "Day Planners/Day Planner-20220310.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220309",
-    "relativePath": "Day Planners/Day Planner-20220309.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220308",
-    "relativePath": "Day Planners/Day Planner-20220308.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220307",
-    "relativePath": "Day Planners/Day Planner-20220307.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220306",
-    "relativePath": "Day Planners/Day Planner-20220306.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220305",
-    "relativePath": "Day Planners/Day Planner-20220305.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220304",
-    "relativePath": "Day Planners/Day Planner-20220304.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220303",
-    "relativePath": "Day Planners/Day Planner-20220303.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220302",
-    "relativePath": "Day Planners/Day Planner-20220302.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220301",
-    "relativePath": "Day Planners/Day Planner-20220301.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220228",
-    "relativePath": "Day Planners/Day Planner-20220228.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220227",
-    "relativePath": "Day Planners/Day Planner-20220227.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220226",
-    "relativePath": "Day Planners/Day Planner-20220226.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220225",
-    "relativePath": "Day Planners/Day Planner-20220225.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220224",
-    "relativePath": "Day Planners/Day Planner-20220224.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220223",
-    "relativePath": "Day Planners/Day Planner-20220223.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220222",
-    "relativePath": "Day Planners/Day Planner-20220222.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220221",
-    "relativePath": "Day Planners/Day Planner-20220221.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220220",
-    "relativePath": "Day Planners/Day Planner-20220220.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220219",
-    "relativePath": "Day Planners/Day Planner-20220219.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220216",
-    "relativePath": "Day Planners/Day Planner-20220216.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220211",
-    "relativePath": "Day Planners/Day Planner-20220211.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220210",
-    "relativePath": "Day Planners/Day Planner-20220210.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20220209",
-    "relativePath": "Day Planners/Day Planner-20220209.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20211230",
-    "relativePath": "Day Planners/Day Planner-20211230.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20211229",
-    "relativePath": "Day Planners/Day Planner-20211229.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20211228",
-    "relativePath": "Day Planners/Day Planner-20211228.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20211227",
-    "relativePath": "Day Planners/Day Planner-20211227.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20211109",
-    "relativePath": "Day Planners/Day Planner-20211109.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20211020",
-    "relativePath": "Day Planners/Day Planner-20211020.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20211018",
-    "relativePath": "Day Planners/Day Planner-20211018.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20211017",
-    "relativePath": "Day Planners/Day Planner-20211017.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20211016",
-    "relativePath": "Day Planners/Day Planner-20211016.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20211015",
-    "relativePath": "Day Planners/Day Planner-20211015.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Day Planner-20211014",
-    "relativePath": "Day Planners/Day Planner-20211014.md",
-    "headings": [
-      {
-        "heading": "Day Planner",
-        "level": 2
       }
     ]
   },
@@ -1421,7 +882,7 @@
     ],
     "headings": [
       {
-        "heading": "[Start of LinkedList Cycle (medium)](https://designgurus.org/path-player?courseid=grokking-the-coding-interview&unit=grokking-the-coding-interview_1628743554403_14Unit)",
+        "heading": "[Start of LinkedList Cycle (medium)](https://designgurus.org/path-player?courseid=grokking-the-coding-interview&unit=grokking-the-coding-interview_1628743554403_14Unit)//",
         "level": 1
       },
       {
@@ -3762,6 +3223,10 @@
         "level": 1
       },
       {
+        "heading": "Main Functions",
+        "level": 2
+      },
+      {
         "heading": "Search",
         "level": 2
       },
@@ -3779,19 +3244,19 @@
       },
       {
         "heading": "Browse Links of a Note",
-        "level": 2
+        "level": 3
       },
       {
         "heading": "Search Notes via their Tags",
-        "level": 2
+        "level": 3
       },
       {
         "heading": "Search Starred Files",
-        "level": 2
+        "level": 3
       },
       {
         "heading": "Search Recent Files",
-        "level": 2
+        "level": 3
       },
       {
         "heading": "Vault Search as Alfred Fallback",
@@ -3819,19 +3284,15 @@
       },
       {
         "heading": "Scratchpad",
-        "level": 2
+        "level": 3
       },
       {
         "heading": "Daily Notes (deprecated)",
-        "level": 2
+        "level": 3
       },
       {
         "heading": "Move Note",
-        "level": 2
-      },
-      {
-        "heading": "Screenshot Features",
-        "level": 1
+        "level": 3
       },
       {
         "heading": "OCR Screenshots",
@@ -3898,8 +3359,8 @@
         "level": 2
       },
       {
-        "heading": "nav_order: 2",
-        "level": 2
+        "heading": "Workspace Switcher",
+        "level": 1
       },
       {
         "heading": "Vault Switcher",
@@ -3959,6 +3420,17 @@
       }
     ],
     "links": [
+      {
+        "link": "#-Searching-GitHub-Issues",
+        "relativePath": "05 - Tools/Obsidian/Alfred Obsidian Launcher.md",
+        "cleanLink": "Alfred Obsidian Launcher",
+        "displayText": ""
+      },
+      {
+        "link": "README.md#Workflow-Installation",
+        "cleanLink": "README.md",
+        "displayText": ""
+      },
       {
         "link": "#browse-links-of-a-note",
         "relativePath": "05 - Tools/Obsidian/Alfred Obsidian Launcher.md",
@@ -4033,10 +3505,6 @@
       },
       {
         "link": "Workspace Switcher.md",
-        "displayText": ""
-      },
-      {
-        "link": "Plugin and Theme Search.md",
         "displayText": ""
       }
     ]
@@ -4536,6 +4004,71 @@
     ]
   },
   {
+    "fileName": "Python-ATBS-Ch8-Input-Validation",
+    "relativePath": "04 - Languages/Python/Automate The Boring Stuff/Python-ATBS-Ch8-Input-Validation.md",
+    "tags": [
+      "q"
+    ],
+    "headings": [
+      {
+        "heading": "**8",
+        "level": 2
+      },
+      {
+        "heading": "**The PyInputPlus Module**",
+        "level": 3
+      },
+      {
+        "heading": "**_The min, max, greaterThan, and lessThan Keyword Arguments_**",
+        "level": 4
+      },
+      {
+        "heading": "**_The blank Keyword Argument_**",
+        "level": 4
+      },
+      {
+        "heading": "**_The limit, timeout, and default Keyword Arguments_**",
+        "level": 4
+      },
+      {
+        "heading": "**_The allowRegexes and blockRegexes Keyword Arguments_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Passing a Custom Validation Function to inputCustom()_**",
+        "level": 4
+      },
+      {
+        "heading": "**Project: How to Keep an Idiot Busy for Hours**",
+        "level": 3
+      },
+      {
+        "heading": "**Project: Multiplication Quiz**",
+        "level": 3
+      },
+      {
+        "heading": "**Summary**",
+        "level": 3
+      },
+      {
+        "heading": "**Practice Questions**",
+        "level": 3
+      },
+      {
+        "heading": "**Practice Projects**",
+        "level": 3
+      },
+      {
+        "heading": "**_Sandwich Maker_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Write Your Own Multiplication Quiz_**",
+        "level": 4
+      }
+    ]
+  },
+  {
     "fileName": "Python-ATBS-Ch9-Read-Writing-Files",
     "relativePath": "04 - Languages/Python/Automate The Boring Stuff/Python-ATBS-Ch9-Read-Writing-Files.md",
     "headings": [
@@ -4715,71 +4248,6 @@
     "links": [
       {
         "link": "'Zophie', 'Pooka', 'Simon'"
-      }
-    ]
-  },
-  {
-    "fileName": "Python-ATBS-Ch8-Input-Validation",
-    "relativePath": "04 - Languages/Python/Automate The Boring Stuff/Python-ATBS-Ch8-Input-Validation.md",
-    "tags": [
-      "q"
-    ],
-    "headings": [
-      {
-        "heading": "**8",
-        "level": 2
-      },
-      {
-        "heading": "**The PyInputPlus Module**",
-        "level": 3
-      },
-      {
-        "heading": "**_The min, max, greaterThan, and lessThan Keyword Arguments_**",
-        "level": 4
-      },
-      {
-        "heading": "**_The blank Keyword Argument_**",
-        "level": 4
-      },
-      {
-        "heading": "**_The limit, timeout, and default Keyword Arguments_**",
-        "level": 4
-      },
-      {
-        "heading": "**_The allowRegexes and blockRegexes Keyword Arguments_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Passing a Custom Validation Function to inputCustom()_**",
-        "level": 4
-      },
-      {
-        "heading": "**Project: How to Keep an Idiot Busy for Hours**",
-        "level": 3
-      },
-      {
-        "heading": "**Project: Multiplication Quiz**",
-        "level": 3
-      },
-      {
-        "heading": "**Summary**",
-        "level": 3
-      },
-      {
-        "heading": "**Practice Questions**",
-        "level": 3
-      },
-      {
-        "heading": "**Practice Projects**",
-        "level": 3
-      },
-      {
-        "heading": "**_Sandwich Maker_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Write Your Own Multiplication Quiz_**",
-        "level": 4
       }
     ]
   },
@@ -4982,6 +4450,181 @@
       {
         "heading": "**_Regex Version of the strip() Method_**",
         "level": 4
+      }
+    ]
+  },
+  {
+    "fileName": "Python-ATBS-Ch4-Lists",
+    "relativePath": "04 - Languages/Python/Automate The Boring Stuff/Python-ATBS-Ch4-Lists.md",
+    "headings": [
+      {
+        "heading": "**The List Data Type**",
+        "level": 3
+      },
+      {
+        "heading": "**_Getting Individual Values in a List with Indexes_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Negative Indexes_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Getting a List from Another List with Slices_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Getting a List’s Length with the len() Function_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Changing Values in a List with Indexes_**",
+        "level": 4
+      },
+      {
+        "heading": "**_List Concatenation and List Replication_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Removing Values from Lists with del Statements_**",
+        "level": 4
+      },
+      {
+        "heading": "**Working with Lists**",
+        "level": 3
+      },
+      {
+        "heading": "**_Using for Loops with Lists_**",
+        "level": 4
+      },
+      {
+        "heading": "**_The in and not in Operators_**",
+        "level": 4
+      },
+      {
+        "heading": "**_The Multiple Assignment Trick_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Using the enumerate() Function with Lists_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Using the random.choice() and random.shuffle() Functions with Lists_**",
+        "level": 4
+      },
+      {
+        "heading": "**Augmented Assignment Operators**",
+        "level": 3
+      },
+      {
+        "heading": "**Methods**",
+        "level": 3
+      },
+      {
+        "heading": "**_Finding a Value in a List with the index() Method_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Adding Values to Lists with the append() and insert() Methods_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Removing Values from Lists with the remove() Method_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Sorting the Values in a List with the sort() Method_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Reversing the Values in a List with the reverse() Method_**",
+        "level": 4
+      },
+      {
+        "heading": "**Example Program: Magic 8 Ball with a List**",
+        "level": 3
+      },
+      {
+        "heading": "**Sequence Data Types**",
+        "level": 3
+      },
+      {
+        "heading": "**_Mutable and Immutable Data Types_**",
+        "level": 4
+      },
+      {
+        "heading": "**_The Tuple Data Type_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Converting Types with the list() and tuple() Functions_**",
+        "level": 4
+      },
+      {
+        "heading": "**References**",
+        "level": 3
+      },
+      {
+        "heading": "**_Identity and the id() Function_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Passing References_**",
+        "level": 4
+      },
+      {
+        "heading": "**_The copy Module’s copy() and deepcopy() Functions_**",
+        "level": 4
+      },
+      {
+        "heading": "**A Short Program: Conway’s Game of Life**",
+        "level": 3
+      },
+      {
+        "heading": "Conway's Game of Life",
+        "level": 1
+      },
+      {
+        "heading": "Create a list of list for the cells:",
+        "level": 1
+      },
+      {
+        "heading": "Conway's Game of Life",
+        "level": 1
+      },
+      {
+        "heading": "Create a list of list for the cells:",
+        "level": 1
+      },
+      {
+        "heading": "**Summary**",
+        "level": 3
+      },
+      {
+        "heading": "**Practice Questions**",
+        "level": 3
+      },
+      {
+        "heading": "**Practice Projects**",
+        "level": 3
+      },
+      {
+        "heading": "**_Comma Code_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Coin Flip Streaks_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Character Picture Grid_**",
+        "level": 4
+      }
+    ],
+    "links": [
+      {
+        "link": "'cat', 'bat'], [10, 20, 30, 40, 50"
       }
     ]
   },
@@ -5281,181 +4924,6 @@
     ]
   },
   {
-    "fileName": "Python-ATBS-Ch4-Lists",
-    "relativePath": "04 - Languages/Python/Automate The Boring Stuff/Python-ATBS-Ch4-Lists.md",
-    "headings": [
-      {
-        "heading": "**The List Data Type**",
-        "level": 3
-      },
-      {
-        "heading": "**_Getting Individual Values in a List with Indexes_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Negative Indexes_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Getting a List from Another List with Slices_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Getting a List’s Length with the len() Function_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Changing Values in a List with Indexes_**",
-        "level": 4
-      },
-      {
-        "heading": "**_List Concatenation and List Replication_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Removing Values from Lists with del Statements_**",
-        "level": 4
-      },
-      {
-        "heading": "**Working with Lists**",
-        "level": 3
-      },
-      {
-        "heading": "**_Using for Loops with Lists_**",
-        "level": 4
-      },
-      {
-        "heading": "**_The in and not in Operators_**",
-        "level": 4
-      },
-      {
-        "heading": "**_The Multiple Assignment Trick_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Using the enumerate() Function with Lists_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Using the random.choice() and random.shuffle() Functions with Lists_**",
-        "level": 4
-      },
-      {
-        "heading": "**Augmented Assignment Operators**",
-        "level": 3
-      },
-      {
-        "heading": "**Methods**",
-        "level": 3
-      },
-      {
-        "heading": "**_Finding a Value in a List with the index() Method_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Adding Values to Lists with the append() and insert() Methods_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Removing Values from Lists with the remove() Method_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Sorting the Values in a List with the sort() Method_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Reversing the Values in a List with the reverse() Method_**",
-        "level": 4
-      },
-      {
-        "heading": "**Example Program: Magic 8 Ball with a List**",
-        "level": 3
-      },
-      {
-        "heading": "**Sequence Data Types**",
-        "level": 3
-      },
-      {
-        "heading": "**_Mutable and Immutable Data Types_**",
-        "level": 4
-      },
-      {
-        "heading": "**_The Tuple Data Type_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Converting Types with the list() and tuple() Functions_**",
-        "level": 4
-      },
-      {
-        "heading": "**References**",
-        "level": 3
-      },
-      {
-        "heading": "**_Identity and the id() Function_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Passing References_**",
-        "level": 4
-      },
-      {
-        "heading": "**_The copy Module’s copy() and deepcopy() Functions_**",
-        "level": 4
-      },
-      {
-        "heading": "**A Short Program: Conway’s Game of Life**",
-        "level": 3
-      },
-      {
-        "heading": "Conway's Game of Life",
-        "level": 1
-      },
-      {
-        "heading": "Create a list of list for the cells:",
-        "level": 1
-      },
-      {
-        "heading": "Conway's Game of Life",
-        "level": 1
-      },
-      {
-        "heading": "Create a list of list for the cells:",
-        "level": 1
-      },
-      {
-        "heading": "**Summary**",
-        "level": 3
-      },
-      {
-        "heading": "**Practice Questions**",
-        "level": 3
-      },
-      {
-        "heading": "**Practice Projects**",
-        "level": 3
-      },
-      {
-        "heading": "**_Comma Code_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Coin Flip Streaks_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Character Picture Grid_**",
-        "level": 4
-      }
-    ],
-    "links": [
-      {
-        "link": "'cat', 'bat'], [10, 20, 30, 40, 50"
-      }
-    ]
-  },
-  {
     "fileName": "Python-ATBS-Ch3-Functions",
     "relativePath": "04 - Languages/Python/Automate The Boring Stuff/Python-ATBS-Ch3-Functions.md",
     "tags": [
@@ -5691,6 +5159,43 @@
     ]
   },
   {
+    "fileName": "Python-ATBS-Ch10-Organizing-Files",
+    "relativePath": "04 - Languages/Python/Automate The Boring Stuff/Python-ATBS-Ch10-Organizing-Files.md",
+    "tags": [
+      "os"
+    ],
+    "headings": [
+      {
+        "heading": "**10",
+        "level": 2
+      },
+      {
+        "heading": "**The shutil Module**",
+        "level": 3
+      },
+      {
+        "heading": "**_Copying Files and Folders_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Moving and Renaming Files and Folders_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Permanently Deleting Files and Folders_**",
+        "level": 4
+      },
+      {
+        "heading": "**_Safe Deletes with the send2trash Module_**",
+        "level": 4
+      },
+      {
+        "heading": "**Walking a Directory Tree**",
+        "level": 3
+      }
+    ]
+  },
+  {
     "fileName": "Python-ATBS-Ch11-Debugging",
     "relativePath": "04 - Languages/Python/Automate The Boring Stuff/Python-ATBS-Ch11-Debugging.md",
     "headings": [
@@ -5785,43 +5290,6 @@
       {
         "heading": "**_Debugging Coin Toss_**",
         "level": 4
-      }
-    ]
-  },
-  {
-    "fileName": "Python-ATBS-Ch10-Organizing-Files",
-    "relativePath": "04 - Languages/Python/Automate The Boring Stuff/Python-ATBS-Ch10-Organizing-Files.md",
-    "tags": [
-      "os"
-    ],
-    "headings": [
-      {
-        "heading": "**10",
-        "level": 2
-      },
-      {
-        "heading": "**The shutil Module**",
-        "level": 3
-      },
-      {
-        "heading": "**_Copying Files and Folders_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Moving and Renaming Files and Folders_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Permanently Deleting Files and Folders_**",
-        "level": 4
-      },
-      {
-        "heading": "**_Safe Deletes with the send2trash Module_**",
-        "level": 4
-      },
-      {
-        "heading": "**Walking a Directory Tree**",
-        "level": 3
       }
     ]
   },
@@ -6778,6 +6246,100 @@
     ]
   },
   {
+    "fileName": "17 - Drawing On Canvas",
+    "relativePath": "04 - Languages/Javascript/Eloquent Javascript/17 - Drawing On Canvas.md",
+    "headings": [
+      {
+        "heading": "Chapter 17Drawing on Canvas",
+        "level": 1
+      },
+      {
+        "heading": "SVG",
+        "level": 2
+      },
+      {
+        "heading": "The canvas element",
+        "level": 2
+      },
+      {
+        "heading": "Lines and surfaces",
+        "level": 2
+      },
+      {
+        "heading": "Paths",
+        "level": 2
+      },
+      {
+        "heading": "Curves",
+        "level": 2
+      },
+      {
+        "heading": "Drawing a pie chart",
+        "level": 2
+      },
+      {
+        "heading": "Text",
+        "level": 2
+      },
+      {
+        "heading": "Images",
+        "level": 2
+      },
+      {
+        "heading": "Transformation",
+        "level": 2
+      },
+      {
+        "heading": "Storing and clearing transformations",
+        "level": 2
+      },
+      {
+        "heading": "Back to the game",
+        "level": 2
+      },
+      {
+        "heading": "Choosing a graphics interface",
+        "level": 2
+      },
+      {
+        "heading": "Summary",
+        "level": 2
+      },
+      {
+        "heading": "Exercises",
+        "level": 2
+      },
+      {
+        "heading": "Shapes",
+        "level": 3
+      },
+      {
+        "heading": "The pie chart",
+        "level": 3
+      },
+      {
+        "heading": "A bouncing ball",
+        "level": 3
+      },
+      {
+        "heading": "Precomputed mirroring",
+        "level": 3
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "01 - Backlog",
+        "link": "17 - Drawing On Canvas",
+        "relativePath": "01 - Backlog.md"
+      },
+      {
+        "fileName": "01 - Backlog",
+        "link": "17 - Drawing On Canvas",
+        "relativePath": "01 - Backlog.md"
+      }
+    ]
+  },
+  {
     "fileName": "21 - Project - Skill Sharing Website",
     "relativePath": "04 - Languages/Javascript/Eloquent Javascript/21 - Project - Skill Sharing Website.md",
     "headings": [
@@ -7134,100 +6696,6 @@
       {
         "fileName": "01 - Backlog",
         "link": "18 - HTTP and Forms",
-        "relativePath": "01 - Backlog.md"
-      }
-    ]
-  },
-  {
-    "fileName": "17 - Drawing On Canvas",
-    "relativePath": "04 - Languages/Javascript/Eloquent Javascript/17 - Drawing On Canvas.md",
-    "headings": [
-      {
-        "heading": "Chapter 17Drawing on Canvas",
-        "level": 1
-      },
-      {
-        "heading": "SVG",
-        "level": 2
-      },
-      {
-        "heading": "The canvas element",
-        "level": 2
-      },
-      {
-        "heading": "Lines and surfaces",
-        "level": 2
-      },
-      {
-        "heading": "Paths",
-        "level": 2
-      },
-      {
-        "heading": "Curves",
-        "level": 2
-      },
-      {
-        "heading": "Drawing a pie chart",
-        "level": 2
-      },
-      {
-        "heading": "Text",
-        "level": 2
-      },
-      {
-        "heading": "Images",
-        "level": 2
-      },
-      {
-        "heading": "Transformation",
-        "level": 2
-      },
-      {
-        "heading": "Storing and clearing transformations",
-        "level": 2
-      },
-      {
-        "heading": "Back to the game",
-        "level": 2
-      },
-      {
-        "heading": "Choosing a graphics interface",
-        "level": 2
-      },
-      {
-        "heading": "Summary",
-        "level": 2
-      },
-      {
-        "heading": "Exercises",
-        "level": 2
-      },
-      {
-        "heading": "Shapes",
-        "level": 3
-      },
-      {
-        "heading": "The pie chart",
-        "level": 3
-      },
-      {
-        "heading": "A bouncing ball",
-        "level": 3
-      },
-      {
-        "heading": "Precomputed mirroring",
-        "level": 3
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "01 - Backlog",
-        "link": "17 - Drawing On Canvas",
-        "relativePath": "01 - Backlog.md"
-      },
-      {
-        "fileName": "01 - Backlog",
-        "link": "17 - Drawing On Canvas",
         "relativePath": "01 - Backlog.md"
       }
     ]
@@ -11691,6 +11159,42 @@
       {
         "link": "18 - HTTP and Forms",
         "relativePath": "04 - Languages/Javascript/Eloquent Javascript/18 - HTTP and Forms.md"
+      }
+    ]
+  },
+  {
+    "fileName": "01 - Map of Content",
+    "relativePath": "01 - Map of Content.md",
+    "frontmatter": {
+      "mindmap-plugin": "basic",
+      "display-mode": "table",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 51
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "1",
+        "level": 1
+      },
+      {
+        "heading": "2",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Useful regex",
+        "relativePath": "Useful regex.md"
       }
     ]
   },

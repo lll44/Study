@@ -53,10 +53,6 @@
       "relativePath": "11 - Cheatsheets"
     },
     {
-      "name": "Day Planners",
-      "relativePath": "Day Planners"
-    },
-    {
       "name": "00 - Automation",
       "relativePath": "02 - Projects/00 - Automation"
     },
@@ -81,6 +77,18 @@
       "relativePath": "03 - Computer Science/01 - Best Practices"
     },
     {
+      "name": "Atom",
+      "relativePath": "05 - Tools/Atom"
+    },
+    {
+      "name": "Obsidian",
+      "relativePath": "05 - Tools/Obsidian"
+    },
+    {
+      "name": "Agile",
+      "relativePath": "06 - Professional/Agile"
+    },
+    {
       "name": "CSS",
       "relativePath": "04 - Languages/CSS"
     },
@@ -103,18 +111,6 @@
     {
       "name": "Selenium",
       "relativePath": "04 - Languages/Selenium"
-    },
-    {
-      "name": "Atom",
-      "relativePath": "05 - Tools/Atom"
-    },
-    {
-      "name": "Obsidian",
-      "relativePath": "05 - Tools/Obsidian"
-    },
-    {
-      "name": "Agile",
-      "relativePath": "06 - Professional/Agile"
     },
     {
       "name": "01 - Accelerated Learning",
@@ -163,11 +159,6 @@
   ],
   "nonMdFiles": [
     {
-      "name": "Eloquent Javascript.zip",
-      "basename": "Eloquent Javascript",
-      "relativePath": "04 - Languages/Javascript/Eloquent Javascript.zip"
-    },
-    {
       "name": "Pasted image 20210719130944.png",
       "basename": "Pasted image 20210719130944",
       "relativePath": "06 - Professional/Agile/Pasted image 20210719130944.png"
@@ -186,6 +177,11 @@
       "name": "scrum_process_atlassian.svg",
       "basename": "scrum_process_atlassian",
       "relativePath": "06 - Professional/Agile/scrum_process_atlassian.svg"
+    },
+    {
+      "name": "Eloquent Javascript.zip",
+      "basename": "Eloquent Javascript",
+      "relativePath": "04 - Languages/Javascript/Eloquent Javascript.zip"
     },
     {
       "name": "desktop.ini",

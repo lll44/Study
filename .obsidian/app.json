@@ -4,5 +4,6 @@
   "trashOption": "local",
   "showUnsupportedFiles": true,
   "useTab": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "livePreview": false
 }

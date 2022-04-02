@@ -1,21 +1,18 @@
-# [Start of LinkedList Cycle (medium)](https://designgurus.org/path-player?courseid=grokking-the-coding-interview&unit=grokking-the-coding-interview_1628743554403_14Unit)
+# [Start of LinkedList Cycle (medium)](https://designgurus.org/path-player?courseid=grokking-the-coding-interview&unit=grokking-the-coding-interview_1628743554403_14Unit)//
 
-## Problem Statement  
+## Problem Statement
 
-
-  
 
 
 Given the head of a Singly LinkedList that contains a cycle, write a function to find the starting node of the cycle.
 
 ![](https://lwfiles.mycourse.app/systemdesign-public/d8e4b90da04fdc02de3ff530e808e1b2.png)
 
-## 
+##
 
 Solution
 
   
-
 
 If we know the length of the LinkedList cycle, we can find the start of the cycle through the following steps:
 
@@ -32,24 +29,19 @@ Let’s visually see this with the above-mentioned Example-1:
 
 We can use the algorithm discussed in LinkedList Cycle to find the length of the cycle and then follow the above-mentioned steps to find the start of the cycle.
 
-## 
+##
 
   
 
-
-
-
-## 
+##
 
 Code  
 
   
 
-
 Here is what our algorithm will look like:
 
 Java  
-
 
 class ListNode {
 
@@ -58,7 +50,6 @@ int value = 0;
 ListNode next;
 
   
-
 
 ListNode(int value) {
 
@@ -70,11 +61,9 @@ this.value = value;
 
   
 
-
 class LinkedListCycleStart {
 
   
-
 
 public static ListNode findCycleStart(ListNode head) {
 
@@ -104,13 +93,11 @@ break;
 
   
 
-
 return findStart(head, cycleLength);
 
 }
 
   
-
 
 private static int calculateCycleLength(ListNode slow) {
 
@@ -132,7 +119,6 @@ return cycleLength;
 
   
 
-
 private static ListNode findStart(ListNode head, int cycleLength) {
 
 ListNode pointer1 = head, pointer2 = head;
@@ -149,7 +135,6 @@ cycleLength--;
 
   
 
-
 // increment both pointers until they meet at the start of the cycle
 
 while (pointer1 != pointer2) {
@@ -162,13 +147,11 @@ pointer2 = pointer2.next;
 
   
 
-
 return pointer1;
 
 }
 
   
-
 
 public static void main(String[] args) {
 
@@ -186,28 +169,25 @@ head.next.next.next.next.next = new ListNode(6);
 
   
 
-
 head.next.next.next.next.next.next = head.next.next;
 
-System.out.println("LinkedList cycle start: " + 
+System.out.println("LinkedList cycle start: " +
 
 LinkedListCycleStart.findCycleStart(head).value);
 
   
-
 
 head.next.next.next.next.next.next = head.next.next.next;
 
-System.out.println("LinkedList cycle start: " + 
+System.out.println("LinkedList cycle start: " +
 
 LinkedListCycleStart.findCycleStart(head).value);
 
   
 
-
 head.next.next.next.next.next.next = head;
 
-System.out.println("LinkedList cycle start: " + 
+System.out.println("LinkedList cycle start: " +
 
 LinkedListCycleStart.findCycleStart(head).value);
 

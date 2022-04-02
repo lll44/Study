@@ -1,4 +1,4 @@
-# The Secret Life of Objects
+ # The Secret Life of Objects
 
 > [](https://eloquentjavascript.net/06_object.html#p_gDFRhOpA5B)An abstract data type is realized by writing a special kind of program […] which defines the type in terms of the operations which can be performed on it.
 > 

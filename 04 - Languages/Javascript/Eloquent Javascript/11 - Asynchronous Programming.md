@@ -16,6 +16,10 @@ But many programs interact with things outside of the processor. For example, th
 
 When such a thing is happening, it would be a shame to let the processor sit idle—there might be some other work it could do in the meantime. In part, this is handled by your operating system, which will switch the processor between multiple running programs. But that doesn’t help when we want a _single_ program to be able to make progress while it is waiting for a network request.
 
+sdfsdf
+
+sdf
+
 ## Asynchronicity
 
 In a _synchronous_ programming model, things happen one at a time. When you call a function that performs a long-running action, it returns only when the action has finished and it can return the result. This stops your program for the time the action takes.
